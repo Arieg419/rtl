@@ -1,12 +1,14 @@
 import React from "react";
-import { StyleSheet, View } from "react-native";
+import { StyleSheet, View, Text, ScrollView } from "react-native";
 import { Routes } from "./routes";
+import { AppBar } from "./ui/AppBar";
 
-export const App = () => {
+export const App = (props: any) => {
   return (
     <View style={styles.container}>
       <View style={styles.wrapper}>
         <Routes />
+        {props.children}
       </View>
     </View>
   );

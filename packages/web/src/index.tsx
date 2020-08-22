@@ -1,9 +1,19 @@
+import React from "react";
 import { App } from "@rtl/common";
+import BottomNav from "./BottomNav";
 import * as serviceWorker from "./serviceWorker";
 
 import { AppRegistry } from "react-native";
 
-AppRegistry.registerComponent("App", () => App);
+function Compose() {
+  return (
+    <App>
+      <BottomNav />
+    </App>
+  );
+}
+
+AppRegistry.registerComponent("App", () => Compose);
 AppRegistry.runApplication("App", {
   initialProps: {},
   rootTag: document.getElementById("root"),

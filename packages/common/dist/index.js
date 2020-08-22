@@ -6,10 +6,11 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var react_1 = __importDefault(require("react"));
 var react_native_1 = require("react-native");
 var routes_1 = require("./routes");
-exports.App = function () {
+exports.App = function (props) {
     return (react_1.default.createElement(react_native_1.View, { style: styles.container },
         react_1.default.createElement(react_native_1.View, { style: styles.wrapper },
-            react_1.default.createElement(routes_1.Routes, null))));
+            react_1.default.createElement(routes_1.Routes, null),
+            props.children)));
 };
 var styles = react_native_1.StyleSheet.create({
     container: {
