@@ -4,6 +4,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 var react_1 = __importDefault(require("react"));
+// import Icon from "react-native-vector-icons/FontAwesome";
 var react_native_1 = require("react-native");
 function SearchList(props) {
     return (react_1.default.createElement(react_native_1.View, { style: {

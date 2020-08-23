@@ -1,5 +1,6 @@
 import React from "react";
 import { StyleSheet, View, Text, ScrollView } from "react-native";
+import { Home } from "./modules/Home";
 import { Routes } from "./routes";
 import { AppBar } from "./ui/AppBar";
 

@@ -1,15 +1,24 @@
 import React from "react";
+import { Platform } from "react-native";
+import { Provider as PaperProvider } from "react-native-paper";
 import { App } from "@rtl/common";
-import BottomNav from "./BottomNav";
 import * as serviceWorker from "./serviceWorker";
 
 import { AppRegistry } from "react-native";
 
 function Compose() {
   return (
-    <App>
-      <BottomNav />
-    </App>
+    <React.Fragment>
+      {Platform.OS === "web" ? (
+        <style type="text/css">{`
+        @font-face {
+          font-family: 'MaterialCommunityIcons';
+          src: url(${require("react-native-vector-icons/Fonts/MaterialCommunityIcons.ttf")}) format('truetype');
+        }
+      `}</style>
+      ) : null}
+      <App />
+    </React.Fragment>
   );
 }
 

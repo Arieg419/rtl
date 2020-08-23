@@ -1,5 +1,7 @@
 import React from "react";
 import { CategoryItemType } from "./data";
+// import Icon from "react-native-vector-icons/FontAwesome";
+
 import {
   View,
   Text,
