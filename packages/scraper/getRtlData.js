@@ -1,6 +1,8 @@
+const { Console } = require("console");
 const fs = require("fs");
 const axios = require("axios");
 const chalk = require("chalk");
+const { url } = require("inspector");
 const xpath = require("xpath"),
   dom = require("xmldom").DOMParser;
 
@@ -13,6 +15,9 @@ const EPISODE_IMG_SEL = `//img[contains(@class, 'thumb-image')]`;
 const EPISODE_HANDOUT_SEL = `//body//a[contains(@class, "sqs-block-image-link")]`;
 const EPISODE_PODCAST_SEL = `//div[contains(@class, "sqs-audio-embed")]`;
 
+const errorOutput = fs.createWriteStream("./stderr.log");
+console = new Console({ stdout: process.stdout, stderr: errorOutput });
+
 async function getDocFromUrl(url) {
   const res = await axios.get(url);
   const html = res.data;
@@ -20,8 +25,48 @@ async function getDocFromUrl(url) {
 }
 
 async function genTargetWithContext(parsedEpisode, SEL, idx) {
-  const selector = EPISODE_CONTAINER + `[${idx}]` + SEL;
-  return xpath.select(selector, parsedEpisode);
+  const selector = EPISODE_CONTAINER + SEL;
+  return await xpath.select(selector, parsedEpisode);
+}
+
+function logEpisodeData(o) {
+  chalk.underline;
+  console.log(
+    chalk.bgCyan("********************************************************")
+  );
+  console.log(chalk.cyanBright(chalk.underline("Title: ") + o.title));
+  console.log(chalk.yellow(chalk.underline("Summary: ") + o.summary));
+  console.log(chalk.greenBright(chalk.underline("ImgUrl: ") + o.imgUrl));
+  console.log(chalk.redBright(chalk.underline("PodcastUrl: ") + o.podcastUrl));
+  console.log(
+    chalk.blueBright(
+      chalk.underline("PodcastDuration: ") +
+        millisToMinutesAndSeconds(o.podcastDurationMS)
+    )
+  );
+}
+
+function logCategoryMetadata(categoryEpisodes) {
+  console.log("**********************************************");
+  categoryEpisodes.forEach((e) => {
+    console.log(
+      chalk.cyanBright(chalk.underline("Category:") + " " + e.category)
+    );
+    console.log(chalk.blue(chalk.underline("Title:") + " " + e.title));
+  });
+}
+
+function millisToMinutesAndSeconds(millis) {
+  var minutes = Math.floor(millis / 60000);
+  var seconds = ((millis % 60000) / 1000).toFixed(0);
+  return minutes + ":" + (seconds < 10 ? "0" : "") + seconds;
+}
+
+function validatePayload(payload, idx) {
+  if (payload === undefined || payload == null || payload[idx] === undefined) {
+    return false;
+  }
+  return true;
 }
 
 async function genEpisodesFromCategoryPage(url) {
@@ -30,40 +75,64 @@ async function genEpisodesFromCategoryPage(url) {
     EPISODE_CONTAINER,
     parsedEpisode
   );
+  console.log(chalk.greenBright(url));
   let categoryData = [];
-  episodeCandidates.forEach(async (e, idx) => {
+  for (let idx = 0; idx < episodeCandidates.length; idx++) {
     if (idx == 0) {
-      return;
+      continue;
     }
-    const title = await genTargetWithContext(
-      parsedEpisode,
-      EPISODE_TITLE_SEL,
-      idx
-    );
-    const summary = await genTargetWithContext(
-      parsedEpisode,
-      EPISODE_SUMMARY_SEL,
-      idx
-    );
-    const img = await genTargetWithContext(parsedEpisode, EPISODE_IMG_SEL, idx);
-    const podcast = await genTargetWithContext(
-      parsedEpisode,
-      EPISODE_PODCAST_SEL,
-      idx
-    );
-    categoryData.push({
-      title: title[0] != undefined ? title[0].data : "",
-      summary: summary[0] != undefined ? summary[0].data : "",
-      imgUrl: img[0] != undefined ? img[0].getAttribute("data-src") : "",
-      imgAlt: img[0] != undefined ? img[0].getAttribute("alt") : "",
-      podcastUrl:
-        podcast[0] != undefined ? podcast[0].getAttribute("data-url") : "",
-      podcastDurationMS:
-        podcast[0] != undefined
-          ? podcast[0].getAttribute("data-duration-in-ms")
-          : "",
-    });
-  });
+    try {
+      const title = await genTargetWithContext(
+        parsedEpisode,
+        EPISODE_TITLE_SEL,
+        idx
+      );
+      if (!validatePayload(title, idx)) {
+        // console.error(`Failed to validate title!`, title);
+        continue;
+      }
+      const summary = await genTargetWithContext(
+        parsedEpisode,
+        EPISODE_SUMMARY_SEL,
+        idx
+      );
+      if (!validatePayload(summary, idx)) {
+        // console.error(`Failed to validate summary!`);
+        continue;
+      }
+      const img = await genTargetWithContext(
+        parsedEpisode,
+        EPISODE_IMG_SEL,
+        idx
+      );
+      if (!validatePayload(img, idx)) {
+        // console.error(`Failed to validate img!`);
+        continue;
+      }
+      const podcast = await genTargetWithContext(
+        parsedEpisode,
+        EPISODE_PODCAST_SEL,
+        idx
+      );
+      if (!validatePayload(podcast, idx)) {
+        // console.error(`Failed to validate podcast!`);
+        continue;
+      }
+      const o = {
+        category: url.split(".com/")[1],
+        title: title[idx].data,
+        summary: summary[idx].data,
+        imgUrl: img[idx].getAttribute("data-src"),
+        imgAlt: img[idx].getAttribute("alt"),
+        podcastUrl: podcast[idx].getAttribute("data-url"),
+        podcastDurationMS: podcast[idx].getAttribute("data-duration-in-ms"),
+      };
+      logEpisodeData(o);
+      categoryData.push(o);
+    } catch (e) {
+      console.error(`Something went wrong! `, e);
+    }
+  }
   return categoryData;
 }
 
@@ -74,21 +143,12 @@ async function genHomepage() {
     const urls = await xpath.select(MENU_LINKS_SEL, parsedDoc);
     const mapped = urls.map((a) => BASE_URL + a.attributes["0"].value);
     const uniqCategories = [...new Set(mapped)];
-    console.log(
-      chalk.blueBright("Found " + uniqCategories.length + " categories...")
-    );
-    console.log(
-      chalk.blueBright(
-        `Fetching epidosde data for ${uniqCategories.length} episodes`
-      )
-    );
     let episodes = [];
-    uniqCategories.forEach(async (u) => {
-      console.log(`Current episode scrape: ${u}`);
+    for (let i = 0; i < uniqCategories.length; i++) {
+      const u = uniqCategories[i];
       let categoryEpisodes = await genEpisodesFromCategoryPage(u);
-      console.log(chalk.cyanBright(categoryEpisodes));
       episodes.push(categoryEpisodes);
-    });
+    }
     fs.writeFileSync("./data/episodes.json", JSON.stringify(episodes));
   } catch (err) {
     console.error(`Something went wrong... ${err}`);
@@ -102,5 +162,4 @@ async function genHandoutsFromCategoryPage(url) {
   const handoutEls = await xpath.select(EPISODE_HANDOUT_SEL, parsedEpisode);
   console.log(chalk.greenBright(`Found ${handoutEls.length} handout nodes..`));
   const handoutUris = handoutEls.map((a) => a.getAttribute("href"));
-  handoutUris.forEach((hu) => console.log(chalk.grey(hu)));
 }
