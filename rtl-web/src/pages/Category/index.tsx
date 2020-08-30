@@ -3,6 +3,7 @@ import Typography from "@material-ui/core/Typography";
 import { makeStyles } from "@material-ui/core/styles";
 import EpisodeCard from "../../ui/episodeCard";
 import PodcastCard from "../../ui/podcastCard";
+import data from "../../data/mergedHandout.json";
 
 const useStyles = makeStyles({
   root: {
@@ -36,31 +37,48 @@ const recentEpisodes = [
 
 export default function () {
   const classes = useStyles();
+  const path = window.location.pathname.split("/")[2];
+  const es = data.filter((e) => {
+    if (
+      e.squarespaceCategory?.toLowerCase() === path.toLowerCase() ||
+      e.applePodcastCategory?.toLowerCase() === path.toLowerCase()
+    ) {
+      return true;
+    }
+    return false;
+  });
+  console.log(`found resources`);
+  console.log(es);
 
   return (
     <div className={classes.root}>
       <Typography variant="overline" display="block" gutterBottom>
-        7 resources
+        {es.length} resources
       </Typography>
       <Typography variant="h4" gutterBottom>
-        Nephrology
+        {path}
       </Typography>
       <Typography variant="h6" gutterBottom>
-        Handouts
+        Resources
       </Typography>
-      {recentEpisodes.map((r) => (
-        <EpisodeCard
-          title={r.title}
-          description={r.description}
-          releaseDate={r.releaseDate}
-          imgUri={r.imgUri}
-        />
-      ))}
+      {es
+        .sort((a, b) => (a.episodeIndex < b.episodeIndex ? 1 : -1))
+        .map((r, i) => (
+          <EpisodeCard
+            title={r.squarespaceTitle || r.applePodcastTitle}
+            description={r.squarespaceSummary || r.applePodcastSummary}
+            releaseDate={r.applePodcastDate}
+            imgUri={
+              "https://images.pexels.com/photos/208518/pexels-photo-208518.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+            }
+            key={i}
+          />
+        ))}
       <Typography variant="h6" gutterBottom>
         Podcasts
       </Typography>
-      {recentEpisodes.map((r) => (
-        <PodcastCard />
+      {recentEpisodes.map((r, i) => (
+        <PodcastCard key={r.title + i} />
       ))}
     </div>
   );

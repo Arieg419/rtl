@@ -1,0 +1,4 @@
+- Navgiate to https://podcasts.apple.com/us/podcast/run-the-list/id1473382916 and finish pagination
+- Paste browser code in console and grab output
+- Paste output to data/apple/applePodcasts.js
+- Run cleaning script

@@ -2,7 +2,7 @@ import React from "react";
 import { Typography } from "@material-ui/core";
 import Card from "../../ui/card";
 import EpisodeCard from "../../ui/episodeCard";
-import recentEpisodes from "../../data/applePodcasts.json";
+import recentEpisodes from "../../data/mergedHandout.json";
 
 import { createStyles, makeStyles, Theme } from "@material-ui/core/styles";
 
@@ -10,6 +10,7 @@ const useStyles = makeStyles((theme: Theme) =>
   createStyles({
     recentEpisodesTitle: {
       padding: 30,
+      fontFamily: "Poppins",
     },
   })
 );
@@ -42,14 +43,18 @@ export default function () {
       <Typography className={classes.recentEpisodesTitle} variant="h4">
         Recent Episodes
       </Typography>
-      {recentEpisodes.map((r) => (
-        <EpisodeCard
-          title={r.title}
-          description={r.summary}
-          releaseDate={r.date}
-          imgUri={getRandomMedia()}
-        />
-      ))}
+      {recentEpisodes.slice(0, 11).map((r) => {
+        const title = r.applePodcastTitle || r.squarespaceCategory;
+        return !title ? null : (
+          <EpisodeCard
+            title={title}
+            description={r.squarespaceSummary || r.applePodcastSummary}
+            releaseDate={r.applePodcastDate}
+            imgUri={getRandomMedia()}
+            key={title}
+          />
+        );
+      })}
     </div>
   );
 }

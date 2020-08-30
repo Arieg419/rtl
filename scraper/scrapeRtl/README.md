@@ -1,0 +1,3 @@
+- Go to every episode url and past snippet.
+- Copy json
+- Overwrite corresponding file in data/rtl/<FILENAME>.json

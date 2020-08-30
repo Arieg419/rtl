@@ -1,6 +1,12 @@
 import React from "react";
 import { Typography } from "@material-ui/core";
-import { createStyles, Theme, makeStyles } from "@material-ui/core/styles";
+import {
+  createStyles,
+  Theme,
+  makeStyles,
+  withStyles,
+} from "@material-ui/core/styles";
+import { Link } from "react-router-dom";
 import List from "@material-ui/core/List";
 import Chip from "@material-ui/core/Chip";
 
@@ -11,37 +17,52 @@ interface Props {
 }
 
 function CategoryItem(props: CategoryItemType) {
+  const BlackTextTypography = withStyles({
+    root: {
+      color: "#000",
+    },
+  })(Typography);
+
   return (
-    <div
-      style={{
-        display: "flex",
-        flexDirection: "column",
-        borderBottom: "1px solid gray",
-        textAlign: "left",
-        padding: 20,
-      }}
-      onClick={() => {}}
+    <Link
+      to={`/category/${props.title}`}
+      style={{ textDecoration: "none" }}
+      key={props.title}
     >
-      <Typography variant="h6">{props.title}</Typography>
-      <Typography variant="subtitle1">{props.lastUpdated}</Typography>
-      <Typography variant="subtitle1">{props.resources}</Typography>
       <div
         style={{
           display: "flex",
-          justifyContent: "flex-start",
-          alignItems: "center",
+          flexDirection: "column",
+          borderBottom: "1px solid gray",
+          textAlign: "left",
+          padding: 20,
         }}
       >
-        {props.tags.map((t, i) => (
-          <Chip
-            color="primary"
-            style={{ backgroundColor: t.bgColor, marginRight: 8 }}
-            label={t.title}
-            key={i}
-          />
-        ))}
+        <BlackTextTypography variant="h6">{props.title}</BlackTextTypography>
+        <BlackTextTypography variant="subtitle1">
+          {props.lastUpdated}
+        </BlackTextTypography>
+        <BlackTextTypography variant="subtitle1">
+          {props.resources}
+        </BlackTextTypography>
+        <div
+          style={{
+            display: "flex",
+            justifyContent: "flex-start",
+            alignItems: "center",
+          }}
+        >
+          {props.tags.map((t, i) => (
+            <Chip
+              color="primary"
+              style={{ backgroundColor: t.bgColor, marginRight: 8 }}
+              label={t.title}
+              key={t.title + i}
+            />
+          ))}
+        </div>
       </div>
-    </div>
+    </Link>
   );
 }
 

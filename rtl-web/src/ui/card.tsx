@@ -29,8 +29,13 @@ export default function MediaCard() {
           title="Welcome card image"
         />
         <CardContent>
-          <Typography gutterBottom variant="h5" component="h2">
-            Podcast summaries with ❤️
+          <Typography
+            gutterBottom
+            variant="h5"
+            component="h2"
+            style={{ fontFamily: "Roboto" }}
+          >
+            ❤️ Podcast summaries ❤️
           </Typography>
           <Typography variant="body2" color="textSecondary" component="p">
             Lizards are a widespread group of squamate reptiles, with over 6,000
@@ -40,7 +45,13 @@ export default function MediaCard() {
       </CardActionArea>
       <CardActions>
         <Button size="small" color="primary">
-          Share
+          <a
+            href="https://twitter.com/runthelistpod?ref_src=twsrc%5Etfw"
+            data-show-count="false"
+            style={{ textDecoration: "none" }}
+          >
+            Share
+          </a>
         </Button>
         <Button size="small" color="primary">
           Learn More
@@ -49,3 +60,4 @@ export default function MediaCard() {
     </Card>
   );
 }
+// className = "twitter-follow-button";

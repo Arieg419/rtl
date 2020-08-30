@@ -7,14 +7,12 @@ import CardMedia from "@material-ui/core/CardMedia";
 import CardContent from "@material-ui/core/CardContent";
 import CardActions from "@material-ui/core/CardActions";
 import Collapse from "@material-ui/core/Collapse";
-import Avatar from "@material-ui/core/Avatar";
 import IconButton from "@material-ui/core/IconButton";
 import Typography from "@material-ui/core/Typography";
 import { red } from "@material-ui/core/colors";
-import FavoriteIcon from "@material-ui/icons/Favorite";
 import ShareIcon from "@material-ui/icons/Share";
 import ExpandMoreIcon from "@material-ui/icons/ExpandMore";
-import MoreVertIcon from "@material-ui/icons/MoreVert";
+import styled from "styled-components";
 
 interface Props {
   imgUri: string;
@@ -28,6 +26,7 @@ const useStyles = makeStyles((theme: Theme) =>
     root: {
       maxWidth: 345,
       marginBottom: 20,
+      fontFamily: "Poppins",
     },
     media: {
       height: 0,
@@ -46,8 +45,15 @@ const useStyles = makeStyles((theme: Theme) =>
     avatar: {
       backgroundColor: red[500],
     },
+    header: {
+      fontFamily: "Poppins",
+    },
   })
 );
+
+const StyledHeader = styled(CardHeader)`
+  font-family: "Poppins !important";
+`;
 
 export default function EpisodeCard(props: Props) {
   const classes = useStyles();
@@ -59,7 +65,7 @@ export default function EpisodeCard(props: Props) {
 
   return (
     <Card className={classes.root}>
-      <CardHeader
+      <StyledHeader
         action={
           <IconButton aria-label="settings">
             {/* <MoreVertIcon /> */}
@@ -67,6 +73,7 @@ export default function EpisodeCard(props: Props) {
         }
         title={props.title}
         subheader={props.releaseDate}
+        className={classes.header}
       />
       <CardMedia
         className={classes.media}

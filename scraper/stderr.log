@@ -1,0 +1,6302 @@
+[xmldom warning]	unclosed xml attribute 
+@#[line:5,col:3]
+[xmldom warning]	unclosed xml attribute 
+@#[line:7,col:3]
+[xmldom warning]	unclosed xml attribute 
+@#[line:10,col:1]
+[xmldom warning]	attribute "defer" missed value!! "defer" instead!! 
+@#[line:31,col:145]
+[xmldom warning]	unclosed xml attribute 
+@#[line:486,col:711]
+[xmldom error]	entity not found:&nbsp; 
+@#[line:486,col:1328]
+[xmldom warning]	unclosed xml attribute 
+@#[line:5,col:3]
+[xmldom warning]	unclosed xml attribute 
+@#[line:7,col:3]
+[xmldom warning]	unclosed xml attribute 
+@#[line:10,col:1]
+[xmldom error]	entity not found:&mdash; 
+@#[line:12,col:1]
+[xmldom error]	entity not found:&mdash; 
+@#[line:16,col:1]
+[xmldom warning]	attribute "defer" missed value!! "defer" instead!! 
+@#[line:31,col:145]
+Something went wrong!  TypeError: Cannot read property 'attributes' of undefined
+    at genEpisodesFromCategoryPage (/Users/omergoldberg/dev/rtl/scraper/scrapeRTL.js:137:31)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async genHomepage (/Users/omergoldberg/dev/rtl/scraper/scrapeRTL.js:172:30)
+Failed to validate title! [
+  <ref *1> Text {
+    ownerDocument: Document {
+      implementation: [Object],
+      childNodes: [Object],
+      doctype: null,
+      documentURI: undefined,
+      firstChild: [DocumentType],
+      lastChild: [Element],
+      _inc: 1618,
+      documentElement: [Element]
+    },
+    data: 'EPISODE 8: CAREERS IN GASTROENTEROLOGY',
+    nodeValue: 'EPISODE 8: CAREERS IN GASTROENTEROLOGY',
+    length: 38,
+    parentNode: Element {
+      _nsMap: {},
+      attributes: [Object],
+      childNodes: [Object],
+      ownerDocument: [Document],
+      nodeName: 'strong',
+      tagName: 'strong',
+      namespaceURI: undefined,
+      localName: 'strong',
+      parentNode: [Element],
+      previousSibling: null,
+      nextSibling: null,
+      lineNumber: 415,
+      columnNumber: 1064,
+      firstChild: [Circular *1],
+      lastChild: [Circular *1]
+    },
+    previousSibling: null,
+    nextSibling: null,
+    lineNumber: 415,
+    columnNumber: 1072
+  },
+  <ref *2> Text {
+    ownerDocument: Document {
+      implementation: [Object],
+      childNodes: [Object],
+      doctype: null,
+      documentURI: undefined,
+      firstChild: [DocumentType],
+      lastChild: [Element],
+      _inc: 1618,
+      documentElement: [Element]
+    },
+    data: 'EPISODE 7: BILIARY DISEASE',
+    nodeValue: 'EPISODE 7: BILIARY DISEASE',
+    length: 26,
+    parentNode: Element {
+      _nsMap: {},
+      attributes: [Object],
+      childNodes: [Object],
+      ownerDocument: [Document],
+      nodeName: 'strong',
+      tagName: 'strong',
+      namespaceURI: undefined,
+      localName: 'strong',
+      parentNode: [Element],
+      previousSibling: null,
+      nextSibling: null,
+      lineNumber: 585,
+      columnNumber: 408,
+      firstChild: [Circular *2],
+      lastChild: [Circular *2]
+    },
+    previousSibling: null,
+    nextSibling: null,
+    lineNumber: 585,
+    columnNumber: 416
+  },
+  <ref *3> Text {
+    ownerDocument: Document {
+      implementation: [Object],
+      childNodes: [Object],
+      doctype: null,
+      documentURI: undefined,
+      firstChild: [DocumentType],
+      lastChild: [Element],
+      _inc: 1618,
+      documentElement: [Element]
+    },
+    data: 'EPISODE 6: CIRRHOSIS',
+    nodeValue: 'EPISODE 6: CIRRHOSIS',
+    length: 20,
+    parentNode: Element {
+      _nsMap: {},
+      attributes: [Object],
+      childNodes: [Object],
+      ownerDocument: [Document],
+      nodeName: 'strong',
+      tagName: 'strong',
+      namespaceURI: undefined,
+      localName: 'strong',
+      parentNode: [Element],
+      previousSibling: null,
+      nextSibling: null,
+      lineNumber: 688,
+      columnNumber: 636,
+      firstChild: [Circular *3],
+      lastChild: [Circular *3]
+    },
+    previousSibling: null,
+    nextSibling: null,
+    lineNumber: 688,
+    columnNumber: 644
+  },
+  <ref *4> Text {
+    ownerDocument: Document {
+      implementation: [Object],
+      childNodes: [Object],
+      doctype: null,
+      documentURI: undefined,
+      firstChild: [DocumentType],
+      lastChild: [Element],
+      _inc: 1618,
+      documentElement: [Element]
+    },
+    data: 'EPISODE 5: PANCREATITIS',
+    nodeValue: 'EPISODE 5: PANCREATITIS',
+    length: 23,
+    parentNode: Element {
+      _nsMap: {},
+      attributes: [Object],
+      childNodes: [Object],
+      ownerDocument: [Document],
+      nodeName: 'strong',
+      tagName: 'strong',
+      namespaceURI: undefined,
+      localName: 'strong',
+      parentNode: [Element],
+      previousSibling: null,
+      nextSibling: null,
+      lineNumber: 943,
+      columnNumber: 413,
+      firstChild: [Circular *4],
+      lastChild: [Circular *4]
+    },
+    previousSibling: null,
+    nextSibling: null,
+    lineNumber: 943,
+    columnNumber: 421
+  },
+  <ref *5> Text {
+    ownerDocument: Document {
+      implementation: [Object],
+      childNodes: [Object],
+      doctype: null,
+      documentURI: undefined,
+      firstChild: [DocumentType],
+      lastChild: [Element],
+      _inc: 1618,
+      documentElement: [Element]
+    },
+    data: 'Episode 4: Lower GI Bleed',
+    nodeValue: 'Episode 4: Lower GI Bleed',
+    length: 25,
+    parentNode: Element {
+      _nsMap: {},
+      attributes: [Object],
+      childNodes: [Object],
+      ownerDocument: [Document],
+      nodeName: 'strong',
+      tagName: 'strong',
+      namespaceURI: undefined,
+      localName: 'strong',
+      parentNode: [Element],
+      previousSibling: null,
+      nextSibling: null,
+      lineNumber: 1046,
+      columnNumber: 630,
+      firstChild: [Circular *5],
+      lastChild: [Circular *5]
+    },
+    previousSibling: null,
+    nextSibling: null,
+    lineNumber: 1046,
+    columnNumber: 638
+  },
+  <ref *6> Text {
+    ownerDocument: Document {
+      implementation: [Object],
+      childNodes: [Object],
+      doctype: null,
+      documentURI: undefined,
+      firstChild: [DocumentType],
+      lastChild: [Element],
+      _inc: 1618,
+      documentElement: [Element]
+    },
+    data: 'Episode 3: Variceal Upper GI Bleed',
+    nodeValue: 'Episode 3: Variceal Upper GI Bleed',
+    length: 34,
+    parentNode: Element {
+      _nsMap: {},
+      attributes: [Object],
+      childNodes: [Object],
+      ownerDocument: [Document],
+      nodeName: 'strong',
+      tagName: 'strong',
+      namespaceURI: undefined,
+      localName: 'strong',
+      parentNode: [Element],
+      previousSibling: null,
+      nextSibling: null,
+      lineNumber: 1301,
+      columnNumber: 405,
+      firstChild: [Circular *6],
+      lastChild: [Circular *6]
+    },
+    previousSibling: null,
+    nextSibling: null,
+    lineNumber: 1301,
+    columnNumber: 413
+  },
+  <ref *7> Text {
+    ownerDocument: Document {
+      implementation: [Object],
+      childNodes: [Object],
+      doctype: null,
+      documentURI: undefined,
+      firstChild: [DocumentType],
+      lastChild: [Element],
+      _inc: 1618,
+      documentElement: [Element]
+    },
+    data: 'Episode 2: Non-Variceal Upper GI Bleed',
+    nodeValue: 'Episode 2: Non-Variceal Upper GI Bleed',
+    length: 38,
+    parentNode: Element {
+      _nsMap: {},
+      attributes: [Object],
+      childNodes: [Object],
+      ownerDocument: [Document],
+      nodeName: 'strong',
+      tagName: 'strong',
+      namespaceURI: undefined,
+      localName: 'strong',
+      parentNode: [Element],
+      previousSibling: null,
+      nextSibling: null,
+      lineNumber: 1404,
+      columnNumber: 632,
+      firstChild: [Circular *7],
+      lastChild: [Circular *7]
+    },
+    previousSibling: null,
+    nextSibling: null,
+    lineNumber: 1404,
+    columnNumber: 640
+  }
+]
+Failed to validate title! [
+  <ref *1> Text {
+    ownerDocument: Document {
+      implementation: [Object],
+      childNodes: [Object],
+      doctype: null,
+      documentURI: undefined,
+      firstChild: [DocumentType],
+      lastChild: [Element],
+      _inc: 1618,
+      documentElement: [Element]
+    },
+    data: 'EPISODE 8: CAREERS IN GASTROENTEROLOGY',
+    nodeValue: 'EPISODE 8: CAREERS IN GASTROENTEROLOGY',
+    length: 38,
+    parentNode: Element {
+      _nsMap: {},
+      attributes: [Object],
+      childNodes: [Object],
+      ownerDocument: [Document],
+      nodeName: 'strong',
+      tagName: 'strong',
+      namespaceURI: undefined,
+      localName: 'strong',
+      parentNode: [Element],
+      previousSibling: null,
+      nextSibling: null,
+      lineNumber: 415,
+      columnNumber: 1064,
+      firstChild: [Circular *1],
+      lastChild: [Circular *1]
+    },
+    previousSibling: null,
+    nextSibling: null,
+    lineNumber: 415,
+    columnNumber: 1072
+  },
+  <ref *2> Text {
+    ownerDocument: Document {
+      implementation: [Object],
+      childNodes: [Object],
+      doctype: null,
+      documentURI: undefined,
+      firstChild: [DocumentType],
+      lastChild: [Element],
+      _inc: 1618,
+      documentElement: [Element]
+    },
+    data: 'EPISODE 7: BILIARY DISEASE',
+    nodeValue: 'EPISODE 7: BILIARY DISEASE',
+    length: 26,
+    parentNode: Element {
+      _nsMap: {},
+      attributes: [Object],
+      childNodes: [Object],
+      ownerDocument: [Document],
+      nodeName: 'strong',
+      tagName: 'strong',
+      namespaceURI: undefined,
+      localName: 'strong',
+      parentNode: [Element],
+      previousSibling: null,
+      nextSibling: null,
+      lineNumber: 585,
+      columnNumber: 408,
+      firstChild: [Circular *2],
+      lastChild: [Circular *2]
+    },
+    previousSibling: null,
+    nextSibling: null,
+    lineNumber: 585,
+    columnNumber: 416
+  },
+  <ref *3> Text {
+    ownerDocument: Document {
+      implementation: [Object],
+      childNodes: [Object],
+      doctype: null,
+      documentURI: undefined,
+      firstChild: [DocumentType],
+      lastChild: [Element],
+      _inc: 1618,
+      documentElement: [Element]
+    },
+    data: 'EPISODE 6: CIRRHOSIS',
+    nodeValue: 'EPISODE 6: CIRRHOSIS',
+    length: 20,
+    parentNode: Element {
+      _nsMap: {},
+      attributes: [Object],
+      childNodes: [Object],
+      ownerDocument: [Document],
+      nodeName: 'strong',
+      tagName: 'strong',
+      namespaceURI: undefined,
+      localName: 'strong',
+      parentNode: [Element],
+      previousSibling: null,
+      nextSibling: null,
+      lineNumber: 688,
+      columnNumber: 636,
+      firstChild: [Circular *3],
+      lastChild: [Circular *3]
+    },
+    previousSibling: null,
+    nextSibling: null,
+    lineNumber: 688,
+    columnNumber: 644
+  },
+  <ref *4> Text {
+    ownerDocument: Document {
+      implementation: [Object],
+      childNodes: [Object],
+      doctype: null,
+      documentURI: undefined,
+      firstChild: [DocumentType],
+      lastChild: [Element],
+      _inc: 1618,
+      documentElement: [Element]
+    },
+    data: 'EPISODE 5: PANCREATITIS',
+    nodeValue: 'EPISODE 5: PANCREATITIS',
+    length: 23,
+    parentNode: Element {
+      _nsMap: {},
+      attributes: [Object],
+      childNodes: [Object],
+      ownerDocument: [Document],
+      nodeName: 'strong',
+      tagName: 'strong',
+      namespaceURI: undefined,
+      localName: 'strong',
+      parentNode: [Element],
+      previousSibling: null,
+      nextSibling: null,
+      lineNumber: 943,
+      columnNumber: 413,
+      firstChild: [Circular *4],
+      lastChild: [Circular *4]
+    },
+    previousSibling: null,
+    nextSibling: null,
+    lineNumber: 943,
+    columnNumber: 421
+  },
+  <ref *5> Text {
+    ownerDocument: Document {
+      implementation: [Object],
+      childNodes: [Object],
+      doctype: null,
+      documentURI: undefined,
+      firstChild: [DocumentType],
+      lastChild: [Element],
+      _inc: 1618,
+      documentElement: [Element]
+    },
+    data: 'Episode 4: Lower GI Bleed',
+    nodeValue: 'Episode 4: Lower GI Bleed',
+    length: 25,
+    parentNode: Element {
+      _nsMap: {},
+      attributes: [Object],
+      childNodes: [Object],
+      ownerDocument: [Document],
+      nodeName: 'strong',
+      tagName: 'strong',
+      namespaceURI: undefined,
+      localName: 'strong',
+      parentNode: [Element],
+      previousSibling: null,
+      nextSibling: null,
+      lineNumber: 1046,
+      columnNumber: 630,
+      firstChild: [Circular *5],
+      lastChild: [Circular *5]
+    },
+    previousSibling: null,
+    nextSibling: null,
+    lineNumber: 1046,
+    columnNumber: 638
+  },
+  <ref *6> Text {
+    ownerDocument: Document {
+      implementation: [Object],
+      childNodes: [Object],
+      doctype: null,
+      documentURI: undefined,
+      firstChild: [DocumentType],
+      lastChild: [Element],
+      _inc: 1618,
+      documentElement: [Element]
+    },
+    data: 'Episode 3: Variceal Upper GI Bleed',
+    nodeValue: 'Episode 3: Variceal Upper GI Bleed',
+    length: 34,
+    parentNode: Element {
+      _nsMap: {},
+      attributes: [Object],
+      childNodes: [Object],
+      ownerDocument: [Document],
+      nodeName: 'strong',
+      tagName: 'strong',
+      namespaceURI: undefined,
+      localName: 'strong',
+      parentNode: [Element],
+      previousSibling: null,
+      nextSibling: null,
+      lineNumber: 1301,
+      columnNumber: 405,
+      firstChild: [Circular *6],
+      lastChild: [Circular *6]
+    },
+    previousSibling: null,
+    nextSibling: null,
+    lineNumber: 1301,
+    columnNumber: 413
+  },
+  <ref *7> Text {
+    ownerDocument: Document {
+      implementation: [Object],
+      childNodes: [Object],
+      doctype: null,
+      documentURI: undefined,
+      firstChild: [DocumentType],
+      lastChild: [Element],
+      _inc: 1618,
+      documentElement: [Element]
+    },
+    data: 'Episode 2: Non-Variceal Upper GI Bleed',
+    nodeValue: 'Episode 2: Non-Variceal Upper GI Bleed',
+    length: 38,
+    parentNode: Element {
+      _nsMap: {},
+      attributes: [Object],
+      childNodes: [Object],
+      ownerDocument: [Document],
+      nodeName: 'strong',
+      tagName: 'strong',
+      namespaceURI: undefined,
+      localName: 'strong',
+      parentNode: [Element],
+      previousSibling: null,
+      nextSibling: null,
+      lineNumber: 1404,
+      columnNumber: 632,
+      firstChild: [Circular *7],
+      lastChild: [Circular *7]
+    },
+    previousSibling: null,
+    nextSibling: null,
+    lineNumber: 1404,
+    columnNumber: 640
+  }
+]
+Failed to validate title! [
+  <ref *1> Text {
+    ownerDocument: Document {
+      implementation: [Object],
+      childNodes: [Object],
+      doctype: null,
+      documentURI: undefined,
+      firstChild: [DocumentType],
+      lastChild: [Element],
+      _inc: 1618,
+      documentElement: [Element]
+    },
+    data: 'EPISODE 8: CAREERS IN GASTROENTEROLOGY',
+    nodeValue: 'EPISODE 8: CAREERS IN GASTROENTEROLOGY',
+    length: 38,
+    parentNode: Element {
+      _nsMap: {},
+      attributes: [Object],
+      childNodes: [Object],
+      ownerDocument: [Document],
+      nodeName: 'strong',
+      tagName: 'strong',
+      namespaceURI: undefined,
+      localName: 'strong',
+      parentNode: [Element],
+      previousSibling: null,
+      nextSibling: null,
+      lineNumber: 415,
+      columnNumber: 1064,
+      firstChild: [Circular *1],
+      lastChild: [Circular *1]
+    },
+    previousSibling: null,
+    nextSibling: null,
+    lineNumber: 415,
+    columnNumber: 1072
+  },
+  <ref *2> Text {
+    ownerDocument: Document {
+      implementation: [Object],
+      childNodes: [Object],
+      doctype: null,
+      documentURI: undefined,
+      firstChild: [DocumentType],
+      lastChild: [Element],
+      _inc: 1618,
+      documentElement: [Element]
+    },
+    data: 'EPISODE 7: BILIARY DISEASE',
+    nodeValue: 'EPISODE 7: BILIARY DISEASE',
+    length: 26,
+    parentNode: Element {
+      _nsMap: {},
+      attributes: [Object],
+      childNodes: [Object],
+      ownerDocument: [Document],
+      nodeName: 'strong',
+      tagName: 'strong',
+      namespaceURI: undefined,
+      localName: 'strong',
+      parentNode: [Element],
+      previousSibling: null,
+      nextSibling: null,
+      lineNumber: 585,
+      columnNumber: 408,
+      firstChild: [Circular *2],
+      lastChild: [Circular *2]
+    },
+    previousSibling: null,
+    nextSibling: null,
+    lineNumber: 585,
+    columnNumber: 416
+  },
+  <ref *3> Text {
+    ownerDocument: Document {
+      implementation: [Object],
+      childNodes: [Object],
+      doctype: null,
+      documentURI: undefined,
+      firstChild: [DocumentType],
+      lastChild: [Element],
+      _inc: 1618,
+      documentElement: [Element]
+    },
+    data: 'EPISODE 6: CIRRHOSIS',
+    nodeValue: 'EPISODE 6: CIRRHOSIS',
+    length: 20,
+    parentNode: Element {
+      _nsMap: {},
+      attributes: [Object],
+      childNodes: [Object],
+      ownerDocument: [Document],
+      nodeName: 'strong',
+      tagName: 'strong',
+      namespaceURI: undefined,
+      localName: 'strong',
+      parentNode: [Element],
+      previousSibling: null,
+      nextSibling: null,
+      lineNumber: 688,
+      columnNumber: 636,
+      firstChild: [Circular *3],
+      lastChild: [Circular *3]
+    },
+    previousSibling: null,
+    nextSibling: null,
+    lineNumber: 688,
+    columnNumber: 644
+  },
+  <ref *4> Text {
+    ownerDocument: Document {
+      implementation: [Object],
+      childNodes: [Object],
+      doctype: null,
+      documentURI: undefined,
+      firstChild: [DocumentType],
+      lastChild: [Element],
+      _inc: 1618,
+      documentElement: [Element]
+    },
+    data: 'EPISODE 5: PANCREATITIS',
+    nodeValue: 'EPISODE 5: PANCREATITIS',
+    length: 23,
+    parentNode: Element {
+      _nsMap: {},
+      attributes: [Object],
+      childNodes: [Object],
+      ownerDocument: [Document],
+      nodeName: 'strong',
+      tagName: 'strong',
+      namespaceURI: undefined,
+      localName: 'strong',
+      parentNode: [Element],
+      previousSibling: null,
+      nextSibling: null,
+      lineNumber: 943,
+      columnNumber: 413,
+      firstChild: [Circular *4],
+      lastChild: [Circular *4]
+    },
+    previousSibling: null,
+    nextSibling: null,
+    lineNumber: 943,
+    columnNumber: 421
+  },
+  <ref *5> Text {
+    ownerDocument: Document {
+      implementation: [Object],
+      childNodes: [Object],
+      doctype: null,
+      documentURI: undefined,
+      firstChild: [DocumentType],
+      lastChild: [Element],
+      _inc: 1618,
+      documentElement: [Element]
+    },
+    data: 'Episode 4: Lower GI Bleed',
+    nodeValue: 'Episode 4: Lower GI Bleed',
+    length: 25,
+    parentNode: Element {
+      _nsMap: {},
+      attributes: [Object],
+      childNodes: [Object],
+      ownerDocument: [Document],
+      nodeName: 'strong',
+      tagName: 'strong',
+      namespaceURI: undefined,
+      localName: 'strong',
+      parentNode: [Element],
+      previousSibling: null,
+      nextSibling: null,
+      lineNumber: 1046,
+      columnNumber: 630,
+      firstChild: [Circular *5],
+      lastChild: [Circular *5]
+    },
+    previousSibling: null,
+    nextSibling: null,
+    lineNumber: 1046,
+    columnNumber: 638
+  },
+  <ref *6> Text {
+    ownerDocument: Document {
+      implementation: [Object],
+      childNodes: [Object],
+      doctype: null,
+      documentURI: undefined,
+      firstChild: [DocumentType],
+      lastChild: [Element],
+      _inc: 1618,
+      documentElement: [Element]
+    },
+    data: 'Episode 3: Variceal Upper GI Bleed',
+    nodeValue: 'Episode 3: Variceal Upper GI Bleed',
+    length: 34,
+    parentNode: Element {
+      _nsMap: {},
+      attributes: [Object],
+      childNodes: [Object],
+      ownerDocument: [Document],
+      nodeName: 'strong',
+      tagName: 'strong',
+      namespaceURI: undefined,
+      localName: 'strong',
+      parentNode: [Element],
+      previousSibling: null,
+      nextSibling: null,
+      lineNumber: 1301,
+      columnNumber: 405,
+      firstChild: [Circular *6],
+      lastChild: [Circular *6]
+    },
+    previousSibling: null,
+    nextSibling: null,
+    lineNumber: 1301,
+    columnNumber: 413
+  },
+  <ref *7> Text {
+    ownerDocument: Document {
+      implementation: [Object],
+      childNodes: [Object],
+      doctype: null,
+      documentURI: undefined,
+      firstChild: [DocumentType],
+      lastChild: [Element],
+      _inc: 1618,
+      documentElement: [Element]
+    },
+    data: 'Episode 2: Non-Variceal Upper GI Bleed',
+    nodeValue: 'Episode 2: Non-Variceal Upper GI Bleed',
+    length: 38,
+    parentNode: Element {
+      _nsMap: {},
+      attributes: [Object],
+      childNodes: [Object],
+      ownerDocument: [Document],
+      nodeName: 'strong',
+      tagName: 'strong',
+      namespaceURI: undefined,
+      localName: 'strong',
+      parentNode: [Element],
+      previousSibling: null,
+      nextSibling: null,
+      lineNumber: 1404,
+      columnNumber: 632,
+      firstChild: [Circular *7],
+      lastChild: [Circular *7]
+    },
+    previousSibling: null,
+    nextSibling: null,
+    lineNumber: 1404,
+    columnNumber: 640
+  }
+]
+Failed to validate title! [
+  <ref *1> Text {
+    ownerDocument: Document {
+      implementation: [Object],
+      childNodes: [Object],
+      doctype: null,
+      documentURI: undefined,
+      firstChild: [DocumentType],
+      lastChild: [Element],
+      _inc: 1618,
+      documentElement: [Element]
+    },
+    data: 'EPISODE 8: CAREERS IN GASTROENTEROLOGY',
+    nodeValue: 'EPISODE 8: CAREERS IN GASTROENTEROLOGY',
+    length: 38,
+    parentNode: Element {
+      _nsMap: {},
+      attributes: [Object],
+      childNodes: [Object],
+      ownerDocument: [Document],
+      nodeName: 'strong',
+      tagName: 'strong',
+      namespaceURI: undefined,
+      localName: 'strong',
+      parentNode: [Element],
+      previousSibling: null,
+      nextSibling: null,
+      lineNumber: 415,
+      columnNumber: 1064,
+      firstChild: [Circular *1],
+      lastChild: [Circular *1]
+    },
+    previousSibling: null,
+    nextSibling: null,
+    lineNumber: 415,
+    columnNumber: 1072
+  },
+  <ref *2> Text {
+    ownerDocument: Document {
+      implementation: [Object],
+      childNodes: [Object],
+      doctype: null,
+      documentURI: undefined,
+      firstChild: [DocumentType],
+      lastChild: [Element],
+      _inc: 1618,
+      documentElement: [Element]
+    },
+    data: 'EPISODE 7: BILIARY DISEASE',
+    nodeValue: 'EPISODE 7: BILIARY DISEASE',
+    length: 26,
+    parentNode: Element {
+      _nsMap: {},
+      attributes: [Object],
+      childNodes: [Object],
+      ownerDocument: [Document],
+      nodeName: 'strong',
+      tagName: 'strong',
+      namespaceURI: undefined,
+      localName: 'strong',
+      parentNode: [Element],
+      previousSibling: null,
+      nextSibling: null,
+      lineNumber: 585,
+      columnNumber: 408,
+      firstChild: [Circular *2],
+      lastChild: [Circular *2]
+    },
+    previousSibling: null,
+    nextSibling: null,
+    lineNumber: 585,
+    columnNumber: 416
+  },
+  <ref *3> Text {
+    ownerDocument: Document {
+      implementation: [Object],
+      childNodes: [Object],
+      doctype: null,
+      documentURI: undefined,
+      firstChild: [DocumentType],
+      lastChild: [Element],
+      _inc: 1618,
+      documentElement: [Element]
+    },
+    data: 'EPISODE 6: CIRRHOSIS',
+    nodeValue: 'EPISODE 6: CIRRHOSIS',
+    length: 20,
+    parentNode: Element {
+      _nsMap: {},
+      attributes: [Object],
+      childNodes: [Object],
+      ownerDocument: [Document],
+      nodeName: 'strong',
+      tagName: 'strong',
+      namespaceURI: undefined,
+      localName: 'strong',
+      parentNode: [Element],
+      previousSibling: null,
+      nextSibling: null,
+      lineNumber: 688,
+      columnNumber: 636,
+      firstChild: [Circular *3],
+      lastChild: [Circular *3]
+    },
+    previousSibling: null,
+    nextSibling: null,
+    lineNumber: 688,
+    columnNumber: 644
+  },
+  <ref *4> Text {
+    ownerDocument: Document {
+      implementation: [Object],
+      childNodes: [Object],
+      doctype: null,
+      documentURI: undefined,
+      firstChild: [DocumentType],
+      lastChild: [Element],
+      _inc: 1618,
+      documentElement: [Element]
+    },
+    data: 'EPISODE 5: PANCREATITIS',
+    nodeValue: 'EPISODE 5: PANCREATITIS',
+    length: 23,
+    parentNode: Element {
+      _nsMap: {},
+      attributes: [Object],
+      childNodes: [Object],
+      ownerDocument: [Document],
+      nodeName: 'strong',
+      tagName: 'strong',
+      namespaceURI: undefined,
+      localName: 'strong',
+      parentNode: [Element],
+      previousSibling: null,
+      nextSibling: null,
+      lineNumber: 943,
+      columnNumber: 413,
+      firstChild: [Circular *4],
+      lastChild: [Circular *4]
+    },
+    previousSibling: null,
+    nextSibling: null,
+    lineNumber: 943,
+    columnNumber: 421
+  },
+  <ref *5> Text {
+    ownerDocument: Document {
+      implementation: [Object],
+      childNodes: [Object],
+      doctype: null,
+      documentURI: undefined,
+      firstChild: [DocumentType],
+      lastChild: [Element],
+      _inc: 1618,
+      documentElement: [Element]
+    },
+    data: 'Episode 4: Lower GI Bleed',
+    nodeValue: 'Episode 4: Lower GI Bleed',
+    length: 25,
+    parentNode: Element {
+      _nsMap: {},
+      attributes: [Object],
+      childNodes: [Object],
+      ownerDocument: [Document],
+      nodeName: 'strong',
+      tagName: 'strong',
+      namespaceURI: undefined,
+      localName: 'strong',
+      parentNode: [Element],
+      previousSibling: null,
+      nextSibling: null,
+      lineNumber: 1046,
+      columnNumber: 630,
+      firstChild: [Circular *5],
+      lastChild: [Circular *5]
+    },
+    previousSibling: null,
+    nextSibling: null,
+    lineNumber: 1046,
+    columnNumber: 638
+  },
+  <ref *6> Text {
+    ownerDocument: Document {
+      implementation: [Object],
+      childNodes: [Object],
+      doctype: null,
+      documentURI: undefined,
+      firstChild: [DocumentType],
+      lastChild: [Element],
+      _inc: 1618,
+      documentElement: [Element]
+    },
+    data: 'Episode 3: Variceal Upper GI Bleed',
+    nodeValue: 'Episode 3: Variceal Upper GI Bleed',
+    length: 34,
+    parentNode: Element {
+      _nsMap: {},
+      attributes: [Object],
+      childNodes: [Object],
+      ownerDocument: [Document],
+      nodeName: 'strong',
+      tagName: 'strong',
+      namespaceURI: undefined,
+      localName: 'strong',
+      parentNode: [Element],
+      previousSibling: null,
+      nextSibling: null,
+      lineNumber: 1301,
+      columnNumber: 405,
+      firstChild: [Circular *6],
+      lastChild: [Circular *6]
+    },
+    previousSibling: null,
+    nextSibling: null,
+    lineNumber: 1301,
+    columnNumber: 413
+  },
+  <ref *7> Text {
+    ownerDocument: Document {
+      implementation: [Object],
+      childNodes: [Object],
+      doctype: null,
+      documentURI: undefined,
+      firstChild: [DocumentType],
+      lastChild: [Element],
+      _inc: 1618,
+      documentElement: [Element]
+    },
+    data: 'Episode 2: Non-Variceal Upper GI Bleed',
+    nodeValue: 'Episode 2: Non-Variceal Upper GI Bleed',
+    length: 38,
+    parentNode: Element {
+      _nsMap: {},
+      attributes: [Object],
+      childNodes: [Object],
+      ownerDocument: [Document],
+      nodeName: 'strong',
+      tagName: 'strong',
+      namespaceURI: undefined,
+      localName: 'strong',
+      parentNode: [Element],
+      previousSibling: null,
+      nextSibling: null,
+      lineNumber: 1404,
+      columnNumber: 632,
+      firstChild: [Circular *7],
+      lastChild: [Circular *7]
+    },
+    previousSibling: null,
+    nextSibling: null,
+    lineNumber: 1404,
+    columnNumber: 640
+  }
+]
+[xmldom warning]	unclosed xml attribute 
+@#[line:5,col:3]
+[xmldom warning]	unclosed xml attribute 
+@#[line:7,col:3]
+[xmldom warning]	unclosed xml attribute 
+@#[line:10,col:1]
+[xmldom error]	entity not found:&mdash; 
+@#[line:12,col:1]
+[xmldom error]	entity not found:&mdash; 
+@#[line:16,col:1]
+[xmldom warning]	attribute "defer" missed value!! "defer" instead!! 
+@#[line:31,col:145]
+[xmldom error]	entity not found:&nbsp; 
+@#[line:1577,col:698]
+Something went wrong!  TypeError: Cannot read property 'attributes' of undefined
+    at genEpisodesFromCategoryPage (/Users/omergoldberg/dev/rtl/scraper/scrapeRTL.js:137:31)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async genHomepage (/Users/omergoldberg/dev/rtl/scraper/scrapeRTL.js:172:30)
+Failed to validate title! [
+  <ref *1> Text {
+    ownerDocument: Document {
+      implementation: [Object],
+      childNodes: [Object],
+      doctype: null,
+      documentURI: undefined,
+      firstChild: [DocumentType],
+      lastChild: [Element],
+      _inc: 1752,
+      documentElement: [Element]
+    },
+    data: 'EPISODE 16: CAREERS IN NEPHROLOGY',
+    nodeValue: 'EPISODE 16: CAREERS IN NEPHROLOGY',
+    length: 33,
+    parentNode: Element {
+      _nsMap: {},
+      attributes: [Object],
+      childNodes: [Object],
+      ownerDocument: [Document],
+      nodeName: 'strong',
+      tagName: 'strong',
+      namespaceURI: undefined,
+      localName: 'strong',
+      parentNode: [Element],
+      previousSibling: null,
+      nextSibling: null,
+      lineNumber: 485,
+      columnNumber: 231,
+      firstChild: [Circular *1],
+      lastChild: [Circular *1]
+    },
+    previousSibling: null,
+    nextSibling: null,
+    lineNumber: 485,
+    columnNumber: 239
+  },
+  <ref *2> Text {
+    ownerDocument: Document {
+      implementation: [Object],
+      childNodes: [Object],
+      doctype: null,
+      documentURI: undefined,
+      firstChild: [DocumentType],
+      lastChild: [Element],
+      _inc: 1752,
+      documentElement: [Element]
+    },
+    data: 'EPISODE 15: APPROACH TO URINALYSIS',
+    nodeValue: 'EPISODE 15: APPROACH TO URINALYSIS',
+    length: 34,
+    parentNode: Element {
+      _nsMap: {},
+      attributes: [Object],
+      childNodes: [Object],
+      ownerDocument: [Document],
+      nodeName: 'strong',
+      tagName: 'strong',
+      namespaceURI: undefined,
+      localName: 'strong',
+      parentNode: [Element],
+      previousSibling: null,
+      nextSibling: null,
+      lineNumber: 503,
+      columnNumber: 625,
+      firstChild: [Circular *2],
+      lastChild: [Circular *2]
+    },
+    previousSibling: null,
+    nextSibling: null,
+    lineNumber: 503,
+    columnNumber: 633
+  },
+  <ref *3> Text {
+    ownerDocument: Document {
+      implementation: [Object],
+      childNodes: [Object],
+      doctype: null,
+      documentURI: undefined,
+      firstChild: [DocumentType],
+      lastChild: [Element],
+      _inc: 1752,
+      documentElement: [Element]
+    },
+    data: 'EPISODE 14: ACID-BASE DISORDERS',
+    nodeValue: 'EPISODE 14: ACID-BASE DISORDERS',
+    length: 31,
+    parentNode: Element {
+      _nsMap: {},
+      attributes: [Object],
+      childNodes: [Object],
+      ownerDocument: [Document],
+      nodeName: 'strong',
+      tagName: 'strong',
+      namespaceURI: undefined,
+      localName: 'strong',
+      parentNode: [Element],
+      previousSibling: null,
+      nextSibling: null,
+      lineNumber: 758,
+      columnNumber: 231,
+      firstChild: [Circular *3],
+      lastChild: [Circular *3]
+    },
+    previousSibling: null,
+    nextSibling: null,
+    lineNumber: 758,
+    columnNumber: 239
+  },
+  <ref *4> Text {
+    ownerDocument: Document {
+      implementation: [Object],
+      childNodes: [Object],
+      doctype: null,
+      documentURI: undefined,
+      firstChild: [DocumentType],
+      lastChild: [Element],
+      _inc: 1752,
+      documentElement: [Element]
+    },
+    data: 'EPISODE 13: HYPERNATREMIA',
+    nodeValue: 'EPISODE 13: HYPERNATREMIA',
+    length: 25,
+    parentNode: Element {
+      _nsMap: {},
+      attributes: [Object],
+      childNodes: [Object],
+      ownerDocument: [Document],
+      nodeName: 'strong',
+      tagName: 'strong',
+      namespaceURI: undefined,
+      localName: 'strong',
+      parentNode: [Element],
+      previousSibling: null,
+      nextSibling: null,
+      lineNumber: 861,
+      columnNumber: 640,
+      firstChild: [Circular *4],
+      lastChild: [Circular *4]
+    },
+    previousSibling: null,
+    nextSibling: null,
+    lineNumber: 861,
+    columnNumber: 648
+  },
+  <ref *5> Text {
+    ownerDocument: Document {
+      implementation: [Object],
+      childNodes: [Object],
+      doctype: null,
+      documentURI: undefined,
+      firstChild: [DocumentType],
+      lastChild: [Element],
+      _inc: 1752,
+      documentElement: [Element]
+    },
+    data: 'EPISODE 12: HYPONATREMIA',
+    nodeValue: 'EPISODE 12: HYPONATREMIA',
+    length: 24,
+    parentNode: Element {
+      _nsMap: {},
+      attributes: [Object],
+      childNodes: [Object],
+      ownerDocument: [Document],
+      nodeName: 'strong',
+      tagName: 'strong',
+      namespaceURI: undefined,
+      localName: 'strong',
+      parentNode: [Element],
+      previousSibling: null,
+      nextSibling: null,
+      lineNumber: 1116,
+      columnNumber: 231,
+      firstChild: [Circular *5],
+      lastChild: [Circular *5]
+    },
+    previousSibling: null,
+    nextSibling: null,
+    lineNumber: 1116,
+    columnNumber: 239
+  },
+  <ref *6> Text {
+    ownerDocument: Document {
+      implementation: [Object],
+      childNodes: [Object],
+      doctype: null,
+      documentURI: undefined,
+      firstChild: [DocumentType],
+      lastChild: [Element],
+      _inc: 1752,
+      documentElement: [Element]
+    },
+    data: 'EPISODE 11: HYPOKALEMIA',
+    nodeValue: 'EPISODE 11: HYPOKALEMIA',
+    length: 23,
+    parentNode: Element {
+      _nsMap: {},
+      attributes: [Object],
+      childNodes: [Object],
+      ownerDocument: [Document],
+      nodeName: 'strong',
+      tagName: 'strong',
+      namespaceURI: undefined,
+      localName: 'strong',
+      parentNode: [Element],
+      previousSibling: null,
+      nextSibling: null,
+      lineNumber: 1219,
+      columnNumber: 638,
+      firstChild: [Circular *6],
+      lastChild: [Circular *6]
+    },
+    previousSibling: null,
+    nextSibling: null,
+    lineNumber: 1219,
+    columnNumber: 646
+  },
+  <ref *7> Text {
+    ownerDocument: Document {
+      implementation: [Object],
+      childNodes: [Object],
+      doctype: null,
+      documentURI: undefined,
+      firstChild: [DocumentType],
+      lastChild: [Element],
+      _inc: 1752,
+      documentElement: [Element]
+    },
+    data: 'EPISODE 10: HYPERKALEMIA',
+    nodeValue: 'EPISODE 10: HYPERKALEMIA',
+    length: 24,
+    parentNode: Element {
+      _nsMap: {},
+      attributes: [Object],
+      childNodes: [Object],
+      ownerDocument: [Document],
+      nodeName: 'strong',
+      tagName: 'strong',
+      namespaceURI: undefined,
+      localName: 'strong',
+      parentNode: [Element],
+      previousSibling: null,
+      nextSibling: null,
+      lineNumber: 1474,
+      columnNumber: 231,
+      firstChild: [Circular *7],
+      lastChild: [Circular *7]
+    },
+    previousSibling: null,
+    nextSibling: null,
+    lineNumber: 1474,
+    columnNumber: 239
+  },
+  <ref *8> Text {
+    ownerDocument: Document {
+      implementation: [Object],
+      childNodes: [Object],
+      doctype: null,
+      documentURI: undefined,
+      firstChild: [DocumentType],
+      lastChild: [Element],
+      _inc: 1752,
+      documentElement: [Element]
+    },
+    data: 'EPISODE 9: ACUTE KIDNEY INJURY',
+    nodeValue: 'EPISODE 9: ACUTE KIDNEY INJURY',
+    length: 30,
+    parentNode: Element {
+      _nsMap: {},
+      attributes: [Object],
+      childNodes: [Object],
+      ownerDocument: [Document],
+      nodeName: 'strong',
+      tagName: 'strong',
+      namespaceURI: undefined,
+      localName: 'strong',
+      parentNode: [Element],
+      previousSibling: null,
+      nextSibling: null,
+      lineNumber: 1577,
+      columnNumber: 628,
+      firstChild: [Circular *8],
+      lastChild: [Circular *8]
+    },
+    previousSibling: null,
+    nextSibling: null,
+    lineNumber: 1577,
+    columnNumber: 636
+  }
+]
+Failed to validate title! [
+  <ref *1> Text {
+    ownerDocument: Document {
+      implementation: [Object],
+      childNodes: [Object],
+      doctype: null,
+      documentURI: undefined,
+      firstChild: [DocumentType],
+      lastChild: [Element],
+      _inc: 1752,
+      documentElement: [Element]
+    },
+    data: 'EPISODE 16: CAREERS IN NEPHROLOGY',
+    nodeValue: 'EPISODE 16: CAREERS IN NEPHROLOGY',
+    length: 33,
+    parentNode: Element {
+      _nsMap: {},
+      attributes: [Object],
+      childNodes: [Object],
+      ownerDocument: [Document],
+      nodeName: 'strong',
+      tagName: 'strong',
+      namespaceURI: undefined,
+      localName: 'strong',
+      parentNode: [Element],
+      previousSibling: null,
+      nextSibling: null,
+      lineNumber: 485,
+      columnNumber: 231,
+      firstChild: [Circular *1],
+      lastChild: [Circular *1]
+    },
+    previousSibling: null,
+    nextSibling: null,
+    lineNumber: 485,
+    columnNumber: 239
+  },
+  <ref *2> Text {
+    ownerDocument: Document {
+      implementation: [Object],
+      childNodes: [Object],
+      doctype: null,
+      documentURI: undefined,
+      firstChild: [DocumentType],
+      lastChild: [Element],
+      _inc: 1752,
+      documentElement: [Element]
+    },
+    data: 'EPISODE 15: APPROACH TO URINALYSIS',
+    nodeValue: 'EPISODE 15: APPROACH TO URINALYSIS',
+    length: 34,
+    parentNode: Element {
+      _nsMap: {},
+      attributes: [Object],
+      childNodes: [Object],
+      ownerDocument: [Document],
+      nodeName: 'strong',
+      tagName: 'strong',
+      namespaceURI: undefined,
+      localName: 'strong',
+      parentNode: [Element],
+      previousSibling: null,
+      nextSibling: null,
+      lineNumber: 503,
+      columnNumber: 625,
+      firstChild: [Circular *2],
+      lastChild: [Circular *2]
+    },
+    previousSibling: null,
+    nextSibling: null,
+    lineNumber: 503,
+    columnNumber: 633
+  },
+  <ref *3> Text {
+    ownerDocument: Document {
+      implementation: [Object],
+      childNodes: [Object],
+      doctype: null,
+      documentURI: undefined,
+      firstChild: [DocumentType],
+      lastChild: [Element],
+      _inc: 1752,
+      documentElement: [Element]
+    },
+    data: 'EPISODE 14: ACID-BASE DISORDERS',
+    nodeValue: 'EPISODE 14: ACID-BASE DISORDERS',
+    length: 31,
+    parentNode: Element {
+      _nsMap: {},
+      attributes: [Object],
+      childNodes: [Object],
+      ownerDocument: [Document],
+      nodeName: 'strong',
+      tagName: 'strong',
+      namespaceURI: undefined,
+      localName: 'strong',
+      parentNode: [Element],
+      previousSibling: null,
+      nextSibling: null,
+      lineNumber: 758,
+      columnNumber: 231,
+      firstChild: [Circular *3],
+      lastChild: [Circular *3]
+    },
+    previousSibling: null,
+    nextSibling: null,
+    lineNumber: 758,
+    columnNumber: 239
+  },
+  <ref *4> Text {
+    ownerDocument: Document {
+      implementation: [Object],
+      childNodes: [Object],
+      doctype: null,
+      documentURI: undefined,
+      firstChild: [DocumentType],
+      lastChild: [Element],
+      _inc: 1752,
+      documentElement: [Element]
+    },
+    data: 'EPISODE 13: HYPERNATREMIA',
+    nodeValue: 'EPISODE 13: HYPERNATREMIA',
+    length: 25,
+    parentNode: Element {
+      _nsMap: {},
+      attributes: [Object],
+      childNodes: [Object],
+      ownerDocument: [Document],
+      nodeName: 'strong',
+      tagName: 'strong',
+      namespaceURI: undefined,
+      localName: 'strong',
+      parentNode: [Element],
+      previousSibling: null,
+      nextSibling: null,
+      lineNumber: 861,
+      columnNumber: 640,
+      firstChild: [Circular *4],
+      lastChild: [Circular *4]
+    },
+    previousSibling: null,
+    nextSibling: null,
+    lineNumber: 861,
+    columnNumber: 648
+  },
+  <ref *5> Text {
+    ownerDocument: Document {
+      implementation: [Object],
+      childNodes: [Object],
+      doctype: null,
+      documentURI: undefined,
+      firstChild: [DocumentType],
+      lastChild: [Element],
+      _inc: 1752,
+      documentElement: [Element]
+    },
+    data: 'EPISODE 12: HYPONATREMIA',
+    nodeValue: 'EPISODE 12: HYPONATREMIA',
+    length: 24,
+    parentNode: Element {
+      _nsMap: {},
+      attributes: [Object],
+      childNodes: [Object],
+      ownerDocument: [Document],
+      nodeName: 'strong',
+      tagName: 'strong',
+      namespaceURI: undefined,
+      localName: 'strong',
+      parentNode: [Element],
+      previousSibling: null,
+      nextSibling: null,
+      lineNumber: 1116,
+      columnNumber: 231,
+      firstChild: [Circular *5],
+      lastChild: [Circular *5]
+    },
+    previousSibling: null,
+    nextSibling: null,
+    lineNumber: 1116,
+    columnNumber: 239
+  },
+  <ref *6> Text {
+    ownerDocument: Document {
+      implementation: [Object],
+      childNodes: [Object],
+      doctype: null,
+      documentURI: undefined,
+      firstChild: [DocumentType],
+      lastChild: [Element],
+      _inc: 1752,
+      documentElement: [Element]
+    },
+    data: 'EPISODE 11: HYPOKALEMIA',
+    nodeValue: 'EPISODE 11: HYPOKALEMIA',
+    length: 23,
+    parentNode: Element {
+      _nsMap: {},
+      attributes: [Object],
+      childNodes: [Object],
+      ownerDocument: [Document],
+      nodeName: 'strong',
+      tagName: 'strong',
+      namespaceURI: undefined,
+      localName: 'strong',
+      parentNode: [Element],
+      previousSibling: null,
+      nextSibling: null,
+      lineNumber: 1219,
+      columnNumber: 638,
+      firstChild: [Circular *6],
+      lastChild: [Circular *6]
+    },
+    previousSibling: null,
+    nextSibling: null,
+    lineNumber: 1219,
+    columnNumber: 646
+  },
+  <ref *7> Text {
+    ownerDocument: Document {
+      implementation: [Object],
+      childNodes: [Object],
+      doctype: null,
+      documentURI: undefined,
+      firstChild: [DocumentType],
+      lastChild: [Element],
+      _inc: 1752,
+      documentElement: [Element]
+    },
+    data: 'EPISODE 10: HYPERKALEMIA',
+    nodeValue: 'EPISODE 10: HYPERKALEMIA',
+    length: 24,
+    parentNode: Element {
+      _nsMap: {},
+      attributes: [Object],
+      childNodes: [Object],
+      ownerDocument: [Document],
+      nodeName: 'strong',
+      tagName: 'strong',
+      namespaceURI: undefined,
+      localName: 'strong',
+      parentNode: [Element],
+      previousSibling: null,
+      nextSibling: null,
+      lineNumber: 1474,
+      columnNumber: 231,
+      firstChild: [Circular *7],
+      lastChild: [Circular *7]
+    },
+    previousSibling: null,
+    nextSibling: null,
+    lineNumber: 1474,
+    columnNumber: 239
+  },
+  <ref *8> Text {
+    ownerDocument: Document {
+      implementation: [Object],
+      childNodes: [Object],
+      doctype: null,
+      documentURI: undefined,
+      firstChild: [DocumentType],
+      lastChild: [Element],
+      _inc: 1752,
+      documentElement: [Element]
+    },
+    data: 'EPISODE 9: ACUTE KIDNEY INJURY',
+    nodeValue: 'EPISODE 9: ACUTE KIDNEY INJURY',
+    length: 30,
+    parentNode: Element {
+      _nsMap: {},
+      attributes: [Object],
+      childNodes: [Object],
+      ownerDocument: [Document],
+      nodeName: 'strong',
+      tagName: 'strong',
+      namespaceURI: undefined,
+      localName: 'strong',
+      parentNode: [Element],
+      previousSibling: null,
+      nextSibling: null,
+      lineNumber: 1577,
+      columnNumber: 628,
+      firstChild: [Circular *8],
+      lastChild: [Circular *8]
+    },
+    previousSibling: null,
+    nextSibling: null,
+    lineNumber: 1577,
+    columnNumber: 636
+  }
+]
+Failed to validate title! [
+  <ref *1> Text {
+    ownerDocument: Document {
+      implementation: [Object],
+      childNodes: [Object],
+      doctype: null,
+      documentURI: undefined,
+      firstChild: [DocumentType],
+      lastChild: [Element],
+      _inc: 1752,
+      documentElement: [Element]
+    },
+    data: 'EPISODE 16: CAREERS IN NEPHROLOGY',
+    nodeValue: 'EPISODE 16: CAREERS IN NEPHROLOGY',
+    length: 33,
+    parentNode: Element {
+      _nsMap: {},
+      attributes: [Object],
+      childNodes: [Object],
+      ownerDocument: [Document],
+      nodeName: 'strong',
+      tagName: 'strong',
+      namespaceURI: undefined,
+      localName: 'strong',
+      parentNode: [Element],
+      previousSibling: null,
+      nextSibling: null,
+      lineNumber: 485,
+      columnNumber: 231,
+      firstChild: [Circular *1],
+      lastChild: [Circular *1]
+    },
+    previousSibling: null,
+    nextSibling: null,
+    lineNumber: 485,
+    columnNumber: 239
+  },
+  <ref *2> Text {
+    ownerDocument: Document {
+      implementation: [Object],
+      childNodes: [Object],
+      doctype: null,
+      documentURI: undefined,
+      firstChild: [DocumentType],
+      lastChild: [Element],
+      _inc: 1752,
+      documentElement: [Element]
+    },
+    data: 'EPISODE 15: APPROACH TO URINALYSIS',
+    nodeValue: 'EPISODE 15: APPROACH TO URINALYSIS',
+    length: 34,
+    parentNode: Element {
+      _nsMap: {},
+      attributes: [Object],
+      childNodes: [Object],
+      ownerDocument: [Document],
+      nodeName: 'strong',
+      tagName: 'strong',
+      namespaceURI: undefined,
+      localName: 'strong',
+      parentNode: [Element],
+      previousSibling: null,
+      nextSibling: null,
+      lineNumber: 503,
+      columnNumber: 625,
+      firstChild: [Circular *2],
+      lastChild: [Circular *2]
+    },
+    previousSibling: null,
+    nextSibling: null,
+    lineNumber: 503,
+    columnNumber: 633
+  },
+  <ref *3> Text {
+    ownerDocument: Document {
+      implementation: [Object],
+      childNodes: [Object],
+      doctype: null,
+      documentURI: undefined,
+      firstChild: [DocumentType],
+      lastChild: [Element],
+      _inc: 1752,
+      documentElement: [Element]
+    },
+    data: 'EPISODE 14: ACID-BASE DISORDERS',
+    nodeValue: 'EPISODE 14: ACID-BASE DISORDERS',
+    length: 31,
+    parentNode: Element {
+      _nsMap: {},
+      attributes: [Object],
+      childNodes: [Object],
+      ownerDocument: [Document],
+      nodeName: 'strong',
+      tagName: 'strong',
+      namespaceURI: undefined,
+      localName: 'strong',
+      parentNode: [Element],
+      previousSibling: null,
+      nextSibling: null,
+      lineNumber: 758,
+      columnNumber: 231,
+      firstChild: [Circular *3],
+      lastChild: [Circular *3]
+    },
+    previousSibling: null,
+    nextSibling: null,
+    lineNumber: 758,
+    columnNumber: 239
+  },
+  <ref *4> Text {
+    ownerDocument: Document {
+      implementation: [Object],
+      childNodes: [Object],
+      doctype: null,
+      documentURI: undefined,
+      firstChild: [DocumentType],
+      lastChild: [Element],
+      _inc: 1752,
+      documentElement: [Element]
+    },
+    data: 'EPISODE 13: HYPERNATREMIA',
+    nodeValue: 'EPISODE 13: HYPERNATREMIA',
+    length: 25,
+    parentNode: Element {
+      _nsMap: {},
+      attributes: [Object],
+      childNodes: [Object],
+      ownerDocument: [Document],
+      nodeName: 'strong',
+      tagName: 'strong',
+      namespaceURI: undefined,
+      localName: 'strong',
+      parentNode: [Element],
+      previousSibling: null,
+      nextSibling: null,
+      lineNumber: 861,
+      columnNumber: 640,
+      firstChild: [Circular *4],
+      lastChild: [Circular *4]
+    },
+    previousSibling: null,
+    nextSibling: null,
+    lineNumber: 861,
+    columnNumber: 648
+  },
+  <ref *5> Text {
+    ownerDocument: Document {
+      implementation: [Object],
+      childNodes: [Object],
+      doctype: null,
+      documentURI: undefined,
+      firstChild: [DocumentType],
+      lastChild: [Element],
+      _inc: 1752,
+      documentElement: [Element]
+    },
+    data: 'EPISODE 12: HYPONATREMIA',
+    nodeValue: 'EPISODE 12: HYPONATREMIA',
+    length: 24,
+    parentNode: Element {
+      _nsMap: {},
+      attributes: [Object],
+      childNodes: [Object],
+      ownerDocument: [Document],
+      nodeName: 'strong',
+      tagName: 'strong',
+      namespaceURI: undefined,
+      localName: 'strong',
+      parentNode: [Element],
+      previousSibling: null,
+      nextSibling: null,
+      lineNumber: 1116,
+      columnNumber: 231,
+      firstChild: [Circular *5],
+      lastChild: [Circular *5]
+    },
+    previousSibling: null,
+    nextSibling: null,
+    lineNumber: 1116,
+    columnNumber: 239
+  },
+  <ref *6> Text {
+    ownerDocument: Document {
+      implementation: [Object],
+      childNodes: [Object],
+      doctype: null,
+      documentURI: undefined,
+      firstChild: [DocumentType],
+      lastChild: [Element],
+      _inc: 1752,
+      documentElement: [Element]
+    },
+    data: 'EPISODE 11: HYPOKALEMIA',
+    nodeValue: 'EPISODE 11: HYPOKALEMIA',
+    length: 23,
+    parentNode: Element {
+      _nsMap: {},
+      attributes: [Object],
+      childNodes: [Object],
+      ownerDocument: [Document],
+      nodeName: 'strong',
+      tagName: 'strong',
+      namespaceURI: undefined,
+      localName: 'strong',
+      parentNode: [Element],
+      previousSibling: null,
+      nextSibling: null,
+      lineNumber: 1219,
+      columnNumber: 638,
+      firstChild: [Circular *6],
+      lastChild: [Circular *6]
+    },
+    previousSibling: null,
+    nextSibling: null,
+    lineNumber: 1219,
+    columnNumber: 646
+  },
+  <ref *7> Text {
+    ownerDocument: Document {
+      implementation: [Object],
+      childNodes: [Object],
+      doctype: null,
+      documentURI: undefined,
+      firstChild: [DocumentType],
+      lastChild: [Element],
+      _inc: 1752,
+      documentElement: [Element]
+    },
+    data: 'EPISODE 10: HYPERKALEMIA',
+    nodeValue: 'EPISODE 10: HYPERKALEMIA',
+    length: 24,
+    parentNode: Element {
+      _nsMap: {},
+      attributes: [Object],
+      childNodes: [Object],
+      ownerDocument: [Document],
+      nodeName: 'strong',
+      tagName: 'strong',
+      namespaceURI: undefined,
+      localName: 'strong',
+      parentNode: [Element],
+      previousSibling: null,
+      nextSibling: null,
+      lineNumber: 1474,
+      columnNumber: 231,
+      firstChild: [Circular *7],
+      lastChild: [Circular *7]
+    },
+    previousSibling: null,
+    nextSibling: null,
+    lineNumber: 1474,
+    columnNumber: 239
+  },
+  <ref *8> Text {
+    ownerDocument: Document {
+      implementation: [Object],
+      childNodes: [Object],
+      doctype: null,
+      documentURI: undefined,
+      firstChild: [DocumentType],
+      lastChild: [Element],
+      _inc: 1752,
+      documentElement: [Element]
+    },
+    data: 'EPISODE 9: ACUTE KIDNEY INJURY',
+    nodeValue: 'EPISODE 9: ACUTE KIDNEY INJURY',
+    length: 30,
+    parentNode: Element {
+      _nsMap: {},
+      attributes: [Object],
+      childNodes: [Object],
+      ownerDocument: [Document],
+      nodeName: 'strong',
+      tagName: 'strong',
+      namespaceURI: undefined,
+      localName: 'strong',
+      parentNode: [Element],
+      previousSibling: null,
+      nextSibling: null,
+      lineNumber: 1577,
+      columnNumber: 628,
+      firstChild: [Circular *8],
+      lastChild: [Circular *8]
+    },
+    previousSibling: null,
+    nextSibling: null,
+    lineNumber: 1577,
+    columnNumber: 636
+  }
+]
+Failed to validate title! [
+  <ref *1> Text {
+    ownerDocument: Document {
+      implementation: [Object],
+      childNodes: [Object],
+      doctype: null,
+      documentURI: undefined,
+      firstChild: [DocumentType],
+      lastChild: [Element],
+      _inc: 1752,
+      documentElement: [Element]
+    },
+    data: 'EPISODE 16: CAREERS IN NEPHROLOGY',
+    nodeValue: 'EPISODE 16: CAREERS IN NEPHROLOGY',
+    length: 33,
+    parentNode: Element {
+      _nsMap: {},
+      attributes: [Object],
+      childNodes: [Object],
+      ownerDocument: [Document],
+      nodeName: 'strong',
+      tagName: 'strong',
+      namespaceURI: undefined,
+      localName: 'strong',
+      parentNode: [Element],
+      previousSibling: null,
+      nextSibling: null,
+      lineNumber: 485,
+      columnNumber: 231,
+      firstChild: [Circular *1],
+      lastChild: [Circular *1]
+    },
+    previousSibling: null,
+    nextSibling: null,
+    lineNumber: 485,
+    columnNumber: 239
+  },
+  <ref *2> Text {
+    ownerDocument: Document {
+      implementation: [Object],
+      childNodes: [Object],
+      doctype: null,
+      documentURI: undefined,
+      firstChild: [DocumentType],
+      lastChild: [Element],
+      _inc: 1752,
+      documentElement: [Element]
+    },
+    data: 'EPISODE 15: APPROACH TO URINALYSIS',
+    nodeValue: 'EPISODE 15: APPROACH TO URINALYSIS',
+    length: 34,
+    parentNode: Element {
+      _nsMap: {},
+      attributes: [Object],
+      childNodes: [Object],
+      ownerDocument: [Document],
+      nodeName: 'strong',
+      tagName: 'strong',
+      namespaceURI: undefined,
+      localName: 'strong',
+      parentNode: [Element],
+      previousSibling: null,
+      nextSibling: null,
+      lineNumber: 503,
+      columnNumber: 625,
+      firstChild: [Circular *2],
+      lastChild: [Circular *2]
+    },
+    previousSibling: null,
+    nextSibling: null,
+    lineNumber: 503,
+    columnNumber: 633
+  },
+  <ref *3> Text {
+    ownerDocument: Document {
+      implementation: [Object],
+      childNodes: [Object],
+      doctype: null,
+      documentURI: undefined,
+      firstChild: [DocumentType],
+      lastChild: [Element],
+      _inc: 1752,
+      documentElement: [Element]
+    },
+    data: 'EPISODE 14: ACID-BASE DISORDERS',
+    nodeValue: 'EPISODE 14: ACID-BASE DISORDERS',
+    length: 31,
+    parentNode: Element {
+      _nsMap: {},
+      attributes: [Object],
+      childNodes: [Object],
+      ownerDocument: [Document],
+      nodeName: 'strong',
+      tagName: 'strong',
+      namespaceURI: undefined,
+      localName: 'strong',
+      parentNode: [Element],
+      previousSibling: null,
+      nextSibling: null,
+      lineNumber: 758,
+      columnNumber: 231,
+      firstChild: [Circular *3],
+      lastChild: [Circular *3]
+    },
+    previousSibling: null,
+    nextSibling: null,
+    lineNumber: 758,
+    columnNumber: 239
+  },
+  <ref *4> Text {
+    ownerDocument: Document {
+      implementation: [Object],
+      childNodes: [Object],
+      doctype: null,
+      documentURI: undefined,
+      firstChild: [DocumentType],
+      lastChild: [Element],
+      _inc: 1752,
+      documentElement: [Element]
+    },
+    data: 'EPISODE 13: HYPERNATREMIA',
+    nodeValue: 'EPISODE 13: HYPERNATREMIA',
+    length: 25,
+    parentNode: Element {
+      _nsMap: {},
+      attributes: [Object],
+      childNodes: [Object],
+      ownerDocument: [Document],
+      nodeName: 'strong',
+      tagName: 'strong',
+      namespaceURI: undefined,
+      localName: 'strong',
+      parentNode: [Element],
+      previousSibling: null,
+      nextSibling: null,
+      lineNumber: 861,
+      columnNumber: 640,
+      firstChild: [Circular *4],
+      lastChild: [Circular *4]
+    },
+    previousSibling: null,
+    nextSibling: null,
+    lineNumber: 861,
+    columnNumber: 648
+  },
+  <ref *5> Text {
+    ownerDocument: Document {
+      implementation: [Object],
+      childNodes: [Object],
+      doctype: null,
+      documentURI: undefined,
+      firstChild: [DocumentType],
+      lastChild: [Element],
+      _inc: 1752,
+      documentElement: [Element]
+    },
+    data: 'EPISODE 12: HYPONATREMIA',
+    nodeValue: 'EPISODE 12: HYPONATREMIA',
+    length: 24,
+    parentNode: Element {
+      _nsMap: {},
+      attributes: [Object],
+      childNodes: [Object],
+      ownerDocument: [Document],
+      nodeName: 'strong',
+      tagName: 'strong',
+      namespaceURI: undefined,
+      localName: 'strong',
+      parentNode: [Element],
+      previousSibling: null,
+      nextSibling: null,
+      lineNumber: 1116,
+      columnNumber: 231,
+      firstChild: [Circular *5],
+      lastChild: [Circular *5]
+    },
+    previousSibling: null,
+    nextSibling: null,
+    lineNumber: 1116,
+    columnNumber: 239
+  },
+  <ref *6> Text {
+    ownerDocument: Document {
+      implementation: [Object],
+      childNodes: [Object],
+      doctype: null,
+      documentURI: undefined,
+      firstChild: [DocumentType],
+      lastChild: [Element],
+      _inc: 1752,
+      documentElement: [Element]
+    },
+    data: 'EPISODE 11: HYPOKALEMIA',
+    nodeValue: 'EPISODE 11: HYPOKALEMIA',
+    length: 23,
+    parentNode: Element {
+      _nsMap: {},
+      attributes: [Object],
+      childNodes: [Object],
+      ownerDocument: [Document],
+      nodeName: 'strong',
+      tagName: 'strong',
+      namespaceURI: undefined,
+      localName: 'strong',
+      parentNode: [Element],
+      previousSibling: null,
+      nextSibling: null,
+      lineNumber: 1219,
+      columnNumber: 638,
+      firstChild: [Circular *6],
+      lastChild: [Circular *6]
+    },
+    previousSibling: null,
+    nextSibling: null,
+    lineNumber: 1219,
+    columnNumber: 646
+  },
+  <ref *7> Text {
+    ownerDocument: Document {
+      implementation: [Object],
+      childNodes: [Object],
+      doctype: null,
+      documentURI: undefined,
+      firstChild: [DocumentType],
+      lastChild: [Element],
+      _inc: 1752,
+      documentElement: [Element]
+    },
+    data: 'EPISODE 10: HYPERKALEMIA',
+    nodeValue: 'EPISODE 10: HYPERKALEMIA',
+    length: 24,
+    parentNode: Element {
+      _nsMap: {},
+      attributes: [Object],
+      childNodes: [Object],
+      ownerDocument: [Document],
+      nodeName: 'strong',
+      tagName: 'strong',
+      namespaceURI: undefined,
+      localName: 'strong',
+      parentNode: [Element],
+      previousSibling: null,
+      nextSibling: null,
+      lineNumber: 1474,
+      columnNumber: 231,
+      firstChild: [Circular *7],
+      lastChild: [Circular *7]
+    },
+    previousSibling: null,
+    nextSibling: null,
+    lineNumber: 1474,
+    columnNumber: 239
+  },
+  <ref *8> Text {
+    ownerDocument: Document {
+      implementation: [Object],
+      childNodes: [Object],
+      doctype: null,
+      documentURI: undefined,
+      firstChild: [DocumentType],
+      lastChild: [Element],
+      _inc: 1752,
+      documentElement: [Element]
+    },
+    data: 'EPISODE 9: ACUTE KIDNEY INJURY',
+    nodeValue: 'EPISODE 9: ACUTE KIDNEY INJURY',
+    length: 30,
+    parentNode: Element {
+      _nsMap: {},
+      attributes: [Object],
+      childNodes: [Object],
+      ownerDocument: [Document],
+      nodeName: 'strong',
+      tagName: 'strong',
+      namespaceURI: undefined,
+      localName: 'strong',
+      parentNode: [Element],
+      previousSibling: null,
+      nextSibling: null,
+      lineNumber: 1577,
+      columnNumber: 628,
+      firstChild: [Circular *8],
+      lastChild: [Circular *8]
+    },
+    previousSibling: null,
+    nextSibling: null,
+    lineNumber: 1577,
+    columnNumber: 636
+  }
+]
+[xmldom warning]	unclosed xml attribute 
+@#[line:5,col:3]
+[xmldom warning]	unclosed xml attribute 
+@#[line:7,col:3]
+[xmldom warning]	unclosed xml attribute 
+@#[line:10,col:1]
+[xmldom error]	entity not found:&mdash; 
+@#[line:12,col:1]
+[xmldom error]	entity not found:&mdash; 
+@#[line:16,col:1]
+[xmldom warning]	attribute "defer" missed value!! "defer" instead!! 
+@#[line:31,col:145]
+[xmldom error]	entity not found:&nbsp; 
+@#[line:782,col:168]
+[xmldom error]	entity not found:&nbsp; 
+@#[line:961,col:180]
+[xmldom error]	entity not found:&nbsp; 
+@#[line:1216,col:483]
+[xmldom warning]	unclosed xml attribute 
+@#[line:1319,col:221]
+Something went wrong!  TypeError: Cannot read property 'attributes' of undefined
+    at genEpisodesFromCategoryPage (/Users/omergoldberg/dev/rtl/scraper/scrapeRTL.js:137:31)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async genHomepage (/Users/omergoldberg/dev/rtl/scraper/scrapeRTL.js:172:30)
+Something went wrong!  TypeError: Cannot read property 'attributes' of undefined
+    at genEpisodesFromCategoryPage (/Users/omergoldberg/dev/rtl/scraper/scrapeRTL.js:137:31)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async genHomepage (/Users/omergoldberg/dev/rtl/scraper/scrapeRTL.js:172:30)
+Failed to validate title! [
+  <ref *1> Text {
+    ownerDocument: Document {
+      implementation: [Object],
+      childNodes: [Object],
+      doctype: null,
+      documentURI: undefined,
+      firstChild: [DocumentType],
+      lastChild: [Element],
+      _inc: 1996,
+      documentElement: [Element]
+    },
+    data: 'EPISODE 26: Careers in cardiology',
+    nodeValue: 'EPISODE 26: Careers in cardiology',
+    length: 33,
+    parentNode: Element {
+      _nsMap: {},
+      attributes: [Object],
+      childNodes: [Object],
+      ownerDocument: [Document],
+      nodeName: 'strong',
+      tagName: 'strong',
+      namespaceURI: undefined,
+      localName: 'strong',
+      parentNode: [Element],
+      previousSibling: null,
+      nextSibling: null,
+      lineNumber: 415,
+      columnNumber: 1122,
+      firstChild: [Circular *1],
+      lastChild: [Circular *1]
+    },
+    previousSibling: null,
+    nextSibling: null,
+    lineNumber: 415,
+    columnNumber: 1130
+  },
+  <ref *2> Text {
+    ownerDocument: Document {
+      implementation: [Object],
+      childNodes: [Object],
+      doctype: null,
+      documentURI: undefined,
+      firstChild: [DocumentType],
+      lastChild: [Element],
+      _inc: 1996,
+      documentElement: [Element]
+    },
+    data: 'EPISODE 25: INPATIENT PROCEDURES',
+    nodeValue: 'EPISODE 25: INPATIENT PROCEDURES',
+    length: 32,
+    parentNode: Element {
+      _nsMap: {},
+      attributes: [Object],
+      childNodes: [Object],
+      ownerDocument: [Document],
+      nodeName: 'strong',
+      tagName: 'strong',
+      namespaceURI: undefined,
+      localName: 'strong',
+      parentNode: [Element],
+      previousSibling: null,
+      nextSibling: null,
+      lineNumber: 585,
+      columnNumber: 411,
+      firstChild: [Circular *2],
+      lastChild: [Circular *2]
+    },
+    previousSibling: null,
+    nextSibling: null,
+    lineNumber: 585,
+    columnNumber: 419
+  },
+  <ref *3> Text {
+    ownerDocument: Document {
+      implementation: [Object],
+      childNodes: [Object],
+      doctype: null,
+      documentURI: undefined,
+      firstChild: [DocumentType],
+      lastChild: [Element],
+      _inc: 1996,
+      documentElement: [Element]
+    },
+    data: 'EPISODE 24: TACHYARRHYTHMIAS',
+    nodeValue: 'EPISODE 24: TACHYARRHYTHMIAS',
+    length: 28,
+    parentNode: Element {
+      _nsMap: {},
+      attributes: [Object],
+      childNodes: [Object],
+      ownerDocument: [Document],
+      nodeName: 'strong',
+      tagName: 'strong',
+      namespaceURI: undefined,
+      localName: 'strong',
+      parentNode: [Element],
+      previousSibling: null,
+      nextSibling: null,
+      lineNumber: 603,
+      columnNumber: 631,
+      firstChild: [Circular *3],
+      lastChild: [Circular *3]
+    },
+    previousSibling: null,
+    nextSibling: null,
+    lineNumber: 603,
+    columnNumber: 639
+  },
+  <ref *4> Text {
+    ownerDocument: Document {
+      implementation: [Object],
+      childNodes: [Object],
+      doctype: null,
+      documentURI: undefined,
+      firstChild: [DocumentType],
+      lastChild: [Element],
+      _inc: 1996,
+      documentElement: [Element]
+    },
+    data: 'EPISODE 23: ATRIAL FIBRILLATION',
+    nodeValue: 'EPISODE 23: ATRIAL FIBRILLATION',
+    length: 31,
+    parentNode: Element {
+      _nsMap: {},
+      attributes: [Object],
+      childNodes: [Object],
+      ownerDocument: [Document],
+      nodeName: 'strong',
+      tagName: 'strong',
+      namespaceURI: undefined,
+      localName: 'strong',
+      parentNode: [Element],
+      previousSibling: null,
+      nextSibling: null,
+      lineNumber: 858,
+      columnNumber: 231,
+      firstChild: [Circular *4],
+      lastChild: [Circular *4]
+    },
+    previousSibling: null,
+    nextSibling: null,
+    lineNumber: 858,
+    columnNumber: 239
+  },
+  <ref *5> Text {
+    ownerDocument: Document {
+      implementation: [Object],
+      childNodes: [Object],
+      doctype: null,
+      documentURI: undefined,
+      firstChild: [DocumentType],
+      lastChild: [Element],
+      _inc: 1996,
+      documentElement: [Element]
+    },
+    data: 'EPISODE 22: CHEST PAIN, PART 2',
+    nodeValue: 'EPISODE 22: CHEST PAIN, PART 2',
+    length: 30,
+    parentNode: Element {
+      _nsMap: {},
+      attributes: [Object],
+      childNodes: [Object],
+      ownerDocument: [Document],
+      nodeName: 'strong',
+      tagName: 'strong',
+      namespaceURI: undefined,
+      localName: 'strong',
+      parentNode: [Element],
+      previousSibling: null,
+      nextSibling: null,
+      lineNumber: 961,
+      columnNumber: 637,
+      firstChild: [Circular *5],
+      lastChild: [Circular *5]
+    },
+    previousSibling: null,
+    nextSibling: null,
+    lineNumber: 961,
+    columnNumber: 645
+  },
+  <ref *6> Text {
+    ownerDocument: Document {
+      implementation: [Object],
+      childNodes: [Object],
+      doctype: null,
+      documentURI: undefined,
+      firstChild: [DocumentType],
+      lastChild: [Element],
+      _inc: 1996,
+      documentElement: [Element]
+    },
+    data: 'EPISODE 21: CHEST PAIN, PART 1',
+    nodeValue: 'EPISODE 21: CHEST PAIN, PART 1',
+    length: 30,
+    parentNode: Element {
+      _nsMap: {},
+      attributes: [Object],
+      childNodes: [Object],
+      ownerDocument: [Document],
+      nodeName: 'strong',
+      tagName: 'strong',
+      namespaceURI: undefined,
+      localName: 'strong',
+      parentNode: [Element],
+      previousSibling: null,
+      nextSibling: null,
+      lineNumber: 1216,
+      columnNumber: 413,
+      firstChild: [Circular *6],
+      lastChild: [Circular *6]
+    },
+    previousSibling: null,
+    nextSibling: null,
+    lineNumber: 1216,
+    columnNumber: 421
+  },
+  <ref *7> Text {
+    ownerDocument: Document {
+      implementation: [Object],
+      childNodes: [Object],
+      doctype: null,
+      documentURI: undefined,
+      firstChild: [DocumentType],
+      lastChild: [Element],
+      _inc: 1996,
+      documentElement: [Element]
+    },
+    data: 'EPISODE 20: NON-INVASIVE EVALUATION OF CHEST PAIN',
+    nodeValue: 'EPISODE 20: NON-INVASIVE EVALUATION OF CHEST PAIN',
+    length: 49,
+    parentNode: Element {
+      _nsMap: {},
+      attributes: [Object],
+      childNodes: [Object],
+      ownerDocument: [Document],
+      nodeName: 'strong',
+      tagName: 'strong',
+      namespaceURI: undefined,
+      localName: 'strong',
+      parentNode: [Element],
+      previousSibling: null,
+      nextSibling: null,
+      lineNumber: 1319,
+      columnNumber: 856,
+      firstChild: [Circular *7],
+      lastChild: [Circular *7]
+    },
+    previousSibling: null,
+    nextSibling: null,
+    lineNumber: 1319,
+    columnNumber: 864
+  },
+  <ref *8> Text {
+    ownerDocument: Document {
+      implementation: [Object],
+      childNodes: [Object],
+      doctype: null,
+      documentURI: undefined,
+      firstChild: [DocumentType],
+      lastChild: [Element],
+      _inc: 1996,
+      documentElement: [Element]
+    },
+    data: 'EPISODE 19: CARDIAC CAUSES OF SYNCOPE',
+    nodeValue: 'EPISODE 19: CARDIAC CAUSES OF SYNCOPE',
+    length: 37,
+    parentNode: Element {
+      _nsMap: {},
+      attributes: [Object],
+      childNodes: [Object],
+      ownerDocument: [Document],
+      nodeName: 'strong',
+      tagName: 'strong',
+      namespaceURI: undefined,
+      localName: 'strong',
+      parentNode: [Element],
+      previousSibling: null,
+      nextSibling: null,
+      lineNumber: 1574,
+      columnNumber: 408,
+      firstChild: [Circular *8],
+      lastChild: [Circular *8]
+    },
+    previousSibling: null,
+    nextSibling: null,
+    lineNumber: 1574,
+    columnNumber: 416
+  },
+  <ref *9> Text {
+    ownerDocument: Document {
+      implementation: [Object],
+      childNodes: [Object],
+      doctype: null,
+      documentURI: undefined,
+      firstChild: [DocumentType],
+      lastChild: [Element],
+      _inc: 1996,
+      documentElement: [Element]
+    },
+    data: 'EPISODE 18: GENERAL HEART FAILURE MANAGEMENT',
+    nodeValue: 'EPISODE 18: GENERAL HEART FAILURE MANAGEMENT',
+    length: 44,
+    parentNode: Element {
+      _nsMap: {},
+      attributes: [Object],
+      childNodes: [Object],
+      ownerDocument: [Document],
+      nodeName: 'strong',
+      tagName: 'strong',
+      namespaceURI: undefined,
+      localName: 'strong',
+      parentNode: [Element],
+      previousSibling: null,
+      nextSibling: null,
+      lineNumber: 1677,
+      columnNumber: 646,
+      firstChild: [Circular *9],
+      lastChild: [Circular *9]
+    },
+    previousSibling: null,
+    nextSibling: null,
+    lineNumber: 1677,
+    columnNumber: 654
+  },
+  <ref *10> Text {
+    ownerDocument: Document {
+      implementation: [Object],
+      childNodes: [Object],
+      doctype: null,
+      documentURI: undefined,
+      firstChild: [DocumentType],
+      lastChild: [Element],
+      _inc: 1996,
+      documentElement: [Element]
+    },
+    data: 'EPISODE 17: ACUTE DECOMPENSATED HEART FAILURE',
+    nodeValue: 'EPISODE 17: ACUTE DECOMPENSATED HEART FAILURE',
+    length: 45,
+    parentNode: Element {
+      _nsMap: {},
+      attributes: [Object],
+      childNodes: [Object],
+      ownerDocument: [Document],
+      nodeName: 'strong',
+      tagName: 'strong',
+      namespaceURI: undefined,
+      localName: 'strong',
+      parentNode: [Element],
+      previousSibling: null,
+      nextSibling: null,
+      lineNumber: 1932,
+      columnNumber: 419,
+      firstChild: [Circular *10],
+      lastChild: [Circular *10]
+    },
+    previousSibling: null,
+    nextSibling: null,
+    lineNumber: 1932,
+    columnNumber: 427
+  }
+]
+Failed to validate title! [
+  <ref *1> Text {
+    ownerDocument: Document {
+      implementation: [Object],
+      childNodes: [Object],
+      doctype: null,
+      documentURI: undefined,
+      firstChild: [DocumentType],
+      lastChild: [Element],
+      _inc: 1996,
+      documentElement: [Element]
+    },
+    data: 'EPISODE 26: Careers in cardiology',
+    nodeValue: 'EPISODE 26: Careers in cardiology',
+    length: 33,
+    parentNode: Element {
+      _nsMap: {},
+      attributes: [Object],
+      childNodes: [Object],
+      ownerDocument: [Document],
+      nodeName: 'strong',
+      tagName: 'strong',
+      namespaceURI: undefined,
+      localName: 'strong',
+      parentNode: [Element],
+      previousSibling: null,
+      nextSibling: null,
+      lineNumber: 415,
+      columnNumber: 1122,
+      firstChild: [Circular *1],
+      lastChild: [Circular *1]
+    },
+    previousSibling: null,
+    nextSibling: null,
+    lineNumber: 415,
+    columnNumber: 1130
+  },
+  <ref *2> Text {
+    ownerDocument: Document {
+      implementation: [Object],
+      childNodes: [Object],
+      doctype: null,
+      documentURI: undefined,
+      firstChild: [DocumentType],
+      lastChild: [Element],
+      _inc: 1996,
+      documentElement: [Element]
+    },
+    data: 'EPISODE 25: INPATIENT PROCEDURES',
+    nodeValue: 'EPISODE 25: INPATIENT PROCEDURES',
+    length: 32,
+    parentNode: Element {
+      _nsMap: {},
+      attributes: [Object],
+      childNodes: [Object],
+      ownerDocument: [Document],
+      nodeName: 'strong',
+      tagName: 'strong',
+      namespaceURI: undefined,
+      localName: 'strong',
+      parentNode: [Element],
+      previousSibling: null,
+      nextSibling: null,
+      lineNumber: 585,
+      columnNumber: 411,
+      firstChild: [Circular *2],
+      lastChild: [Circular *2]
+    },
+    previousSibling: null,
+    nextSibling: null,
+    lineNumber: 585,
+    columnNumber: 419
+  },
+  <ref *3> Text {
+    ownerDocument: Document {
+      implementation: [Object],
+      childNodes: [Object],
+      doctype: null,
+      documentURI: undefined,
+      firstChild: [DocumentType],
+      lastChild: [Element],
+      _inc: 1996,
+      documentElement: [Element]
+    },
+    data: 'EPISODE 24: TACHYARRHYTHMIAS',
+    nodeValue: 'EPISODE 24: TACHYARRHYTHMIAS',
+    length: 28,
+    parentNode: Element {
+      _nsMap: {},
+      attributes: [Object],
+      childNodes: [Object],
+      ownerDocument: [Document],
+      nodeName: 'strong',
+      tagName: 'strong',
+      namespaceURI: undefined,
+      localName: 'strong',
+      parentNode: [Element],
+      previousSibling: null,
+      nextSibling: null,
+      lineNumber: 603,
+      columnNumber: 631,
+      firstChild: [Circular *3],
+      lastChild: [Circular *3]
+    },
+    previousSibling: null,
+    nextSibling: null,
+    lineNumber: 603,
+    columnNumber: 639
+  },
+  <ref *4> Text {
+    ownerDocument: Document {
+      implementation: [Object],
+      childNodes: [Object],
+      doctype: null,
+      documentURI: undefined,
+      firstChild: [DocumentType],
+      lastChild: [Element],
+      _inc: 1996,
+      documentElement: [Element]
+    },
+    data: 'EPISODE 23: ATRIAL FIBRILLATION',
+    nodeValue: 'EPISODE 23: ATRIAL FIBRILLATION',
+    length: 31,
+    parentNode: Element {
+      _nsMap: {},
+      attributes: [Object],
+      childNodes: [Object],
+      ownerDocument: [Document],
+      nodeName: 'strong',
+      tagName: 'strong',
+      namespaceURI: undefined,
+      localName: 'strong',
+      parentNode: [Element],
+      previousSibling: null,
+      nextSibling: null,
+      lineNumber: 858,
+      columnNumber: 231,
+      firstChild: [Circular *4],
+      lastChild: [Circular *4]
+    },
+    previousSibling: null,
+    nextSibling: null,
+    lineNumber: 858,
+    columnNumber: 239
+  },
+  <ref *5> Text {
+    ownerDocument: Document {
+      implementation: [Object],
+      childNodes: [Object],
+      doctype: null,
+      documentURI: undefined,
+      firstChild: [DocumentType],
+      lastChild: [Element],
+      _inc: 1996,
+      documentElement: [Element]
+    },
+    data: 'EPISODE 22: CHEST PAIN, PART 2',
+    nodeValue: 'EPISODE 22: CHEST PAIN, PART 2',
+    length: 30,
+    parentNode: Element {
+      _nsMap: {},
+      attributes: [Object],
+      childNodes: [Object],
+      ownerDocument: [Document],
+      nodeName: 'strong',
+      tagName: 'strong',
+      namespaceURI: undefined,
+      localName: 'strong',
+      parentNode: [Element],
+      previousSibling: null,
+      nextSibling: null,
+      lineNumber: 961,
+      columnNumber: 637,
+      firstChild: [Circular *5],
+      lastChild: [Circular *5]
+    },
+    previousSibling: null,
+    nextSibling: null,
+    lineNumber: 961,
+    columnNumber: 645
+  },
+  <ref *6> Text {
+    ownerDocument: Document {
+      implementation: [Object],
+      childNodes: [Object],
+      doctype: null,
+      documentURI: undefined,
+      firstChild: [DocumentType],
+      lastChild: [Element],
+      _inc: 1996,
+      documentElement: [Element]
+    },
+    data: 'EPISODE 21: CHEST PAIN, PART 1',
+    nodeValue: 'EPISODE 21: CHEST PAIN, PART 1',
+    length: 30,
+    parentNode: Element {
+      _nsMap: {},
+      attributes: [Object],
+      childNodes: [Object],
+      ownerDocument: [Document],
+      nodeName: 'strong',
+      tagName: 'strong',
+      namespaceURI: undefined,
+      localName: 'strong',
+      parentNode: [Element],
+      previousSibling: null,
+      nextSibling: null,
+      lineNumber: 1216,
+      columnNumber: 413,
+      firstChild: [Circular *6],
+      lastChild: [Circular *6]
+    },
+    previousSibling: null,
+    nextSibling: null,
+    lineNumber: 1216,
+    columnNumber: 421
+  },
+  <ref *7> Text {
+    ownerDocument: Document {
+      implementation: [Object],
+      childNodes: [Object],
+      doctype: null,
+      documentURI: undefined,
+      firstChild: [DocumentType],
+      lastChild: [Element],
+      _inc: 1996,
+      documentElement: [Element]
+    },
+    data: 'EPISODE 20: NON-INVASIVE EVALUATION OF CHEST PAIN',
+    nodeValue: 'EPISODE 20: NON-INVASIVE EVALUATION OF CHEST PAIN',
+    length: 49,
+    parentNode: Element {
+      _nsMap: {},
+      attributes: [Object],
+      childNodes: [Object],
+      ownerDocument: [Document],
+      nodeName: 'strong',
+      tagName: 'strong',
+      namespaceURI: undefined,
+      localName: 'strong',
+      parentNode: [Element],
+      previousSibling: null,
+      nextSibling: null,
+      lineNumber: 1319,
+      columnNumber: 856,
+      firstChild: [Circular *7],
+      lastChild: [Circular *7]
+    },
+    previousSibling: null,
+    nextSibling: null,
+    lineNumber: 1319,
+    columnNumber: 864
+  },
+  <ref *8> Text {
+    ownerDocument: Document {
+      implementation: [Object],
+      childNodes: [Object],
+      doctype: null,
+      documentURI: undefined,
+      firstChild: [DocumentType],
+      lastChild: [Element],
+      _inc: 1996,
+      documentElement: [Element]
+    },
+    data: 'EPISODE 19: CARDIAC CAUSES OF SYNCOPE',
+    nodeValue: 'EPISODE 19: CARDIAC CAUSES OF SYNCOPE',
+    length: 37,
+    parentNode: Element {
+      _nsMap: {},
+      attributes: [Object],
+      childNodes: [Object],
+      ownerDocument: [Document],
+      nodeName: 'strong',
+      tagName: 'strong',
+      namespaceURI: undefined,
+      localName: 'strong',
+      parentNode: [Element],
+      previousSibling: null,
+      nextSibling: null,
+      lineNumber: 1574,
+      columnNumber: 408,
+      firstChild: [Circular *8],
+      lastChild: [Circular *8]
+    },
+    previousSibling: null,
+    nextSibling: null,
+    lineNumber: 1574,
+    columnNumber: 416
+  },
+  <ref *9> Text {
+    ownerDocument: Document {
+      implementation: [Object],
+      childNodes: [Object],
+      doctype: null,
+      documentURI: undefined,
+      firstChild: [DocumentType],
+      lastChild: [Element],
+      _inc: 1996,
+      documentElement: [Element]
+    },
+    data: 'EPISODE 18: GENERAL HEART FAILURE MANAGEMENT',
+    nodeValue: 'EPISODE 18: GENERAL HEART FAILURE MANAGEMENT',
+    length: 44,
+    parentNode: Element {
+      _nsMap: {},
+      attributes: [Object],
+      childNodes: [Object],
+      ownerDocument: [Document],
+      nodeName: 'strong',
+      tagName: 'strong',
+      namespaceURI: undefined,
+      localName: 'strong',
+      parentNode: [Element],
+      previousSibling: null,
+      nextSibling: null,
+      lineNumber: 1677,
+      columnNumber: 646,
+      firstChild: [Circular *9],
+      lastChild: [Circular *9]
+    },
+    previousSibling: null,
+    nextSibling: null,
+    lineNumber: 1677,
+    columnNumber: 654
+  },
+  <ref *10> Text {
+    ownerDocument: Document {
+      implementation: [Object],
+      childNodes: [Object],
+      doctype: null,
+      documentURI: undefined,
+      firstChild: [DocumentType],
+      lastChild: [Element],
+      _inc: 1996,
+      documentElement: [Element]
+    },
+    data: 'EPISODE 17: ACUTE DECOMPENSATED HEART FAILURE',
+    nodeValue: 'EPISODE 17: ACUTE DECOMPENSATED HEART FAILURE',
+    length: 45,
+    parentNode: Element {
+      _nsMap: {},
+      attributes: [Object],
+      childNodes: [Object],
+      ownerDocument: [Document],
+      nodeName: 'strong',
+      tagName: 'strong',
+      namespaceURI: undefined,
+      localName: 'strong',
+      parentNode: [Element],
+      previousSibling: null,
+      nextSibling: null,
+      lineNumber: 1932,
+      columnNumber: 419,
+      firstChild: [Circular *10],
+      lastChild: [Circular *10]
+    },
+    previousSibling: null,
+    nextSibling: null,
+    lineNumber: 1932,
+    columnNumber: 427
+  }
+]
+Failed to validate title! [
+  <ref *1> Text {
+    ownerDocument: Document {
+      implementation: [Object],
+      childNodes: [Object],
+      doctype: null,
+      documentURI: undefined,
+      firstChild: [DocumentType],
+      lastChild: [Element],
+      _inc: 1996,
+      documentElement: [Element]
+    },
+    data: 'EPISODE 26: Careers in cardiology',
+    nodeValue: 'EPISODE 26: Careers in cardiology',
+    length: 33,
+    parentNode: Element {
+      _nsMap: {},
+      attributes: [Object],
+      childNodes: [Object],
+      ownerDocument: [Document],
+      nodeName: 'strong',
+      tagName: 'strong',
+      namespaceURI: undefined,
+      localName: 'strong',
+      parentNode: [Element],
+      previousSibling: null,
+      nextSibling: null,
+      lineNumber: 415,
+      columnNumber: 1122,
+      firstChild: [Circular *1],
+      lastChild: [Circular *1]
+    },
+    previousSibling: null,
+    nextSibling: null,
+    lineNumber: 415,
+    columnNumber: 1130
+  },
+  <ref *2> Text {
+    ownerDocument: Document {
+      implementation: [Object],
+      childNodes: [Object],
+      doctype: null,
+      documentURI: undefined,
+      firstChild: [DocumentType],
+      lastChild: [Element],
+      _inc: 1996,
+      documentElement: [Element]
+    },
+    data: 'EPISODE 25: INPATIENT PROCEDURES',
+    nodeValue: 'EPISODE 25: INPATIENT PROCEDURES',
+    length: 32,
+    parentNode: Element {
+      _nsMap: {},
+      attributes: [Object],
+      childNodes: [Object],
+      ownerDocument: [Document],
+      nodeName: 'strong',
+      tagName: 'strong',
+      namespaceURI: undefined,
+      localName: 'strong',
+      parentNode: [Element],
+      previousSibling: null,
+      nextSibling: null,
+      lineNumber: 585,
+      columnNumber: 411,
+      firstChild: [Circular *2],
+      lastChild: [Circular *2]
+    },
+    previousSibling: null,
+    nextSibling: null,
+    lineNumber: 585,
+    columnNumber: 419
+  },
+  <ref *3> Text {
+    ownerDocument: Document {
+      implementation: [Object],
+      childNodes: [Object],
+      doctype: null,
+      documentURI: undefined,
+      firstChild: [DocumentType],
+      lastChild: [Element],
+      _inc: 1996,
+      documentElement: [Element]
+    },
+    data: 'EPISODE 24: TACHYARRHYTHMIAS',
+    nodeValue: 'EPISODE 24: TACHYARRHYTHMIAS',
+    length: 28,
+    parentNode: Element {
+      _nsMap: {},
+      attributes: [Object],
+      childNodes: [Object],
+      ownerDocument: [Document],
+      nodeName: 'strong',
+      tagName: 'strong',
+      namespaceURI: undefined,
+      localName: 'strong',
+      parentNode: [Element],
+      previousSibling: null,
+      nextSibling: null,
+      lineNumber: 603,
+      columnNumber: 631,
+      firstChild: [Circular *3],
+      lastChild: [Circular *3]
+    },
+    previousSibling: null,
+    nextSibling: null,
+    lineNumber: 603,
+    columnNumber: 639
+  },
+  <ref *4> Text {
+    ownerDocument: Document {
+      implementation: [Object],
+      childNodes: [Object],
+      doctype: null,
+      documentURI: undefined,
+      firstChild: [DocumentType],
+      lastChild: [Element],
+      _inc: 1996,
+      documentElement: [Element]
+    },
+    data: 'EPISODE 23: ATRIAL FIBRILLATION',
+    nodeValue: 'EPISODE 23: ATRIAL FIBRILLATION',
+    length: 31,
+    parentNode: Element {
+      _nsMap: {},
+      attributes: [Object],
+      childNodes: [Object],
+      ownerDocument: [Document],
+      nodeName: 'strong',
+      tagName: 'strong',
+      namespaceURI: undefined,
+      localName: 'strong',
+      parentNode: [Element],
+      previousSibling: null,
+      nextSibling: null,
+      lineNumber: 858,
+      columnNumber: 231,
+      firstChild: [Circular *4],
+      lastChild: [Circular *4]
+    },
+    previousSibling: null,
+    nextSibling: null,
+    lineNumber: 858,
+    columnNumber: 239
+  },
+  <ref *5> Text {
+    ownerDocument: Document {
+      implementation: [Object],
+      childNodes: [Object],
+      doctype: null,
+      documentURI: undefined,
+      firstChild: [DocumentType],
+      lastChild: [Element],
+      _inc: 1996,
+      documentElement: [Element]
+    },
+    data: 'EPISODE 22: CHEST PAIN, PART 2',
+    nodeValue: 'EPISODE 22: CHEST PAIN, PART 2',
+    length: 30,
+    parentNode: Element {
+      _nsMap: {},
+      attributes: [Object],
+      childNodes: [Object],
+      ownerDocument: [Document],
+      nodeName: 'strong',
+      tagName: 'strong',
+      namespaceURI: undefined,
+      localName: 'strong',
+      parentNode: [Element],
+      previousSibling: null,
+      nextSibling: null,
+      lineNumber: 961,
+      columnNumber: 637,
+      firstChild: [Circular *5],
+      lastChild: [Circular *5]
+    },
+    previousSibling: null,
+    nextSibling: null,
+    lineNumber: 961,
+    columnNumber: 645
+  },
+  <ref *6> Text {
+    ownerDocument: Document {
+      implementation: [Object],
+      childNodes: [Object],
+      doctype: null,
+      documentURI: undefined,
+      firstChild: [DocumentType],
+      lastChild: [Element],
+      _inc: 1996,
+      documentElement: [Element]
+    },
+    data: 'EPISODE 21: CHEST PAIN, PART 1',
+    nodeValue: 'EPISODE 21: CHEST PAIN, PART 1',
+    length: 30,
+    parentNode: Element {
+      _nsMap: {},
+      attributes: [Object],
+      childNodes: [Object],
+      ownerDocument: [Document],
+      nodeName: 'strong',
+      tagName: 'strong',
+      namespaceURI: undefined,
+      localName: 'strong',
+      parentNode: [Element],
+      previousSibling: null,
+      nextSibling: null,
+      lineNumber: 1216,
+      columnNumber: 413,
+      firstChild: [Circular *6],
+      lastChild: [Circular *6]
+    },
+    previousSibling: null,
+    nextSibling: null,
+    lineNumber: 1216,
+    columnNumber: 421
+  },
+  <ref *7> Text {
+    ownerDocument: Document {
+      implementation: [Object],
+      childNodes: [Object],
+      doctype: null,
+      documentURI: undefined,
+      firstChild: [DocumentType],
+      lastChild: [Element],
+      _inc: 1996,
+      documentElement: [Element]
+    },
+    data: 'EPISODE 20: NON-INVASIVE EVALUATION OF CHEST PAIN',
+    nodeValue: 'EPISODE 20: NON-INVASIVE EVALUATION OF CHEST PAIN',
+    length: 49,
+    parentNode: Element {
+      _nsMap: {},
+      attributes: [Object],
+      childNodes: [Object],
+      ownerDocument: [Document],
+      nodeName: 'strong',
+      tagName: 'strong',
+      namespaceURI: undefined,
+      localName: 'strong',
+      parentNode: [Element],
+      previousSibling: null,
+      nextSibling: null,
+      lineNumber: 1319,
+      columnNumber: 856,
+      firstChild: [Circular *7],
+      lastChild: [Circular *7]
+    },
+    previousSibling: null,
+    nextSibling: null,
+    lineNumber: 1319,
+    columnNumber: 864
+  },
+  <ref *8> Text {
+    ownerDocument: Document {
+      implementation: [Object],
+      childNodes: [Object],
+      doctype: null,
+      documentURI: undefined,
+      firstChild: [DocumentType],
+      lastChild: [Element],
+      _inc: 1996,
+      documentElement: [Element]
+    },
+    data: 'EPISODE 19: CARDIAC CAUSES OF SYNCOPE',
+    nodeValue: 'EPISODE 19: CARDIAC CAUSES OF SYNCOPE',
+    length: 37,
+    parentNode: Element {
+      _nsMap: {},
+      attributes: [Object],
+      childNodes: [Object],
+      ownerDocument: [Document],
+      nodeName: 'strong',
+      tagName: 'strong',
+      namespaceURI: undefined,
+      localName: 'strong',
+      parentNode: [Element],
+      previousSibling: null,
+      nextSibling: null,
+      lineNumber: 1574,
+      columnNumber: 408,
+      firstChild: [Circular *8],
+      lastChild: [Circular *8]
+    },
+    previousSibling: null,
+    nextSibling: null,
+    lineNumber: 1574,
+    columnNumber: 416
+  },
+  <ref *9> Text {
+    ownerDocument: Document {
+      implementation: [Object],
+      childNodes: [Object],
+      doctype: null,
+      documentURI: undefined,
+      firstChild: [DocumentType],
+      lastChild: [Element],
+      _inc: 1996,
+      documentElement: [Element]
+    },
+    data: 'EPISODE 18: GENERAL HEART FAILURE MANAGEMENT',
+    nodeValue: 'EPISODE 18: GENERAL HEART FAILURE MANAGEMENT',
+    length: 44,
+    parentNode: Element {
+      _nsMap: {},
+      attributes: [Object],
+      childNodes: [Object],
+      ownerDocument: [Document],
+      nodeName: 'strong',
+      tagName: 'strong',
+      namespaceURI: undefined,
+      localName: 'strong',
+      parentNode: [Element],
+      previousSibling: null,
+      nextSibling: null,
+      lineNumber: 1677,
+      columnNumber: 646,
+      firstChild: [Circular *9],
+      lastChild: [Circular *9]
+    },
+    previousSibling: null,
+    nextSibling: null,
+    lineNumber: 1677,
+    columnNumber: 654
+  },
+  <ref *10> Text {
+    ownerDocument: Document {
+      implementation: [Object],
+      childNodes: [Object],
+      doctype: null,
+      documentURI: undefined,
+      firstChild: [DocumentType],
+      lastChild: [Element],
+      _inc: 1996,
+      documentElement: [Element]
+    },
+    data: 'EPISODE 17: ACUTE DECOMPENSATED HEART FAILURE',
+    nodeValue: 'EPISODE 17: ACUTE DECOMPENSATED HEART FAILURE',
+    length: 45,
+    parentNode: Element {
+      _nsMap: {},
+      attributes: [Object],
+      childNodes: [Object],
+      ownerDocument: [Document],
+      nodeName: 'strong',
+      tagName: 'strong',
+      namespaceURI: undefined,
+      localName: 'strong',
+      parentNode: [Element],
+      previousSibling: null,
+      nextSibling: null,
+      lineNumber: 1932,
+      columnNumber: 419,
+      firstChild: [Circular *10],
+      lastChild: [Circular *10]
+    },
+    previousSibling: null,
+    nextSibling: null,
+    lineNumber: 1932,
+    columnNumber: 427
+  }
+]
+[xmldom warning]	unclosed xml attribute 
+@#[line:5,col:3]
+[xmldom warning]	unclosed xml attribute 
+@#[line:7,col:3]
+[xmldom warning]	unclosed xml attribute 
+@#[line:10,col:1]
+[xmldom error]	entity not found:&mdash; 
+@#[line:12,col:1]
+[xmldom error]	entity not found:&mdash; 
+@#[line:16,col:1]
+[xmldom warning]	attribute "defer" missed value!! "defer" instead!! 
+@#[line:31,col:145]
+[xmldom error]	entity not found:&nbsp; 
+@#[line:415,col:1259]
+[xmldom error]	entity not found:&nbsp; 
+@#[line:415,col:1259]
+[xmldom error]	entity not found:&nbsp; 
+@#[line:415,col:1259]
+[xmldom error]	entity not found:&nbsp; 
+@#[line:415,col:1259]
+[xmldom warning]	attribute "data-scrolled" missed value!! "data-scrolled" instead2!! 
+@#[line:531,col:7]
+[xmldom warning]	attribute "data-scrolled" missed value!! "data-scrolled" instead2!! 
+@#[line:596,col:7]
+[xmldom error]	entity not found:&nbsp; 
+@#[line:648,col:315]
+[xmldom error]	entity not found:&nbsp; 
+@#[line:648,col:315]
+[xmldom warning]	attribute "data-scrolled" missed value!! "data-scrolled" instead2!! 
+@#[line:867,col:7]
+[xmldom warning]	attribute "data-scrolled" missed value!! "data-scrolled" instead2!! 
+@#[line:932,col:7]
+Failed to validate title! [
+  <ref *1> Text {
+    ownerDocument: Document {
+      implementation: [Object],
+      childNodes: [Object],
+      doctype: null,
+      documentURI: undefined,
+      firstChild: [DocumentType],
+      lastChild: [Element],
+      _inc: 1238,
+      documentElement: [Element]
+    },
+    data: 'EPISODE 30: ICU MANAGEMENT OF COVID-19',
+    nodeValue: 'EPISODE 30: ICU MANAGEMENT OF COVID-19',
+    length: 38,
+    parentNode: Element {
+      _nsMap: {},
+      attributes: [Object],
+      childNodes: [Object],
+      ownerDocument: [Document],
+      nodeName: 'strong',
+      tagName: 'strong',
+      namespaceURI: undefined,
+      localName: 'strong',
+      parentNode: [Element],
+      previousSibling: null,
+      nextSibling: null,
+      lineNumber: 415,
+      columnNumber: 966,
+      firstChild: [Circular *1],
+      lastChild: [Circular *1]
+    },
+    previousSibling: null,
+    nextSibling: null,
+    lineNumber: 415,
+    columnNumber: 974
+  },
+  <ref *2> Text {
+    ownerDocument: Document {
+      implementation: [Object],
+      childNodes: [Object],
+      doctype: null,
+      documentURI: undefined,
+      firstChild: [DocumentType],
+      lastChild: [Element],
+      _inc: 1238,
+      documentElement: [Element]
+    },
+    data: 'EPISODE 29: Virtual learning during COVID-19',
+    nodeValue: 'EPISODE 29: Virtual learning during COVID-19',
+    length: 44,
+    parentNode: Element {
+      _nsMap: {},
+      attributes: [Object],
+      childNodes: [Object],
+      ownerDocument: [Document],
+      nodeName: 'strong',
+      tagName: 'strong',
+      namespaceURI: undefined,
+      localName: 'strong',
+      parentNode: [Element],
+      previousSibling: null,
+      nextSibling: null,
+      lineNumber: 648,
+      columnNumber: 231,
+      firstChild: [Circular *2],
+      lastChild: [Circular *2]
+    },
+    previousSibling: null,
+    nextSibling: null,
+    lineNumber: 648,
+    columnNumber: 239
+  },
+  <ref *3> Text {
+    ownerDocument: Document {
+      implementation: [Object],
+      childNodes: [Object],
+      doctype: null,
+      documentURI: undefined,
+      firstChild: [DocumentType],
+      lastChild: [Element],
+      _inc: 1238,
+      documentElement: [Element]
+    },
+    data: 'EPISODE 28: STARTING INTERN YEAR DURING A PANDEMIC',
+    nodeValue: 'EPISODE 28: STARTING INTERN YEAR DURING A PANDEMIC',
+    length: 50,
+    parentNode: Element {
+      _nsMap: {},
+      attributes: [Object],
+      childNodes: [Object],
+      ownerDocument: [Document],
+      nodeName: 'strong',
+      tagName: 'strong',
+      namespaceURI: undefined,
+      localName: 'strong',
+      parentNode: [Element],
+      previousSibling: null,
+      nextSibling: null,
+      lineNumber: 751,
+      columnNumber: 633,
+      firstChild: [Circular *3],
+      lastChild: [Circular *3]
+    },
+    previousSibling: null,
+    nextSibling: null,
+    lineNumber: 751,
+    columnNumber: 641
+  },
+  <ref *4> Text {
+    ownerDocument: Document {
+      implementation: [Object],
+      childNodes: [Object],
+      doctype: null,
+      documentURI: undefined,
+      firstChild: [DocumentType],
+      lastChild: [Element],
+      _inc: 1238,
+      documentElement: [Element]
+    },
+    data: 'EPISODE 27: Non-ICU Inpatient Management of COVID-19',
+    nodeValue: 'EPISODE 27: Non-ICU Inpatient Management of COVID-19',
+    length: 52,
+    parentNode: Element {
+      _nsMap: {},
+      attributes: [Object],
+      childNodes: [Object],
+      ownerDocument: [Document],
+      nodeName: 'strong',
+      tagName: 'strong',
+      namespaceURI: undefined,
+      localName: 'strong',
+      parentNode: [Element],
+      previousSibling: null,
+      nextSibling: null,
+      lineNumber: 984,
+      columnNumber: 219,
+      firstChild: [Circular *4],
+      lastChild: [Circular *4]
+    },
+    previousSibling: null,
+    nextSibling: null,
+    lineNumber: 984,
+    columnNumber: 227
+  }
+]
+Failed to validate title! [
+  <ref *1> Text {
+    ownerDocument: Document {
+      implementation: [Object],
+      childNodes: [Object],
+      doctype: null,
+      documentURI: undefined,
+      firstChild: [DocumentType],
+      lastChild: [Element],
+      _inc: 1238,
+      documentElement: [Element]
+    },
+    data: 'EPISODE 30: ICU MANAGEMENT OF COVID-19',
+    nodeValue: 'EPISODE 30: ICU MANAGEMENT OF COVID-19',
+    length: 38,
+    parentNode: Element {
+      _nsMap: {},
+      attributes: [Object],
+      childNodes: [Object],
+      ownerDocument: [Document],
+      nodeName: 'strong',
+      tagName: 'strong',
+      namespaceURI: undefined,
+      localName: 'strong',
+      parentNode: [Element],
+      previousSibling: null,
+      nextSibling: null,
+      lineNumber: 415,
+      columnNumber: 966,
+      firstChild: [Circular *1],
+      lastChild: [Circular *1]
+    },
+    previousSibling: null,
+    nextSibling: null,
+    lineNumber: 415,
+    columnNumber: 974
+  },
+  <ref *2> Text {
+    ownerDocument: Document {
+      implementation: [Object],
+      childNodes: [Object],
+      doctype: null,
+      documentURI: undefined,
+      firstChild: [DocumentType],
+      lastChild: [Element],
+      _inc: 1238,
+      documentElement: [Element]
+    },
+    data: 'EPISODE 29: Virtual learning during COVID-19',
+    nodeValue: 'EPISODE 29: Virtual learning during COVID-19',
+    length: 44,
+    parentNode: Element {
+      _nsMap: {},
+      attributes: [Object],
+      childNodes: [Object],
+      ownerDocument: [Document],
+      nodeName: 'strong',
+      tagName: 'strong',
+      namespaceURI: undefined,
+      localName: 'strong',
+      parentNode: [Element],
+      previousSibling: null,
+      nextSibling: null,
+      lineNumber: 648,
+      columnNumber: 231,
+      firstChild: [Circular *2],
+      lastChild: [Circular *2]
+    },
+    previousSibling: null,
+    nextSibling: null,
+    lineNumber: 648,
+    columnNumber: 239
+  },
+  <ref *3> Text {
+    ownerDocument: Document {
+      implementation: [Object],
+      childNodes: [Object],
+      doctype: null,
+      documentURI: undefined,
+      firstChild: [DocumentType],
+      lastChild: [Element],
+      _inc: 1238,
+      documentElement: [Element]
+    },
+    data: 'EPISODE 28: STARTING INTERN YEAR DURING A PANDEMIC',
+    nodeValue: 'EPISODE 28: STARTING INTERN YEAR DURING A PANDEMIC',
+    length: 50,
+    parentNode: Element {
+      _nsMap: {},
+      attributes: [Object],
+      childNodes: [Object],
+      ownerDocument: [Document],
+      nodeName: 'strong',
+      tagName: 'strong',
+      namespaceURI: undefined,
+      localName: 'strong',
+      parentNode: [Element],
+      previousSibling: null,
+      nextSibling: null,
+      lineNumber: 751,
+      columnNumber: 633,
+      firstChild: [Circular *3],
+      lastChild: [Circular *3]
+    },
+    previousSibling: null,
+    nextSibling: null,
+    lineNumber: 751,
+    columnNumber: 641
+  },
+  <ref *4> Text {
+    ownerDocument: Document {
+      implementation: [Object],
+      childNodes: [Object],
+      doctype: null,
+      documentURI: undefined,
+      firstChild: [DocumentType],
+      lastChild: [Element],
+      _inc: 1238,
+      documentElement: [Element]
+    },
+    data: 'EPISODE 27: Non-ICU Inpatient Management of COVID-19',
+    nodeValue: 'EPISODE 27: Non-ICU Inpatient Management of COVID-19',
+    length: 52,
+    parentNode: Element {
+      _nsMap: {},
+      attributes: [Object],
+      childNodes: [Object],
+      ownerDocument: [Document],
+      nodeName: 'strong',
+      tagName: 'strong',
+      namespaceURI: undefined,
+      localName: 'strong',
+      parentNode: [Element],
+      previousSibling: null,
+      nextSibling: null,
+      lineNumber: 984,
+      columnNumber: 219,
+      firstChild: [Circular *4],
+      lastChild: [Circular *4]
+    },
+    previousSibling: null,
+    nextSibling: null,
+    lineNumber: 984,
+    columnNumber: 227
+  }
+]
+Failed to validate title! [
+  <ref *1> Text {
+    ownerDocument: Document {
+      implementation: [Object],
+      childNodes: [Object],
+      doctype: null,
+      documentURI: undefined,
+      firstChild: [DocumentType],
+      lastChild: [Element],
+      _inc: 1238,
+      documentElement: [Element]
+    },
+    data: 'EPISODE 30: ICU MANAGEMENT OF COVID-19',
+    nodeValue: 'EPISODE 30: ICU MANAGEMENT OF COVID-19',
+    length: 38,
+    parentNode: Element {
+      _nsMap: {},
+      attributes: [Object],
+      childNodes: [Object],
+      ownerDocument: [Document],
+      nodeName: 'strong',
+      tagName: 'strong',
+      namespaceURI: undefined,
+      localName: 'strong',
+      parentNode: [Element],
+      previousSibling: null,
+      nextSibling: null,
+      lineNumber: 415,
+      columnNumber: 966,
+      firstChild: [Circular *1],
+      lastChild: [Circular *1]
+    },
+    previousSibling: null,
+    nextSibling: null,
+    lineNumber: 415,
+    columnNumber: 974
+  },
+  <ref *2> Text {
+    ownerDocument: Document {
+      implementation: [Object],
+      childNodes: [Object],
+      doctype: null,
+      documentURI: undefined,
+      firstChild: [DocumentType],
+      lastChild: [Element],
+      _inc: 1238,
+      documentElement: [Element]
+    },
+    data: 'EPISODE 29: Virtual learning during COVID-19',
+    nodeValue: 'EPISODE 29: Virtual learning during COVID-19',
+    length: 44,
+    parentNode: Element {
+      _nsMap: {},
+      attributes: [Object],
+      childNodes: [Object],
+      ownerDocument: [Document],
+      nodeName: 'strong',
+      tagName: 'strong',
+      namespaceURI: undefined,
+      localName: 'strong',
+      parentNode: [Element],
+      previousSibling: null,
+      nextSibling: null,
+      lineNumber: 648,
+      columnNumber: 231,
+      firstChild: [Circular *2],
+      lastChild: [Circular *2]
+    },
+    previousSibling: null,
+    nextSibling: null,
+    lineNumber: 648,
+    columnNumber: 239
+  },
+  <ref *3> Text {
+    ownerDocument: Document {
+      implementation: [Object],
+      childNodes: [Object],
+      doctype: null,
+      documentURI: undefined,
+      firstChild: [DocumentType],
+      lastChild: [Element],
+      _inc: 1238,
+      documentElement: [Element]
+    },
+    data: 'EPISODE 28: STARTING INTERN YEAR DURING A PANDEMIC',
+    nodeValue: 'EPISODE 28: STARTING INTERN YEAR DURING A PANDEMIC',
+    length: 50,
+    parentNode: Element {
+      _nsMap: {},
+      attributes: [Object],
+      childNodes: [Object],
+      ownerDocument: [Document],
+      nodeName: 'strong',
+      tagName: 'strong',
+      namespaceURI: undefined,
+      localName: 'strong',
+      parentNode: [Element],
+      previousSibling: null,
+      nextSibling: null,
+      lineNumber: 751,
+      columnNumber: 633,
+      firstChild: [Circular *3],
+      lastChild: [Circular *3]
+    },
+    previousSibling: null,
+    nextSibling: null,
+    lineNumber: 751,
+    columnNumber: 641
+  },
+  <ref *4> Text {
+    ownerDocument: Document {
+      implementation: [Object],
+      childNodes: [Object],
+      doctype: null,
+      documentURI: undefined,
+      firstChild: [DocumentType],
+      lastChild: [Element],
+      _inc: 1238,
+      documentElement: [Element]
+    },
+    data: 'EPISODE 27: Non-ICU Inpatient Management of COVID-19',
+    nodeValue: 'EPISODE 27: Non-ICU Inpatient Management of COVID-19',
+    length: 52,
+    parentNode: Element {
+      _nsMap: {},
+      attributes: [Object],
+      childNodes: [Object],
+      ownerDocument: [Document],
+      nodeName: 'strong',
+      tagName: 'strong',
+      namespaceURI: undefined,
+      localName: 'strong',
+      parentNode: [Element],
+      previousSibling: null,
+      nextSibling: null,
+      lineNumber: 984,
+      columnNumber: 219,
+      firstChild: [Circular *4],
+      lastChild: [Circular *4]
+    },
+    previousSibling: null,
+    nextSibling: null,
+    lineNumber: 984,
+    columnNumber: 227
+  }
+]
+Failed to validate title! [
+  <ref *1> Text {
+    ownerDocument: Document {
+      implementation: [Object],
+      childNodes: [Object],
+      doctype: null,
+      documentURI: undefined,
+      firstChild: [DocumentType],
+      lastChild: [Element],
+      _inc: 1238,
+      documentElement: [Element]
+    },
+    data: 'EPISODE 30: ICU MANAGEMENT OF COVID-19',
+    nodeValue: 'EPISODE 30: ICU MANAGEMENT OF COVID-19',
+    length: 38,
+    parentNode: Element {
+      _nsMap: {},
+      attributes: [Object],
+      childNodes: [Object],
+      ownerDocument: [Document],
+      nodeName: 'strong',
+      tagName: 'strong',
+      namespaceURI: undefined,
+      localName: 'strong',
+      parentNode: [Element],
+      previousSibling: null,
+      nextSibling: null,
+      lineNumber: 415,
+      columnNumber: 966,
+      firstChild: [Circular *1],
+      lastChild: [Circular *1]
+    },
+    previousSibling: null,
+    nextSibling: null,
+    lineNumber: 415,
+    columnNumber: 974
+  },
+  <ref *2> Text {
+    ownerDocument: Document {
+      implementation: [Object],
+      childNodes: [Object],
+      doctype: null,
+      documentURI: undefined,
+      firstChild: [DocumentType],
+      lastChild: [Element],
+      _inc: 1238,
+      documentElement: [Element]
+    },
+    data: 'EPISODE 29: Virtual learning during COVID-19',
+    nodeValue: 'EPISODE 29: Virtual learning during COVID-19',
+    length: 44,
+    parentNode: Element {
+      _nsMap: {},
+      attributes: [Object],
+      childNodes: [Object],
+      ownerDocument: [Document],
+      nodeName: 'strong',
+      tagName: 'strong',
+      namespaceURI: undefined,
+      localName: 'strong',
+      parentNode: [Element],
+      previousSibling: null,
+      nextSibling: null,
+      lineNumber: 648,
+      columnNumber: 231,
+      firstChild: [Circular *2],
+      lastChild: [Circular *2]
+    },
+    previousSibling: null,
+    nextSibling: null,
+    lineNumber: 648,
+    columnNumber: 239
+  },
+  <ref *3> Text {
+    ownerDocument: Document {
+      implementation: [Object],
+      childNodes: [Object],
+      doctype: null,
+      documentURI: undefined,
+      firstChild: [DocumentType],
+      lastChild: [Element],
+      _inc: 1238,
+      documentElement: [Element]
+    },
+    data: 'EPISODE 28: STARTING INTERN YEAR DURING A PANDEMIC',
+    nodeValue: 'EPISODE 28: STARTING INTERN YEAR DURING A PANDEMIC',
+    length: 50,
+    parentNode: Element {
+      _nsMap: {},
+      attributes: [Object],
+      childNodes: [Object],
+      ownerDocument: [Document],
+      nodeName: 'strong',
+      tagName: 'strong',
+      namespaceURI: undefined,
+      localName: 'strong',
+      parentNode: [Element],
+      previousSibling: null,
+      nextSibling: null,
+      lineNumber: 751,
+      columnNumber: 633,
+      firstChild: [Circular *3],
+      lastChild: [Circular *3]
+    },
+    previousSibling: null,
+    nextSibling: null,
+    lineNumber: 751,
+    columnNumber: 641
+  },
+  <ref *4> Text {
+    ownerDocument: Document {
+      implementation: [Object],
+      childNodes: [Object],
+      doctype: null,
+      documentURI: undefined,
+      firstChild: [DocumentType],
+      lastChild: [Element],
+      _inc: 1238,
+      documentElement: [Element]
+    },
+    data: 'EPISODE 27: Non-ICU Inpatient Management of COVID-19',
+    nodeValue: 'EPISODE 27: Non-ICU Inpatient Management of COVID-19',
+    length: 52,
+    parentNode: Element {
+      _nsMap: {},
+      attributes: [Object],
+      childNodes: [Object],
+      ownerDocument: [Document],
+      nodeName: 'strong',
+      tagName: 'strong',
+      namespaceURI: undefined,
+      localName: 'strong',
+      parentNode: [Element],
+      previousSibling: null,
+      nextSibling: null,
+      lineNumber: 984,
+      columnNumber: 219,
+      firstChild: [Circular *4],
+      lastChild: [Circular *4]
+    },
+    previousSibling: null,
+    nextSibling: null,
+    lineNumber: 984,
+    columnNumber: 227
+  }
+]
+Failed to validate title! [
+  <ref *1> Text {
+    ownerDocument: Document {
+      implementation: [Object],
+      childNodes: [Object],
+      doctype: null,
+      documentURI: undefined,
+      firstChild: [DocumentType],
+      lastChild: [Element],
+      _inc: 1238,
+      documentElement: [Element]
+    },
+    data: 'EPISODE 30: ICU MANAGEMENT OF COVID-19',
+    nodeValue: 'EPISODE 30: ICU MANAGEMENT OF COVID-19',
+    length: 38,
+    parentNode: Element {
+      _nsMap: {},
+      attributes: [Object],
+      childNodes: [Object],
+      ownerDocument: [Document],
+      nodeName: 'strong',
+      tagName: 'strong',
+      namespaceURI: undefined,
+      localName: 'strong',
+      parentNode: [Element],
+      previousSibling: null,
+      nextSibling: null,
+      lineNumber: 415,
+      columnNumber: 966,
+      firstChild: [Circular *1],
+      lastChild: [Circular *1]
+    },
+    previousSibling: null,
+    nextSibling: null,
+    lineNumber: 415,
+    columnNumber: 974
+  },
+  <ref *2> Text {
+    ownerDocument: Document {
+      implementation: [Object],
+      childNodes: [Object],
+      doctype: null,
+      documentURI: undefined,
+      firstChild: [DocumentType],
+      lastChild: [Element],
+      _inc: 1238,
+      documentElement: [Element]
+    },
+    data: 'EPISODE 29: Virtual learning during COVID-19',
+    nodeValue: 'EPISODE 29: Virtual learning during COVID-19',
+    length: 44,
+    parentNode: Element {
+      _nsMap: {},
+      attributes: [Object],
+      childNodes: [Object],
+      ownerDocument: [Document],
+      nodeName: 'strong',
+      tagName: 'strong',
+      namespaceURI: undefined,
+      localName: 'strong',
+      parentNode: [Element],
+      previousSibling: null,
+      nextSibling: null,
+      lineNumber: 648,
+      columnNumber: 231,
+      firstChild: [Circular *2],
+      lastChild: [Circular *2]
+    },
+    previousSibling: null,
+    nextSibling: null,
+    lineNumber: 648,
+    columnNumber: 239
+  },
+  <ref *3> Text {
+    ownerDocument: Document {
+      implementation: [Object],
+      childNodes: [Object],
+      doctype: null,
+      documentURI: undefined,
+      firstChild: [DocumentType],
+      lastChild: [Element],
+      _inc: 1238,
+      documentElement: [Element]
+    },
+    data: 'EPISODE 28: STARTING INTERN YEAR DURING A PANDEMIC',
+    nodeValue: 'EPISODE 28: STARTING INTERN YEAR DURING A PANDEMIC',
+    length: 50,
+    parentNode: Element {
+      _nsMap: {},
+      attributes: [Object],
+      childNodes: [Object],
+      ownerDocument: [Document],
+      nodeName: 'strong',
+      tagName: 'strong',
+      namespaceURI: undefined,
+      localName: 'strong',
+      parentNode: [Element],
+      previousSibling: null,
+      nextSibling: null,
+      lineNumber: 751,
+      columnNumber: 633,
+      firstChild: [Circular *3],
+      lastChild: [Circular *3]
+    },
+    previousSibling: null,
+    nextSibling: null,
+    lineNumber: 751,
+    columnNumber: 641
+  },
+  <ref *4> Text {
+    ownerDocument: Document {
+      implementation: [Object],
+      childNodes: [Object],
+      doctype: null,
+      documentURI: undefined,
+      firstChild: [DocumentType],
+      lastChild: [Element],
+      _inc: 1238,
+      documentElement: [Element]
+    },
+    data: 'EPISODE 27: Non-ICU Inpatient Management of COVID-19',
+    nodeValue: 'EPISODE 27: Non-ICU Inpatient Management of COVID-19',
+    length: 52,
+    parentNode: Element {
+      _nsMap: {},
+      attributes: [Object],
+      childNodes: [Object],
+      ownerDocument: [Document],
+      nodeName: 'strong',
+      tagName: 'strong',
+      namespaceURI: undefined,
+      localName: 'strong',
+      parentNode: [Element],
+      previousSibling: null,
+      nextSibling: null,
+      lineNumber: 984,
+      columnNumber: 219,
+      firstChild: [Circular *4],
+      lastChild: [Circular *4]
+    },
+    previousSibling: null,
+    nextSibling: null,
+    lineNumber: 984,
+    columnNumber: 227
+  }
+]
+[xmldom warning]	unclosed xml attribute 
+@#[line:5,col:3]
+[xmldom warning]	unclosed xml attribute 
+@#[line:7,col:3]
+[xmldom warning]	unclosed xml attribute 
+@#[line:10,col:1]
+[xmldom error]	entity not found:&mdash; 
+@#[line:12,col:1]
+[xmldom error]	entity not found:&mdash; 
+@#[line:16,col:1]
+[xmldom warning]	attribute "defer" missed value!! "defer" instead!! 
+@#[line:31,col:145]
+[xmldom error]	entity not found:&nbsp; 
+@#[line:491,col:307]
+[xmldom error]	entity not found:&nbsp; 
+@#[line:509,col:696]
+[xmldom error]	entity not found:&nbsp; 
+@#[line:509,col:696]
+[xmldom error]	entity not found:&nbsp; 
+@#[line:509,col:696]
+[xmldom error]	entity not found:&nbsp; 
+@#[line:509,col:696]
+[xmldom error]	entity not found:&nbsp; 
+@#[line:764,col:304]
+[xmldom error]	entity not found:&nbsp; 
+@#[line:764,col:304]
+[xmldom error]	entity not found:&nbsp; 
+@#[line:867,col:726]
+[xmldom error]	entity not found:&nbsp; 
+@#[line:867,col:726]
+[xmldom error]	entity not found:&nbsp; 
+@#[line:867,col:726]
+[xmldom error]	entity not found:&nbsp; 
+@#[line:1122,col:312]
+[xmldom error]	entity not found:&nbsp; 
+@#[line:1122,col:312]
+[xmldom error]	entity not found:&nbsp; 
+@#[line:1122,col:312]
+[xmldom error]	entity not found:&nbsp; 
+@#[line:1122,col:312]
+[xmldom error]	entity not found:&nbsp; 
+@#[line:1480,col:295]
+[xmldom error]	entity not found:&nbsp; 
+@#[line:1480,col:295]
+[xmldom error]	entity not found:&nbsp; 
+@#[line:1480,col:295]
+[xmldom error]	entity not found:&nbsp; 
+@#[line:1583,col:705]
+[xmldom error]	entity not found:&nbsp; 
+@#[line:1583,col:705]
+[xmldom error]	entity not found:&nbsp; 
+@#[line:1583,col:705]
+[xmldom warning]	attribute "data-scrolled" missed value!! "data-scrolled" instead2!! 
+@#[line:1699,col:7]
+[xmldom warning]	attribute "data-scrolled" missed value!! "data-scrolled" instead2!! 
+@#[line:1764,col:7]
+[xmldom error]	entity not found:&nbsp; 
+@#[line:1919,col:705]
+[xmldom warning]	attribute "data-scrolled" missed value!! "data-scrolled" instead2!! 
+@#[line:2035,col:7]
+[xmldom error]	entity not found:&nbsp; 
+@#[line:2087,col:227]
+[xmldom error]	entity not found:&nbsp; 
+@#[line:2087,col:436]
+[xmldom error]	entity not found:&nbsp; 
+@#[line:2087,col:605]
+[xmldom error]	entity not found:&nbsp; 
+@#[line:2117,col:184]
+Something went wrong!  TypeError: Cannot read property 'attributes' of undefined
+    at genEpisodesFromCategoryPage (/Users/omergoldberg/dev/rtl/scraper/scrapeRTL.js:137:31)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async genHomepage (/Users/omergoldberg/dev/rtl/scraper/scrapeRTL.js:172:30)
+Failed to validate title! [
+  <ref *1> Text {
+    ownerDocument: Document {
+      implementation: [Object],
+      childNodes: [Object],
+      doctype: null,
+      documentURI: undefined,
+      firstChild: [DocumentType],
+      lastChild: [Element],
+      _inc: 2151,
+      documentElement: [Element]
+    },
+    data: 'Episode 41: Careers in endocrinology',
+    nodeValue: 'Episode 41: Careers in endocrinology',
+    length: 36,
+    parentNode: Element {
+      _nsMap: {},
+      attributes: [Object],
+      childNodes: [Object],
+      ownerDocument: [Document],
+      nodeName: 'strong',
+      tagName: 'strong',
+      namespaceURI: undefined,
+      localName: 'strong',
+      parentNode: [Element],
+      previousSibling: null,
+      nextSibling: null,
+      lineNumber: 491,
+      columnNumber: 231,
+      firstChild: [Circular *1],
+      lastChild: [Circular *1]
+    },
+    previousSibling: null,
+    nextSibling: null,
+    lineNumber: 491,
+    columnNumber: 239
+  },
+  <ref *2> Text {
+    ownerDocument: Document {
+      implementation: [Object],
+      childNodes: [Object],
+      doctype: null,
+      documentURI: undefined,
+      firstChild: [DocumentType],
+      lastChild: [Element],
+      _inc: 2151,
+      documentElement: [Element]
+    },
+    data: 'Episode 40: Transgender health',
+    nodeValue: 'Episode 40: Transgender health',
+    length: 30,
+    parentNode: Element {
+      _nsMap: {},
+      attributes: [Object],
+      childNodes: [Object],
+      ownerDocument: [Document],
+      nodeName: 'strong',
+      tagName: 'strong',
+      namespaceURI: undefined,
+      localName: 'strong',
+      parentNode: [Element],
+      previousSibling: null,
+      nextSibling: null,
+      lineNumber: 509,
+      columnNumber: 626,
+      firstChild: [Circular *2],
+      lastChild: [Circular *2]
+    },
+    previousSibling: null,
+    nextSibling: null,
+    lineNumber: 509,
+    columnNumber: 634
+  },
+  <ref *3> Text {
+    ownerDocument: Document {
+      implementation: [Object],
+      childNodes: [Object],
+      doctype: null,
+      documentURI: undefined,
+      firstChild: [DocumentType],
+      lastChild: [Element],
+      _inc: 2151,
+      documentElement: [Element]
+    },
+    data: 'Episode 39: Adrenal insufficiency',
+    nodeValue: 'Episode 39: Adrenal insufficiency',
+    length: 33,
+    parentNode: Element {
+      _nsMap: {},
+      attributes: [Object],
+      childNodes: [Object],
+      ownerDocument: [Document],
+      nodeName: 'strong',
+      tagName: 'strong',
+      namespaceURI: undefined,
+      localName: 'strong',
+      parentNode: [Element],
+      previousSibling: null,
+      nextSibling: null,
+      lineNumber: 764,
+      columnNumber: 231,
+      firstChild: [Circular *3],
+      lastChild: [Circular *3]
+    },
+    previousSibling: null,
+    nextSibling: null,
+    lineNumber: 764,
+    columnNumber: 239
+  },
+  <ref *4> Text {
+    ownerDocument: Document {
+      implementation: [Object],
+      childNodes: [Object],
+      doctype: null,
+      documentURI: undefined,
+      firstChild: [DocumentType],
+      lastChild: [Element],
+      _inc: 2151,
+      documentElement: [Element]
+    },
+    data: 'Episode 38: ACUTE HYPERGLYCEMIC EPISODES',
+    nodeValue: 'Episode 38: ACUTE HYPERGLYCEMIC EPISODES',
+    length: 40,
+    parentNode: Element {
+      _nsMap: {},
+      attributes: [Object],
+      childNodes: [Object],
+      ownerDocument: [Document],
+      nodeName: 'strong',
+      tagName: 'strong',
+      namespaceURI: undefined,
+      localName: 'strong',
+      parentNode: [Element],
+      previousSibling: null,
+      nextSibling: null,
+      lineNumber: 867,
+      columnNumber: 646,
+      firstChild: [Circular *4],
+      lastChild: [Circular *4]
+    },
+    previousSibling: null,
+    nextSibling: null,
+    lineNumber: 867,
+    columnNumber: 654
+  },
+  <ref *5> Text {
+    ownerDocument: Document {
+      implementation: [Object],
+      childNodes: [Object],
+      doctype: null,
+      documentURI: undefined,
+      firstChild: [DocumentType],
+      lastChild: [Element],
+      _inc: 2151,
+      documentElement: [Element]
+    },
+    data: 'Episode 37: INpatient Diabetes Management',
+    nodeValue: 'Episode 37: INpatient Diabetes Management',
+    length: 41,
+    parentNode: Element {
+      _nsMap: {},
+      attributes: [Object],
+      childNodes: [Object],
+      ownerDocument: [Document],
+      nodeName: 'strong',
+      tagName: 'strong',
+      namespaceURI: undefined,
+      localName: 'strong',
+      parentNode: [Element],
+      previousSibling: null,
+      nextSibling: null,
+      lineNumber: 1122,
+      columnNumber: 231,
+      firstChild: [Circular *5],
+      lastChild: [Circular *5]
+    },
+    previousSibling: null,
+    nextSibling: null,
+    lineNumber: 1122,
+    columnNumber: 239
+  },
+  <ref *6> Text {
+    ownerDocument: Document {
+      implementation: [Object],
+      childNodes: [Object],
+      doctype: null,
+      documentURI: undefined,
+      firstChild: [DocumentType],
+      lastChild: [Element],
+      _inc: 2151,
+      documentElement: [Element]
+    },
+    data: 'Episode 36: Outpatient Type 2 Diabetes Management',
+    nodeValue: 'Episode 36: Outpatient Type 2 Diabetes Management',
+    length: 49,
+    parentNode: Element {
+      _nsMap: {},
+      attributes: [Object],
+      childNodes: [Object],
+      ownerDocument: [Document],
+      nodeName: 'strong',
+      tagName: 'strong',
+      namespaceURI: undefined,
+      localName: 'strong',
+      parentNode: [Element],
+      previousSibling: null,
+      nextSibling: null,
+      lineNumber: 1225,
+      columnNumber: 643,
+      firstChild: [Circular *6],
+      lastChild: [Circular *6]
+    },
+    previousSibling: null,
+    nextSibling: null,
+    lineNumber: 1225,
+    columnNumber: 651
+  },
+  <ref *7> Text {
+    ownerDocument: Document {
+      implementation: [Object],
+      childNodes: [Object],
+      doctype: null,
+      documentURI: undefined,
+      firstChild: [DocumentType],
+      lastChild: [Element],
+      _inc: 2151,
+      documentElement: [Element]
+    },
+    data: 'EPISODE 35: HYPoCALCEMIA',
+    nodeValue: 'EPISODE 35: HYPoCALCEMIA',
+    length: 24,
+    parentNode: Element {
+      _nsMap: {},
+      attributes: [Object],
+      childNodes: [Object],
+      ownerDocument: [Document],
+      nodeName: 'strong',
+      tagName: 'strong',
+      namespaceURI: undefined,
+      localName: 'strong',
+      parentNode: [Element],
+      previousSibling: null,
+      nextSibling: null,
+      lineNumber: 1480,
+      columnNumber: 231,
+      firstChild: [Circular *7],
+      lastChild: [Circular *7]
+    },
+    previousSibling: null,
+    nextSibling: null,
+    lineNumber: 1480,
+    columnNumber: 239
+  },
+  <ref *8> Text {
+    ownerDocument: Document {
+      implementation: [Object],
+      childNodes: [Object],
+      doctype: null,
+      documentURI: undefined,
+      firstChild: [DocumentType],
+      lastChild: [Element],
+      _inc: 2151,
+      documentElement: [Element]
+    },
+    data: 'EPISODE 33: HYPERCALCEMIA',
+    nodeValue: 'EPISODE 33: HYPERCALCEMIA',
+    length: 25,
+    parentNode: Element {
+      _nsMap: {},
+      attributes: [Object],
+      childNodes: [Object],
+      ownerDocument: [Document],
+      nodeName: 'strong',
+      tagName: 'strong',
+      namespaceURI: undefined,
+      localName: 'strong',
+      parentNode: [Element],
+      previousSibling: null,
+      nextSibling: null,
+      lineNumber: 1583,
+      columnNumber: 640,
+      firstChild: [Circular *8],
+      lastChild: [Circular *8]
+    },
+    previousSibling: null,
+    nextSibling: null,
+    lineNumber: 1583,
+    columnNumber: 648
+  },
+  <ref *9> Text {
+    ownerDocument: Document {
+      implementation: [Object],
+      childNodes: [Object],
+      doctype: null,
+      documentURI: undefined,
+      firstChild: [DocumentType],
+      lastChild: [Element],
+      _inc: 2151,
+      documentElement: [Element]
+    },
+    data: 'EPISODE 32: HYPERTHYROIDISM',
+    nodeValue: 'EPISODE 32: HYPERTHYROIDISM',
+    length: 27,
+    parentNode: Element {
+      _nsMap: {},
+      attributes: [Object],
+      childNodes: [Object],
+      ownerDocument: [Document],
+      nodeName: 'strong',
+      tagName: 'strong',
+      namespaceURI: undefined,
+      localName: 'strong',
+      parentNode: [Element],
+      previousSibling: null,
+      nextSibling: null,
+      lineNumber: 1816,
+      columnNumber: 230,
+      firstChild: [Circular *9],
+      lastChild: [Circular *9]
+    },
+    previousSibling: null,
+    nextSibling: null,
+    lineNumber: 1816,
+    columnNumber: 238
+  },
+  <ref *10> Text {
+    ownerDocument: Document {
+      implementation: [Object],
+      childNodes: [Object],
+      doctype: null,
+      documentURI: undefined,
+      firstChild: [DocumentType],
+      lastChild: [Element],
+      _inc: 2151,
+      documentElement: [Element]
+    },
+    data: 'EPISODE 31: HYPOTHYROIDISM',
+    nodeValue: 'EPISODE 31: HYPOTHYROIDISM',
+    length: 26,
+    parentNode: Element {
+      _nsMap: {},
+      attributes: [Object],
+      childNodes: [Object],
+      ownerDocument: [Document],
+      nodeName: 'strong',
+      tagName: 'strong',
+      namespaceURI: undefined,
+      localName: 'strong',
+      parentNode: [Element],
+      previousSibling: null,
+      nextSibling: null,
+      lineNumber: 1919,
+      columnNumber: 639,
+      firstChild: [Circular *10],
+      lastChild: [Circular *10]
+    },
+    previousSibling: null,
+    nextSibling: null,
+    lineNumber: 1919,
+    columnNumber: 647
+  }
+]
+Failed to validate title! [
+  <ref *1> Text {
+    ownerDocument: Document {
+      implementation: [Object],
+      childNodes: [Object],
+      doctype: null,
+      documentURI: undefined,
+      firstChild: [DocumentType],
+      lastChild: [Element],
+      _inc: 2151,
+      documentElement: [Element]
+    },
+    data: 'Episode 41: Careers in endocrinology',
+    nodeValue: 'Episode 41: Careers in endocrinology',
+    length: 36,
+    parentNode: Element {
+      _nsMap: {},
+      attributes: [Object],
+      childNodes: [Object],
+      ownerDocument: [Document],
+      nodeName: 'strong',
+      tagName: 'strong',
+      namespaceURI: undefined,
+      localName: 'strong',
+      parentNode: [Element],
+      previousSibling: null,
+      nextSibling: null,
+      lineNumber: 491,
+      columnNumber: 231,
+      firstChild: [Circular *1],
+      lastChild: [Circular *1]
+    },
+    previousSibling: null,
+    nextSibling: null,
+    lineNumber: 491,
+    columnNumber: 239
+  },
+  <ref *2> Text {
+    ownerDocument: Document {
+      implementation: [Object],
+      childNodes: [Object],
+      doctype: null,
+      documentURI: undefined,
+      firstChild: [DocumentType],
+      lastChild: [Element],
+      _inc: 2151,
+      documentElement: [Element]
+    },
+    data: 'Episode 40: Transgender health',
+    nodeValue: 'Episode 40: Transgender health',
+    length: 30,
+    parentNode: Element {
+      _nsMap: {},
+      attributes: [Object],
+      childNodes: [Object],
+      ownerDocument: [Document],
+      nodeName: 'strong',
+      tagName: 'strong',
+      namespaceURI: undefined,
+      localName: 'strong',
+      parentNode: [Element],
+      previousSibling: null,
+      nextSibling: null,
+      lineNumber: 509,
+      columnNumber: 626,
+      firstChild: [Circular *2],
+      lastChild: [Circular *2]
+    },
+    previousSibling: null,
+    nextSibling: null,
+    lineNumber: 509,
+    columnNumber: 634
+  },
+  <ref *3> Text {
+    ownerDocument: Document {
+      implementation: [Object],
+      childNodes: [Object],
+      doctype: null,
+      documentURI: undefined,
+      firstChild: [DocumentType],
+      lastChild: [Element],
+      _inc: 2151,
+      documentElement: [Element]
+    },
+    data: 'Episode 39: Adrenal insufficiency',
+    nodeValue: 'Episode 39: Adrenal insufficiency',
+    length: 33,
+    parentNode: Element {
+      _nsMap: {},
+      attributes: [Object],
+      childNodes: [Object],
+      ownerDocument: [Document],
+      nodeName: 'strong',
+      tagName: 'strong',
+      namespaceURI: undefined,
+      localName: 'strong',
+      parentNode: [Element],
+      previousSibling: null,
+      nextSibling: null,
+      lineNumber: 764,
+      columnNumber: 231,
+      firstChild: [Circular *3],
+      lastChild: [Circular *3]
+    },
+    previousSibling: null,
+    nextSibling: null,
+    lineNumber: 764,
+    columnNumber: 239
+  },
+  <ref *4> Text {
+    ownerDocument: Document {
+      implementation: [Object],
+      childNodes: [Object],
+      doctype: null,
+      documentURI: undefined,
+      firstChild: [DocumentType],
+      lastChild: [Element],
+      _inc: 2151,
+      documentElement: [Element]
+    },
+    data: 'Episode 38: ACUTE HYPERGLYCEMIC EPISODES',
+    nodeValue: 'Episode 38: ACUTE HYPERGLYCEMIC EPISODES',
+    length: 40,
+    parentNode: Element {
+      _nsMap: {},
+      attributes: [Object],
+      childNodes: [Object],
+      ownerDocument: [Document],
+      nodeName: 'strong',
+      tagName: 'strong',
+      namespaceURI: undefined,
+      localName: 'strong',
+      parentNode: [Element],
+      previousSibling: null,
+      nextSibling: null,
+      lineNumber: 867,
+      columnNumber: 646,
+      firstChild: [Circular *4],
+      lastChild: [Circular *4]
+    },
+    previousSibling: null,
+    nextSibling: null,
+    lineNumber: 867,
+    columnNumber: 654
+  },
+  <ref *5> Text {
+    ownerDocument: Document {
+      implementation: [Object],
+      childNodes: [Object],
+      doctype: null,
+      documentURI: undefined,
+      firstChild: [DocumentType],
+      lastChild: [Element],
+      _inc: 2151,
+      documentElement: [Element]
+    },
+    data: 'Episode 37: INpatient Diabetes Management',
+    nodeValue: 'Episode 37: INpatient Diabetes Management',
+    length: 41,
+    parentNode: Element {
+      _nsMap: {},
+      attributes: [Object],
+      childNodes: [Object],
+      ownerDocument: [Document],
+      nodeName: 'strong',
+      tagName: 'strong',
+      namespaceURI: undefined,
+      localName: 'strong',
+      parentNode: [Element],
+      previousSibling: null,
+      nextSibling: null,
+      lineNumber: 1122,
+      columnNumber: 231,
+      firstChild: [Circular *5],
+      lastChild: [Circular *5]
+    },
+    previousSibling: null,
+    nextSibling: null,
+    lineNumber: 1122,
+    columnNumber: 239
+  },
+  <ref *6> Text {
+    ownerDocument: Document {
+      implementation: [Object],
+      childNodes: [Object],
+      doctype: null,
+      documentURI: undefined,
+      firstChild: [DocumentType],
+      lastChild: [Element],
+      _inc: 2151,
+      documentElement: [Element]
+    },
+    data: 'Episode 36: Outpatient Type 2 Diabetes Management',
+    nodeValue: 'Episode 36: Outpatient Type 2 Diabetes Management',
+    length: 49,
+    parentNode: Element {
+      _nsMap: {},
+      attributes: [Object],
+      childNodes: [Object],
+      ownerDocument: [Document],
+      nodeName: 'strong',
+      tagName: 'strong',
+      namespaceURI: undefined,
+      localName: 'strong',
+      parentNode: [Element],
+      previousSibling: null,
+      nextSibling: null,
+      lineNumber: 1225,
+      columnNumber: 643,
+      firstChild: [Circular *6],
+      lastChild: [Circular *6]
+    },
+    previousSibling: null,
+    nextSibling: null,
+    lineNumber: 1225,
+    columnNumber: 651
+  },
+  <ref *7> Text {
+    ownerDocument: Document {
+      implementation: [Object],
+      childNodes: [Object],
+      doctype: null,
+      documentURI: undefined,
+      firstChild: [DocumentType],
+      lastChild: [Element],
+      _inc: 2151,
+      documentElement: [Element]
+    },
+    data: 'EPISODE 35: HYPoCALCEMIA',
+    nodeValue: 'EPISODE 35: HYPoCALCEMIA',
+    length: 24,
+    parentNode: Element {
+      _nsMap: {},
+      attributes: [Object],
+      childNodes: [Object],
+      ownerDocument: [Document],
+      nodeName: 'strong',
+      tagName: 'strong',
+      namespaceURI: undefined,
+      localName: 'strong',
+      parentNode: [Element],
+      previousSibling: null,
+      nextSibling: null,
+      lineNumber: 1480,
+      columnNumber: 231,
+      firstChild: [Circular *7],
+      lastChild: [Circular *7]
+    },
+    previousSibling: null,
+    nextSibling: null,
+    lineNumber: 1480,
+    columnNumber: 239
+  },
+  <ref *8> Text {
+    ownerDocument: Document {
+      implementation: [Object],
+      childNodes: [Object],
+      doctype: null,
+      documentURI: undefined,
+      firstChild: [DocumentType],
+      lastChild: [Element],
+      _inc: 2151,
+      documentElement: [Element]
+    },
+    data: 'EPISODE 33: HYPERCALCEMIA',
+    nodeValue: 'EPISODE 33: HYPERCALCEMIA',
+    length: 25,
+    parentNode: Element {
+      _nsMap: {},
+      attributes: [Object],
+      childNodes: [Object],
+      ownerDocument: [Document],
+      nodeName: 'strong',
+      tagName: 'strong',
+      namespaceURI: undefined,
+      localName: 'strong',
+      parentNode: [Element],
+      previousSibling: null,
+      nextSibling: null,
+      lineNumber: 1583,
+      columnNumber: 640,
+      firstChild: [Circular *8],
+      lastChild: [Circular *8]
+    },
+    previousSibling: null,
+    nextSibling: null,
+    lineNumber: 1583,
+    columnNumber: 648
+  },
+  <ref *9> Text {
+    ownerDocument: Document {
+      implementation: [Object],
+      childNodes: [Object],
+      doctype: null,
+      documentURI: undefined,
+      firstChild: [DocumentType],
+      lastChild: [Element],
+      _inc: 2151,
+      documentElement: [Element]
+    },
+    data: 'EPISODE 32: HYPERTHYROIDISM',
+    nodeValue: 'EPISODE 32: HYPERTHYROIDISM',
+    length: 27,
+    parentNode: Element {
+      _nsMap: {},
+      attributes: [Object],
+      childNodes: [Object],
+      ownerDocument: [Document],
+      nodeName: 'strong',
+      tagName: 'strong',
+      namespaceURI: undefined,
+      localName: 'strong',
+      parentNode: [Element],
+      previousSibling: null,
+      nextSibling: null,
+      lineNumber: 1816,
+      columnNumber: 230,
+      firstChild: [Circular *9],
+      lastChild: [Circular *9]
+    },
+    previousSibling: null,
+    nextSibling: null,
+    lineNumber: 1816,
+    columnNumber: 238
+  },
+  <ref *10> Text {
+    ownerDocument: Document {
+      implementation: [Object],
+      childNodes: [Object],
+      doctype: null,
+      documentURI: undefined,
+      firstChild: [DocumentType],
+      lastChild: [Element],
+      _inc: 2151,
+      documentElement: [Element]
+    },
+    data: 'EPISODE 31: HYPOTHYROIDISM',
+    nodeValue: 'EPISODE 31: HYPOTHYROIDISM',
+    length: 26,
+    parentNode: Element {
+      _nsMap: {},
+      attributes: [Object],
+      childNodes: [Object],
+      ownerDocument: [Document],
+      nodeName: 'strong',
+      tagName: 'strong',
+      namespaceURI: undefined,
+      localName: 'strong',
+      parentNode: [Element],
+      previousSibling: null,
+      nextSibling: null,
+      lineNumber: 1919,
+      columnNumber: 639,
+      firstChild: [Circular *10],
+      lastChild: [Circular *10]
+    },
+    previousSibling: null,
+    nextSibling: null,
+    lineNumber: 1919,
+    columnNumber: 647
+  }
+]
+Failed to validate title! [
+  <ref *1> Text {
+    ownerDocument: Document {
+      implementation: [Object],
+      childNodes: [Object],
+      doctype: null,
+      documentURI: undefined,
+      firstChild: [DocumentType],
+      lastChild: [Element],
+      _inc: 2151,
+      documentElement: [Element]
+    },
+    data: 'Episode 41: Careers in endocrinology',
+    nodeValue: 'Episode 41: Careers in endocrinology',
+    length: 36,
+    parentNode: Element {
+      _nsMap: {},
+      attributes: [Object],
+      childNodes: [Object],
+      ownerDocument: [Document],
+      nodeName: 'strong',
+      tagName: 'strong',
+      namespaceURI: undefined,
+      localName: 'strong',
+      parentNode: [Element],
+      previousSibling: null,
+      nextSibling: null,
+      lineNumber: 491,
+      columnNumber: 231,
+      firstChild: [Circular *1],
+      lastChild: [Circular *1]
+    },
+    previousSibling: null,
+    nextSibling: null,
+    lineNumber: 491,
+    columnNumber: 239
+  },
+  <ref *2> Text {
+    ownerDocument: Document {
+      implementation: [Object],
+      childNodes: [Object],
+      doctype: null,
+      documentURI: undefined,
+      firstChild: [DocumentType],
+      lastChild: [Element],
+      _inc: 2151,
+      documentElement: [Element]
+    },
+    data: 'Episode 40: Transgender health',
+    nodeValue: 'Episode 40: Transgender health',
+    length: 30,
+    parentNode: Element {
+      _nsMap: {},
+      attributes: [Object],
+      childNodes: [Object],
+      ownerDocument: [Document],
+      nodeName: 'strong',
+      tagName: 'strong',
+      namespaceURI: undefined,
+      localName: 'strong',
+      parentNode: [Element],
+      previousSibling: null,
+      nextSibling: null,
+      lineNumber: 509,
+      columnNumber: 626,
+      firstChild: [Circular *2],
+      lastChild: [Circular *2]
+    },
+    previousSibling: null,
+    nextSibling: null,
+    lineNumber: 509,
+    columnNumber: 634
+  },
+  <ref *3> Text {
+    ownerDocument: Document {
+      implementation: [Object],
+      childNodes: [Object],
+      doctype: null,
+      documentURI: undefined,
+      firstChild: [DocumentType],
+      lastChild: [Element],
+      _inc: 2151,
+      documentElement: [Element]
+    },
+    data: 'Episode 39: Adrenal insufficiency',
+    nodeValue: 'Episode 39: Adrenal insufficiency',
+    length: 33,
+    parentNode: Element {
+      _nsMap: {},
+      attributes: [Object],
+      childNodes: [Object],
+      ownerDocument: [Document],
+      nodeName: 'strong',
+      tagName: 'strong',
+      namespaceURI: undefined,
+      localName: 'strong',
+      parentNode: [Element],
+      previousSibling: null,
+      nextSibling: null,
+      lineNumber: 764,
+      columnNumber: 231,
+      firstChild: [Circular *3],
+      lastChild: [Circular *3]
+    },
+    previousSibling: null,
+    nextSibling: null,
+    lineNumber: 764,
+    columnNumber: 239
+  },
+  <ref *4> Text {
+    ownerDocument: Document {
+      implementation: [Object],
+      childNodes: [Object],
+      doctype: null,
+      documentURI: undefined,
+      firstChild: [DocumentType],
+      lastChild: [Element],
+      _inc: 2151,
+      documentElement: [Element]
+    },
+    data: 'Episode 38: ACUTE HYPERGLYCEMIC EPISODES',
+    nodeValue: 'Episode 38: ACUTE HYPERGLYCEMIC EPISODES',
+    length: 40,
+    parentNode: Element {
+      _nsMap: {},
+      attributes: [Object],
+      childNodes: [Object],
+      ownerDocument: [Document],
+      nodeName: 'strong',
+      tagName: 'strong',
+      namespaceURI: undefined,
+      localName: 'strong',
+      parentNode: [Element],
+      previousSibling: null,
+      nextSibling: null,
+      lineNumber: 867,
+      columnNumber: 646,
+      firstChild: [Circular *4],
+      lastChild: [Circular *4]
+    },
+    previousSibling: null,
+    nextSibling: null,
+    lineNumber: 867,
+    columnNumber: 654
+  },
+  <ref *5> Text {
+    ownerDocument: Document {
+      implementation: [Object],
+      childNodes: [Object],
+      doctype: null,
+      documentURI: undefined,
+      firstChild: [DocumentType],
+      lastChild: [Element],
+      _inc: 2151,
+      documentElement: [Element]
+    },
+    data: 'Episode 37: INpatient Diabetes Management',
+    nodeValue: 'Episode 37: INpatient Diabetes Management',
+    length: 41,
+    parentNode: Element {
+      _nsMap: {},
+      attributes: [Object],
+      childNodes: [Object],
+      ownerDocument: [Document],
+      nodeName: 'strong',
+      tagName: 'strong',
+      namespaceURI: undefined,
+      localName: 'strong',
+      parentNode: [Element],
+      previousSibling: null,
+      nextSibling: null,
+      lineNumber: 1122,
+      columnNumber: 231,
+      firstChild: [Circular *5],
+      lastChild: [Circular *5]
+    },
+    previousSibling: null,
+    nextSibling: null,
+    lineNumber: 1122,
+    columnNumber: 239
+  },
+  <ref *6> Text {
+    ownerDocument: Document {
+      implementation: [Object],
+      childNodes: [Object],
+      doctype: null,
+      documentURI: undefined,
+      firstChild: [DocumentType],
+      lastChild: [Element],
+      _inc: 2151,
+      documentElement: [Element]
+    },
+    data: 'Episode 36: Outpatient Type 2 Diabetes Management',
+    nodeValue: 'Episode 36: Outpatient Type 2 Diabetes Management',
+    length: 49,
+    parentNode: Element {
+      _nsMap: {},
+      attributes: [Object],
+      childNodes: [Object],
+      ownerDocument: [Document],
+      nodeName: 'strong',
+      tagName: 'strong',
+      namespaceURI: undefined,
+      localName: 'strong',
+      parentNode: [Element],
+      previousSibling: null,
+      nextSibling: null,
+      lineNumber: 1225,
+      columnNumber: 643,
+      firstChild: [Circular *6],
+      lastChild: [Circular *6]
+    },
+    previousSibling: null,
+    nextSibling: null,
+    lineNumber: 1225,
+    columnNumber: 651
+  },
+  <ref *7> Text {
+    ownerDocument: Document {
+      implementation: [Object],
+      childNodes: [Object],
+      doctype: null,
+      documentURI: undefined,
+      firstChild: [DocumentType],
+      lastChild: [Element],
+      _inc: 2151,
+      documentElement: [Element]
+    },
+    data: 'EPISODE 35: HYPoCALCEMIA',
+    nodeValue: 'EPISODE 35: HYPoCALCEMIA',
+    length: 24,
+    parentNode: Element {
+      _nsMap: {},
+      attributes: [Object],
+      childNodes: [Object],
+      ownerDocument: [Document],
+      nodeName: 'strong',
+      tagName: 'strong',
+      namespaceURI: undefined,
+      localName: 'strong',
+      parentNode: [Element],
+      previousSibling: null,
+      nextSibling: null,
+      lineNumber: 1480,
+      columnNumber: 231,
+      firstChild: [Circular *7],
+      lastChild: [Circular *7]
+    },
+    previousSibling: null,
+    nextSibling: null,
+    lineNumber: 1480,
+    columnNumber: 239
+  },
+  <ref *8> Text {
+    ownerDocument: Document {
+      implementation: [Object],
+      childNodes: [Object],
+      doctype: null,
+      documentURI: undefined,
+      firstChild: [DocumentType],
+      lastChild: [Element],
+      _inc: 2151,
+      documentElement: [Element]
+    },
+    data: 'EPISODE 33: HYPERCALCEMIA',
+    nodeValue: 'EPISODE 33: HYPERCALCEMIA',
+    length: 25,
+    parentNode: Element {
+      _nsMap: {},
+      attributes: [Object],
+      childNodes: [Object],
+      ownerDocument: [Document],
+      nodeName: 'strong',
+      tagName: 'strong',
+      namespaceURI: undefined,
+      localName: 'strong',
+      parentNode: [Element],
+      previousSibling: null,
+      nextSibling: null,
+      lineNumber: 1583,
+      columnNumber: 640,
+      firstChild: [Circular *8],
+      lastChild: [Circular *8]
+    },
+    previousSibling: null,
+    nextSibling: null,
+    lineNumber: 1583,
+    columnNumber: 648
+  },
+  <ref *9> Text {
+    ownerDocument: Document {
+      implementation: [Object],
+      childNodes: [Object],
+      doctype: null,
+      documentURI: undefined,
+      firstChild: [DocumentType],
+      lastChild: [Element],
+      _inc: 2151,
+      documentElement: [Element]
+    },
+    data: 'EPISODE 32: HYPERTHYROIDISM',
+    nodeValue: 'EPISODE 32: HYPERTHYROIDISM',
+    length: 27,
+    parentNode: Element {
+      _nsMap: {},
+      attributes: [Object],
+      childNodes: [Object],
+      ownerDocument: [Document],
+      nodeName: 'strong',
+      tagName: 'strong',
+      namespaceURI: undefined,
+      localName: 'strong',
+      parentNode: [Element],
+      previousSibling: null,
+      nextSibling: null,
+      lineNumber: 1816,
+      columnNumber: 230,
+      firstChild: [Circular *9],
+      lastChild: [Circular *9]
+    },
+    previousSibling: null,
+    nextSibling: null,
+    lineNumber: 1816,
+    columnNumber: 238
+  },
+  <ref *10> Text {
+    ownerDocument: Document {
+      implementation: [Object],
+      childNodes: [Object],
+      doctype: null,
+      documentURI: undefined,
+      firstChild: [DocumentType],
+      lastChild: [Element],
+      _inc: 2151,
+      documentElement: [Element]
+    },
+    data: 'EPISODE 31: HYPOTHYROIDISM',
+    nodeValue: 'EPISODE 31: HYPOTHYROIDISM',
+    length: 26,
+    parentNode: Element {
+      _nsMap: {},
+      attributes: [Object],
+      childNodes: [Object],
+      ownerDocument: [Document],
+      nodeName: 'strong',
+      tagName: 'strong',
+      namespaceURI: undefined,
+      localName: 'strong',
+      parentNode: [Element],
+      previousSibling: null,
+      nextSibling: null,
+      lineNumber: 1919,
+      columnNumber: 639,
+      firstChild: [Circular *10],
+      lastChild: [Circular *10]
+    },
+    previousSibling: null,
+    nextSibling: null,
+    lineNumber: 1919,
+    columnNumber: 647
+  }
+]
+Failed to validate title! [
+  <ref *1> Text {
+    ownerDocument: Document {
+      implementation: [Object],
+      childNodes: [Object],
+      doctype: null,
+      documentURI: undefined,
+      firstChild: [DocumentType],
+      lastChild: [Element],
+      _inc: 2151,
+      documentElement: [Element]
+    },
+    data: 'Episode 41: Careers in endocrinology',
+    nodeValue: 'Episode 41: Careers in endocrinology',
+    length: 36,
+    parentNode: Element {
+      _nsMap: {},
+      attributes: [Object],
+      childNodes: [Object],
+      ownerDocument: [Document],
+      nodeName: 'strong',
+      tagName: 'strong',
+      namespaceURI: undefined,
+      localName: 'strong',
+      parentNode: [Element],
+      previousSibling: null,
+      nextSibling: null,
+      lineNumber: 491,
+      columnNumber: 231,
+      firstChild: [Circular *1],
+      lastChild: [Circular *1]
+    },
+    previousSibling: null,
+    nextSibling: null,
+    lineNumber: 491,
+    columnNumber: 239
+  },
+  <ref *2> Text {
+    ownerDocument: Document {
+      implementation: [Object],
+      childNodes: [Object],
+      doctype: null,
+      documentURI: undefined,
+      firstChild: [DocumentType],
+      lastChild: [Element],
+      _inc: 2151,
+      documentElement: [Element]
+    },
+    data: 'Episode 40: Transgender health',
+    nodeValue: 'Episode 40: Transgender health',
+    length: 30,
+    parentNode: Element {
+      _nsMap: {},
+      attributes: [Object],
+      childNodes: [Object],
+      ownerDocument: [Document],
+      nodeName: 'strong',
+      tagName: 'strong',
+      namespaceURI: undefined,
+      localName: 'strong',
+      parentNode: [Element],
+      previousSibling: null,
+      nextSibling: null,
+      lineNumber: 509,
+      columnNumber: 626,
+      firstChild: [Circular *2],
+      lastChild: [Circular *2]
+    },
+    previousSibling: null,
+    nextSibling: null,
+    lineNumber: 509,
+    columnNumber: 634
+  },
+  <ref *3> Text {
+    ownerDocument: Document {
+      implementation: [Object],
+      childNodes: [Object],
+      doctype: null,
+      documentURI: undefined,
+      firstChild: [DocumentType],
+      lastChild: [Element],
+      _inc: 2151,
+      documentElement: [Element]
+    },
+    data: 'Episode 39: Adrenal insufficiency',
+    nodeValue: 'Episode 39: Adrenal insufficiency',
+    length: 33,
+    parentNode: Element {
+      _nsMap: {},
+      attributes: [Object],
+      childNodes: [Object],
+      ownerDocument: [Document],
+      nodeName: 'strong',
+      tagName: 'strong',
+      namespaceURI: undefined,
+      localName: 'strong',
+      parentNode: [Element],
+      previousSibling: null,
+      nextSibling: null,
+      lineNumber: 764,
+      columnNumber: 231,
+      firstChild: [Circular *3],
+      lastChild: [Circular *3]
+    },
+    previousSibling: null,
+    nextSibling: null,
+    lineNumber: 764,
+    columnNumber: 239
+  },
+  <ref *4> Text {
+    ownerDocument: Document {
+      implementation: [Object],
+      childNodes: [Object],
+      doctype: null,
+      documentURI: undefined,
+      firstChild: [DocumentType],
+      lastChild: [Element],
+      _inc: 2151,
+      documentElement: [Element]
+    },
+    data: 'Episode 38: ACUTE HYPERGLYCEMIC EPISODES',
+    nodeValue: 'Episode 38: ACUTE HYPERGLYCEMIC EPISODES',
+    length: 40,
+    parentNode: Element {
+      _nsMap: {},
+      attributes: [Object],
+      childNodes: [Object],
+      ownerDocument: [Document],
+      nodeName: 'strong',
+      tagName: 'strong',
+      namespaceURI: undefined,
+      localName: 'strong',
+      parentNode: [Element],
+      previousSibling: null,
+      nextSibling: null,
+      lineNumber: 867,
+      columnNumber: 646,
+      firstChild: [Circular *4],
+      lastChild: [Circular *4]
+    },
+    previousSibling: null,
+    nextSibling: null,
+    lineNumber: 867,
+    columnNumber: 654
+  },
+  <ref *5> Text {
+    ownerDocument: Document {
+      implementation: [Object],
+      childNodes: [Object],
+      doctype: null,
+      documentURI: undefined,
+      firstChild: [DocumentType],
+      lastChild: [Element],
+      _inc: 2151,
+      documentElement: [Element]
+    },
+    data: 'Episode 37: INpatient Diabetes Management',
+    nodeValue: 'Episode 37: INpatient Diabetes Management',
+    length: 41,
+    parentNode: Element {
+      _nsMap: {},
+      attributes: [Object],
+      childNodes: [Object],
+      ownerDocument: [Document],
+      nodeName: 'strong',
+      tagName: 'strong',
+      namespaceURI: undefined,
+      localName: 'strong',
+      parentNode: [Element],
+      previousSibling: null,
+      nextSibling: null,
+      lineNumber: 1122,
+      columnNumber: 231,
+      firstChild: [Circular *5],
+      lastChild: [Circular *5]
+    },
+    previousSibling: null,
+    nextSibling: null,
+    lineNumber: 1122,
+    columnNumber: 239
+  },
+  <ref *6> Text {
+    ownerDocument: Document {
+      implementation: [Object],
+      childNodes: [Object],
+      doctype: null,
+      documentURI: undefined,
+      firstChild: [DocumentType],
+      lastChild: [Element],
+      _inc: 2151,
+      documentElement: [Element]
+    },
+    data: 'Episode 36: Outpatient Type 2 Diabetes Management',
+    nodeValue: 'Episode 36: Outpatient Type 2 Diabetes Management',
+    length: 49,
+    parentNode: Element {
+      _nsMap: {},
+      attributes: [Object],
+      childNodes: [Object],
+      ownerDocument: [Document],
+      nodeName: 'strong',
+      tagName: 'strong',
+      namespaceURI: undefined,
+      localName: 'strong',
+      parentNode: [Element],
+      previousSibling: null,
+      nextSibling: null,
+      lineNumber: 1225,
+      columnNumber: 643,
+      firstChild: [Circular *6],
+      lastChild: [Circular *6]
+    },
+    previousSibling: null,
+    nextSibling: null,
+    lineNumber: 1225,
+    columnNumber: 651
+  },
+  <ref *7> Text {
+    ownerDocument: Document {
+      implementation: [Object],
+      childNodes: [Object],
+      doctype: null,
+      documentURI: undefined,
+      firstChild: [DocumentType],
+      lastChild: [Element],
+      _inc: 2151,
+      documentElement: [Element]
+    },
+    data: 'EPISODE 35: HYPoCALCEMIA',
+    nodeValue: 'EPISODE 35: HYPoCALCEMIA',
+    length: 24,
+    parentNode: Element {
+      _nsMap: {},
+      attributes: [Object],
+      childNodes: [Object],
+      ownerDocument: [Document],
+      nodeName: 'strong',
+      tagName: 'strong',
+      namespaceURI: undefined,
+      localName: 'strong',
+      parentNode: [Element],
+      previousSibling: null,
+      nextSibling: null,
+      lineNumber: 1480,
+      columnNumber: 231,
+      firstChild: [Circular *7],
+      lastChild: [Circular *7]
+    },
+    previousSibling: null,
+    nextSibling: null,
+    lineNumber: 1480,
+    columnNumber: 239
+  },
+  <ref *8> Text {
+    ownerDocument: Document {
+      implementation: [Object],
+      childNodes: [Object],
+      doctype: null,
+      documentURI: undefined,
+      firstChild: [DocumentType],
+      lastChild: [Element],
+      _inc: 2151,
+      documentElement: [Element]
+    },
+    data: 'EPISODE 33: HYPERCALCEMIA',
+    nodeValue: 'EPISODE 33: HYPERCALCEMIA',
+    length: 25,
+    parentNode: Element {
+      _nsMap: {},
+      attributes: [Object],
+      childNodes: [Object],
+      ownerDocument: [Document],
+      nodeName: 'strong',
+      tagName: 'strong',
+      namespaceURI: undefined,
+      localName: 'strong',
+      parentNode: [Element],
+      previousSibling: null,
+      nextSibling: null,
+      lineNumber: 1583,
+      columnNumber: 640,
+      firstChild: [Circular *8],
+      lastChild: [Circular *8]
+    },
+    previousSibling: null,
+    nextSibling: null,
+    lineNumber: 1583,
+    columnNumber: 648
+  },
+  <ref *9> Text {
+    ownerDocument: Document {
+      implementation: [Object],
+      childNodes: [Object],
+      doctype: null,
+      documentURI: undefined,
+      firstChild: [DocumentType],
+      lastChild: [Element],
+      _inc: 2151,
+      documentElement: [Element]
+    },
+    data: 'EPISODE 32: HYPERTHYROIDISM',
+    nodeValue: 'EPISODE 32: HYPERTHYROIDISM',
+    length: 27,
+    parentNode: Element {
+      _nsMap: {},
+      attributes: [Object],
+      childNodes: [Object],
+      ownerDocument: [Document],
+      nodeName: 'strong',
+      tagName: 'strong',
+      namespaceURI: undefined,
+      localName: 'strong',
+      parentNode: [Element],
+      previousSibling: null,
+      nextSibling: null,
+      lineNumber: 1816,
+      columnNumber: 230,
+      firstChild: [Circular *9],
+      lastChild: [Circular *9]
+    },
+    previousSibling: null,
+    nextSibling: null,
+    lineNumber: 1816,
+    columnNumber: 238
+  },
+  <ref *10> Text {
+    ownerDocument: Document {
+      implementation: [Object],
+      childNodes: [Object],
+      doctype: null,
+      documentURI: undefined,
+      firstChild: [DocumentType],
+      lastChild: [Element],
+      _inc: 2151,
+      documentElement: [Element]
+    },
+    data: 'EPISODE 31: HYPOTHYROIDISM',
+    nodeValue: 'EPISODE 31: HYPOTHYROIDISM',
+    length: 26,
+    parentNode: Element {
+      _nsMap: {},
+      attributes: [Object],
+      childNodes: [Object],
+      ownerDocument: [Document],
+      nodeName: 'strong',
+      tagName: 'strong',
+      namespaceURI: undefined,
+      localName: 'strong',
+      parentNode: [Element],
+      previousSibling: null,
+      nextSibling: null,
+      lineNumber: 1919,
+      columnNumber: 639,
+      firstChild: [Circular *10],
+      lastChild: [Circular *10]
+    },
+    previousSibling: null,
+    nextSibling: null,
+    lineNumber: 1919,
+    columnNumber: 647
+  }
+]
+[xmldom warning]	unclosed xml attribute 
+@#[line:5,col:3]
+[xmldom warning]	unclosed xml attribute 
+@#[line:7,col:3]
+[xmldom warning]	unclosed xml attribute 
+@#[line:10,col:1]
+[xmldom error]	entity not found:&mdash; 
+@#[line:12,col:1]
+[xmldom error]	entity not found:&mdash; 
+@#[line:16,col:1]
+[xmldom warning]	attribute "defer" missed value!! "defer" instead!! 
+@#[line:31,col:145]
+[xmldom error]	entity not found:&nbsp; 
+@#[line:491,col:540]
+[xmldom error]	entity not found:&nbsp; 
+@#[line:594,col:239]
+[xmldom error]	entity not found:&nbsp; 
+@#[line:594,col:448]
+[xmldom error]	entity not found:&nbsp; 
+@#[line:594,col:617]
+[xmldom error]	entity not found:&nbsp; 
+@#[line:624,col:184]
+Failed to validate title! [
+  <ref *1> Text {
+    ownerDocument: Document {
+      implementation: [Object],
+      childNodes: [Object],
+      doctype: null,
+      documentURI: undefined,
+      firstChild: [DocumentType],
+      lastChild: [Element],
+      _inc: 922,
+      documentElement: [Element]
+    },
+    data: 'EPISODE 34: INTRODUCTION TO HEALTH INEQUITIES',
+    nodeValue: 'EPISODE 34: INTRODUCTION TO HEALTH INEQUITIES',
+    length: 45,
+    parentNode: Element {
+      _nsMap: {},
+      attributes: [Object],
+      childNodes: [Object],
+      ownerDocument: [Document],
+      nodeName: 'strong',
+      tagName: 'strong',
+      namespaceURI: undefined,
+      localName: 'strong',
+      parentNode: [Element],
+      previousSibling: null,
+      nextSibling: null,
+      lineNumber: 491,
+      columnNumber: 230,
+      firstChild: [Circular *1],
+      lastChild: [Circular *1]
+    },
+    previousSibling: null,
+    nextSibling: null,
+    lineNumber: 491,
+    columnNumber: 238
+  }
+]
+Failed to validate title! [
+  <ref *1> Text {
+    ownerDocument: Document {
+      implementation: [Object],
+      childNodes: [Object],
+      doctype: null,
+      documentURI: undefined,
+      firstChild: [DocumentType],
+      lastChild: [Element],
+      _inc: 922,
+      documentElement: [Element]
+    },
+    data: 'EPISODE 34: INTRODUCTION TO HEALTH INEQUITIES',
+    nodeValue: 'EPISODE 34: INTRODUCTION TO HEALTH INEQUITIES',
+    length: 45,
+    parentNode: Element {
+      _nsMap: {},
+      attributes: [Object],
+      childNodes: [Object],
+      ownerDocument: [Document],
+      nodeName: 'strong',
+      tagName: 'strong',
+      namespaceURI: undefined,
+      localName: 'strong',
+      parentNode: [Element],
+      previousSibling: null,
+      nextSibling: null,
+      lineNumber: 491,
+      columnNumber: 230,
+      firstChild: [Circular *1],
+      lastChild: [Circular *1]
+    },
+    previousSibling: null,
+    nextSibling: null,
+    lineNumber: 491,
+    columnNumber: 238
+  }
+]
+Failed to validate title! [
+  <ref *1> Text {
+    ownerDocument: Document {
+      implementation: [Object],
+      childNodes: [Object],
+      doctype: null,
+      documentURI: undefined,
+      firstChild: [DocumentType],
+      lastChild: [Element],
+      _inc: 922,
+      documentElement: [Element]
+    },
+    data: 'EPISODE 34: INTRODUCTION TO HEALTH INEQUITIES',
+    nodeValue: 'EPISODE 34: INTRODUCTION TO HEALTH INEQUITIES',
+    length: 45,
+    parentNode: Element {
+      _nsMap: {},
+      attributes: [Object],
+      childNodes: [Object],
+      ownerDocument: [Document],
+      nodeName: 'strong',
+      tagName: 'strong',
+      namespaceURI: undefined,
+      localName: 'strong',
+      parentNode: [Element],
+      previousSibling: null,
+      nextSibling: null,
+      lineNumber: 491,
+      columnNumber: 230,
+      firstChild: [Circular *1],
+      lastChild: [Circular *1]
+    },
+    previousSibling: null,
+    nextSibling: null,
+    lineNumber: 491,
+    columnNumber: 238
+  }
+]
+Failed to validate title! [
+  <ref *1> Text {
+    ownerDocument: Document {
+      implementation: [Object],
+      childNodes: [Object],
+      doctype: null,
+      documentURI: undefined,
+      firstChild: [DocumentType],
+      lastChild: [Element],
+      _inc: 922,
+      documentElement: [Element]
+    },
+    data: 'EPISODE 34: INTRODUCTION TO HEALTH INEQUITIES',
+    nodeValue: 'EPISODE 34: INTRODUCTION TO HEALTH INEQUITIES',
+    length: 45,
+    parentNode: Element {
+      _nsMap: {},
+      attributes: [Object],
+      childNodes: [Object],
+      ownerDocument: [Document],
+      nodeName: 'strong',
+      tagName: 'strong',
+      namespaceURI: undefined,
+      localName: 'strong',
+      parentNode: [Element],
+      previousSibling: null,
+      nextSibling: null,
+      lineNumber: 491,
+      columnNumber: 230,
+      firstChild: [Circular *1],
+      lastChild: [Circular *1]
+    },
+    previousSibling: null,
+    nextSibling: null,
+    lineNumber: 491,
+    columnNumber: 238
+  }
+]
+Failed to validate title! [
+  <ref *1> Text {
+    ownerDocument: Document {
+      implementation: [Object],
+      childNodes: [Object],
+      doctype: null,
+      documentURI: undefined,
+      firstChild: [DocumentType],
+      lastChild: [Element],
+      _inc: 922,
+      documentElement: [Element]
+    },
+    data: 'EPISODE 34: INTRODUCTION TO HEALTH INEQUITIES',
+    nodeValue: 'EPISODE 34: INTRODUCTION TO HEALTH INEQUITIES',
+    length: 45,
+    parentNode: Element {
+      _nsMap: {},
+      attributes: [Object],
+      childNodes: [Object],
+      ownerDocument: [Document],
+      nodeName: 'strong',
+      tagName: 'strong',
+      namespaceURI: undefined,
+      localName: 'strong',
+      parentNode: [Element],
+      previousSibling: null,
+      nextSibling: null,
+      lineNumber: 491,
+      columnNumber: 230,
+      firstChild: [Circular *1],
+      lastChild: [Circular *1]
+    },
+    previousSibling: null,
+    nextSibling: null,
+    lineNumber: 491,
+    columnNumber: 238
+  }
+]
+[xmldom warning]	unclosed xml attribute 
+@#[line:5,col:3]
+[xmldom warning]	unclosed xml attribute 
+@#[line:7,col:3]
+[xmldom warning]	unclosed xml attribute 
+@#[line:10,col:1]
+[xmldom error]	entity not found:&mdash; 
+@#[line:12,col:1]
+[xmldom error]	entity not found:&mdash; 
+@#[line:16,col:1]
+[xmldom warning]	attribute "defer" missed value!! "defer" instead!! 
+@#[line:31,col:145]
+[xmldom error]	entity not found:&nbsp; 
+@#[line:764,col:288]
+[xmldom error]	entity not found:&nbsp; 
+@#[line:764,col:288]
+[xmldom error]	entity not found:&nbsp; 
+@#[line:764,col:288]
+[xmldom error]	entity not found:&nbsp; 
+@#[line:764,col:288]
+[xmldom error]	entity not found:&nbsp; 
+@#[line:867,col:239]
+[xmldom error]	entity not found:&nbsp; 
+@#[line:867,col:448]
+[xmldom error]	entity not found:&nbsp; 
+@#[line:867,col:617]
+[xmldom error]	entity not found:&nbsp; 
+@#[line:897,col:184]
+Something went wrong!  TypeError: Cannot read property 'attributes' of undefined
+    at genEpisodesFromCategoryPage (/Users/omergoldberg/dev/rtl/scraper/scrapeRTL.js:137:31)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async genHomepage (/Users/omergoldberg/dev/rtl/scraper/scrapeRTL.js:172:30)
+Failed to validate title! [
+  <ref *1> Text {
+    ownerDocument: Document {
+      implementation: [Object],
+      childNodes: [Object],
+      doctype: null,
+      documentURI: undefined,
+      firstChild: [DocumentType],
+      lastChild: [Element],
+      _inc: 1144,
+      documentElement: [Element]
+    },
+    data: 'EPISODE 44: PANCYTOPENIA',
+    nodeValue: 'EPISODE 44: PANCYTOPENIA',
+    length: 24,
+    parentNode: Element {
+      _nsMap: {},
+      attributes: [Object],
+      childNodes: [Object],
+      ownerDocument: [Document],
+      nodeName: 'strong',
+      tagName: 'strong',
+      namespaceURI: undefined,
+      localName: 'strong',
+      parentNode: [Element],
+      previousSibling: null,
+      nextSibling: null,
+      lineNumber: 491,
+      columnNumber: 231,
+      firstChild: [Circular *1],
+      lastChild: [Circular *1]
+    },
+    previousSibling: null,
+    nextSibling: null,
+    lineNumber: 491,
+    columnNumber: 239
+  },
+  <ref *2> Text {
+    ownerDocument: Document {
+      implementation: [Object],
+      childNodes: [Object],
+      doctype: null,
+      documentURI: undefined,
+      firstChild: [DocumentType],
+      lastChild: [Element],
+      _inc: 1144,
+      documentElement: [Element]
+    },
+    data: 'EPISODE 43: THROMBOCYTOPENIA',
+    nodeValue: 'EPISODE 43: THROMBOCYTOPENIA',
+    length: 28,
+    parentNode: Element {
+      _nsMap: {},
+      attributes: [Object],
+      childNodes: [Object],
+      ownerDocument: [Document],
+      nodeName: 'strong',
+      tagName: 'strong',
+      namespaceURI: undefined,
+      localName: 'strong',
+      parentNode: [Element],
+      previousSibling: null,
+      nextSibling: null,
+      lineNumber: 509,
+      columnNumber: 447,
+      firstChild: [Circular *2],
+      lastChild: [Circular *2]
+    },
+    previousSibling: null,
+    nextSibling: null,
+    lineNumber: 509,
+    columnNumber: 455
+  },
+  <ref *3> Text {
+    ownerDocument: Document {
+      implementation: [Object],
+      childNodes: [Object],
+      doctype: null,
+      documentURI: undefined,
+      firstChild: [DocumentType],
+      lastChild: [Element],
+      _inc: 1144,
+      documentElement: [Element]
+    },
+    data: 'EPISODE 42: anemia',
+    nodeValue: 'EPISODE 42: anemia',
+    length: 18,
+    parentNode: Element {
+      _nsMap: {},
+      attributes: [Object],
+      childNodes: [Object],
+      ownerDocument: [Document],
+      nodeName: 'strong',
+      tagName: 'strong',
+      namespaceURI: undefined,
+      localName: 'strong',
+      parentNode: [Element],
+      previousSibling: null,
+      nextSibling: null,
+      lineNumber: 764,
+      columnNumber: 230,
+      firstChild: [Circular *3],
+      lastChild: [Circular *3]
+    },
+    previousSibling: null,
+    nextSibling: null,
+    lineNumber: 764,
+    columnNumber: 238
+  }
+]
+Failed to validate title! [
+  <ref *1> Text {
+    ownerDocument: Document {
+      implementation: [Object],
+      childNodes: [Object],
+      doctype: null,
+      documentURI: undefined,
+      firstChild: [DocumentType],
+      lastChild: [Element],
+      _inc: 1144,
+      documentElement: [Element]
+    },
+    data: 'EPISODE 44: PANCYTOPENIA',
+    nodeValue: 'EPISODE 44: PANCYTOPENIA',
+    length: 24,
+    parentNode: Element {
+      _nsMap: {},
+      attributes: [Object],
+      childNodes: [Object],
+      ownerDocument: [Document],
+      nodeName: 'strong',
+      tagName: 'strong',
+      namespaceURI: undefined,
+      localName: 'strong',
+      parentNode: [Element],
+      previousSibling: null,
+      nextSibling: null,
+      lineNumber: 491,
+      columnNumber: 231,
+      firstChild: [Circular *1],
+      lastChild: [Circular *1]
+    },
+    previousSibling: null,
+    nextSibling: null,
+    lineNumber: 491,
+    columnNumber: 239
+  },
+  <ref *2> Text {
+    ownerDocument: Document {
+      implementation: [Object],
+      childNodes: [Object],
+      doctype: null,
+      documentURI: undefined,
+      firstChild: [DocumentType],
+      lastChild: [Element],
+      _inc: 1144,
+      documentElement: [Element]
+    },
+    data: 'EPISODE 43: THROMBOCYTOPENIA',
+    nodeValue: 'EPISODE 43: THROMBOCYTOPENIA',
+    length: 28,
+    parentNode: Element {
+      _nsMap: {},
+      attributes: [Object],
+      childNodes: [Object],
+      ownerDocument: [Document],
+      nodeName: 'strong',
+      tagName: 'strong',
+      namespaceURI: undefined,
+      localName: 'strong',
+      parentNode: [Element],
+      previousSibling: null,
+      nextSibling: null,
+      lineNumber: 509,
+      columnNumber: 447,
+      firstChild: [Circular *2],
+      lastChild: [Circular *2]
+    },
+    previousSibling: null,
+    nextSibling: null,
+    lineNumber: 509,
+    columnNumber: 455
+  },
+  <ref *3> Text {
+    ownerDocument: Document {
+      implementation: [Object],
+      childNodes: [Object],
+      doctype: null,
+      documentURI: undefined,
+      firstChild: [DocumentType],
+      lastChild: [Element],
+      _inc: 1144,
+      documentElement: [Element]
+    },
+    data: 'EPISODE 42: anemia',
+    nodeValue: 'EPISODE 42: anemia',
+    length: 18,
+    parentNode: Element {
+      _nsMap: {},
+      attributes: [Object],
+      childNodes: [Object],
+      ownerDocument: [Document],
+      nodeName: 'strong',
+      tagName: 'strong',
+      namespaceURI: undefined,
+      localName: 'strong',
+      parentNode: [Element],
+      previousSibling: null,
+      nextSibling: null,
+      lineNumber: 764,
+      columnNumber: 230,
+      firstChild: [Circular *3],
+      lastChild: [Circular *3]
+    },
+    previousSibling: null,
+    nextSibling: null,
+    lineNumber: 764,
+    columnNumber: 238
+  }
+]
+Failed to validate title! [
+  <ref *1> Text {
+    ownerDocument: Document {
+      implementation: [Object],
+      childNodes: [Object],
+      doctype: null,
+      documentURI: undefined,
+      firstChild: [DocumentType],
+      lastChild: [Element],
+      _inc: 1144,
+      documentElement: [Element]
+    },
+    data: 'EPISODE 44: PANCYTOPENIA',
+    nodeValue: 'EPISODE 44: PANCYTOPENIA',
+    length: 24,
+    parentNode: Element {
+      _nsMap: {},
+      attributes: [Object],
+      childNodes: [Object],
+      ownerDocument: [Document],
+      nodeName: 'strong',
+      tagName: 'strong',
+      namespaceURI: undefined,
+      localName: 'strong',
+      parentNode: [Element],
+      previousSibling: null,
+      nextSibling: null,
+      lineNumber: 491,
+      columnNumber: 231,
+      firstChild: [Circular *1],
+      lastChild: [Circular *1]
+    },
+    previousSibling: null,
+    nextSibling: null,
+    lineNumber: 491,
+    columnNumber: 239
+  },
+  <ref *2> Text {
+    ownerDocument: Document {
+      implementation: [Object],
+      childNodes: [Object],
+      doctype: null,
+      documentURI: undefined,
+      firstChild: [DocumentType],
+      lastChild: [Element],
+      _inc: 1144,
+      documentElement: [Element]
+    },
+    data: 'EPISODE 43: THROMBOCYTOPENIA',
+    nodeValue: 'EPISODE 43: THROMBOCYTOPENIA',
+    length: 28,
+    parentNode: Element {
+      _nsMap: {},
+      attributes: [Object],
+      childNodes: [Object],
+      ownerDocument: [Document],
+      nodeName: 'strong',
+      tagName: 'strong',
+      namespaceURI: undefined,
+      localName: 'strong',
+      parentNode: [Element],
+      previousSibling: null,
+      nextSibling: null,
+      lineNumber: 509,
+      columnNumber: 447,
+      firstChild: [Circular *2],
+      lastChild: [Circular *2]
+    },
+    previousSibling: null,
+    nextSibling: null,
+    lineNumber: 509,
+    columnNumber: 455
+  },
+  <ref *3> Text {
+    ownerDocument: Document {
+      implementation: [Object],
+      childNodes: [Object],
+      doctype: null,
+      documentURI: undefined,
+      firstChild: [DocumentType],
+      lastChild: [Element],
+      _inc: 1144,
+      documentElement: [Element]
+    },
+    data: 'EPISODE 42: anemia',
+    nodeValue: 'EPISODE 42: anemia',
+    length: 18,
+    parentNode: Element {
+      _nsMap: {},
+      attributes: [Object],
+      childNodes: [Object],
+      ownerDocument: [Document],
+      nodeName: 'strong',
+      tagName: 'strong',
+      namespaceURI: undefined,
+      localName: 'strong',
+      parentNode: [Element],
+      previousSibling: null,
+      nextSibling: null,
+      lineNumber: 764,
+      columnNumber: 230,
+      firstChild: [Circular *3],
+      lastChild: [Circular *3]
+    },
+    previousSibling: null,
+    nextSibling: null,
+    lineNumber: 764,
+    columnNumber: 238
+  }
+]
+Failed to validate title! [
+  <ref *1> Text {
+    ownerDocument: Document {
+      implementation: [Object],
+      childNodes: [Object],
+      doctype: null,
+      documentURI: undefined,
+      firstChild: [DocumentType],
+      lastChild: [Element],
+      _inc: 1144,
+      documentElement: [Element]
+    },
+    data: 'EPISODE 44: PANCYTOPENIA',
+    nodeValue: 'EPISODE 44: PANCYTOPENIA',
+    length: 24,
+    parentNode: Element {
+      _nsMap: {},
+      attributes: [Object],
+      childNodes: [Object],
+      ownerDocument: [Document],
+      nodeName: 'strong',
+      tagName: 'strong',
+      namespaceURI: undefined,
+      localName: 'strong',
+      parentNode: [Element],
+      previousSibling: null,
+      nextSibling: null,
+      lineNumber: 491,
+      columnNumber: 231,
+      firstChild: [Circular *1],
+      lastChild: [Circular *1]
+    },
+    previousSibling: null,
+    nextSibling: null,
+    lineNumber: 491,
+    columnNumber: 239
+  },
+  <ref *2> Text {
+    ownerDocument: Document {
+      implementation: [Object],
+      childNodes: [Object],
+      doctype: null,
+      documentURI: undefined,
+      firstChild: [DocumentType],
+      lastChild: [Element],
+      _inc: 1144,
+      documentElement: [Element]
+    },
+    data: 'EPISODE 43: THROMBOCYTOPENIA',
+    nodeValue: 'EPISODE 43: THROMBOCYTOPENIA',
+    length: 28,
+    parentNode: Element {
+      _nsMap: {},
+      attributes: [Object],
+      childNodes: [Object],
+      ownerDocument: [Document],
+      nodeName: 'strong',
+      tagName: 'strong',
+      namespaceURI: undefined,
+      localName: 'strong',
+      parentNode: [Element],
+      previousSibling: null,
+      nextSibling: null,
+      lineNumber: 509,
+      columnNumber: 447,
+      firstChild: [Circular *2],
+      lastChild: [Circular *2]
+    },
+    previousSibling: null,
+    nextSibling: null,
+    lineNumber: 509,
+    columnNumber: 455
+  },
+  <ref *3> Text {
+    ownerDocument: Document {
+      implementation: [Object],
+      childNodes: [Object],
+      doctype: null,
+      documentURI: undefined,
+      firstChild: [DocumentType],
+      lastChild: [Element],
+      _inc: 1144,
+      documentElement: [Element]
+    },
+    data: 'EPISODE 42: anemia',
+    nodeValue: 'EPISODE 42: anemia',
+    length: 18,
+    parentNode: Element {
+      _nsMap: {},
+      attributes: [Object],
+      childNodes: [Object],
+      ownerDocument: [Document],
+      nodeName: 'strong',
+      tagName: 'strong',
+      namespaceURI: undefined,
+      localName: 'strong',
+      parentNode: [Element],
+      previousSibling: null,
+      nextSibling: null,
+      lineNumber: 764,
+      columnNumber: 230,
+      firstChild: [Circular *3],
+      lastChild: [Circular *3]
+    },
+    previousSibling: null,
+    nextSibling: null,
+    lineNumber: 764,
+    columnNumber: 238
+  }
+]
