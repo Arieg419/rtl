@@ -113,10 +113,6 @@ function TemporaryDrawer(props: { isDrawerOpen: boolean }) {
             to={`/twitter`}
             style={{ textDecoration: "none", color: "#000" }}
             key={"twitter"}
-            onClick={() => {
-              history.replace("/twitter");
-              history.go(0);
-            }}
           >
             <ListItem button key={"Twitter"}>
               <ListItemIcon>
