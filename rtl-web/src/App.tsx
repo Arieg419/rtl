@@ -53,7 +53,8 @@ window.addEventListener("beforeinstallprompt", (e) => {
       },
     },
     icon: <img style={{ height: 32, width: 32 }} src={Logo} />,
-    label: "Add to homescreen ❤️",
+    label:
+      "For the best Run the List experience add the site to your homescreen.",
   });
 });
 
