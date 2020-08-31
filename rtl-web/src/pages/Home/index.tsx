@@ -52,6 +52,7 @@ export default function () {
             releaseDate={r.applePodcastDate}
             imgUri={getRandomMedia()}
             key={title}
+            handout={r.squarespaceHandout}
           />
         );
       })}

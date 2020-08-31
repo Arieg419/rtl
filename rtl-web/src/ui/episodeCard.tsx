@@ -13,12 +13,15 @@ import { red } from "@material-ui/core/colors";
 import ShareIcon from "@material-ui/icons/Share";
 import ExpandMoreIcon from "@material-ui/icons/ExpandMore";
 import styled from "styled-components";
+import Link from "@material-ui/core/Link";
+import Button from "@material-ui/core/Button";
 
 interface Props {
   imgUri: string;
   title: string;
   description: string;
   releaseDate: string;
+  handout?: string | null | undefined;
 }
 
 const useStyles = makeStyles((theme: Theme) =>
@@ -63,6 +66,9 @@ export default function EpisodeCard(props: Props) {
     setExpanded(!expanded);
   };
 
+  const getLastItem = (thePath: string) =>
+    thePath.substring(thePath.lastIndexOf("/") + 1);
+
   return (
     <Card className={classes.root}>
       <StyledHeader
@@ -90,9 +96,39 @@ export default function EpisodeCard(props: Props) {
         </Typography>
       </CardContent>
       <CardActions disableSpacing>
-        <IconButton aria-label="share">
-          <ShareIcon />
-        </IconButton>
+        {navigator.share ? (
+          <IconButton
+            aria-label="share"
+            onClick={() => {
+              console.log("share btn clicked...");
+              navigator
+                .share({
+                  title: "Run the List",
+                  text: "Bridging the gap between theory and real stuff",
+                  url: "https://https://www.runthelistpodcast.com",
+                })
+                .then(() => console.log("Successful share"))
+                .catch((error) => console.log("Error sharing", error));
+            }}
+          >
+            <ShareIcon />
+          </IconButton>
+        ) : null}
+        {props.handout ? (
+          <Button
+            variant="contained"
+            style={{ backgroundColor: "#1EA1F2", color: "#fff" }}
+            href="#contained-buttons"
+          >
+            <Link
+              href={props.handout}
+              target="_blank"
+              style={{ textDecoration: "none", color: "#fff" }}
+            >
+              <Typography>View Handout</Typography>
+            </Link>
+          </Button>
+        ) : null}
         <IconButton
           className={clsx(classes.expand, {
             [classes.expandOpen]: expanded,

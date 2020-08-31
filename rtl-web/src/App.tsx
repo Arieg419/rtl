@@ -115,7 +115,7 @@ function TemporaryDrawer(props: { isDrawerOpen: boolean }) {
             key={"twitter"}
             onClick={() => {
               history.replace("/twitter");
-              window.location.reload(false);
+              history.go(0);
             }}
           >
             <ListItem button key={"Twitter"}>
@@ -183,7 +183,7 @@ function App() {
         <Route path="/twitter" exact component={Twitter} />
         <Route path="/learn" exact component={Learn} />
         <Route path="/category/:cid" exact component={Category} />
-        <Route path="/handout" exact component={Handout} />
+        <Route path="/handout/:docpath" exact component={Handout} />
         <Footer />
       </div>
     </Router>

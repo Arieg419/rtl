@@ -45,7 +45,7 @@ function CategoryItem(props: CategoryItemType) {
         <BlackTextTypography variant="subtitle1">
           {props.resources}
         </BlackTextTypography>
-        <div
+        {/* <div
           style={{
             display: "flex",
             justifyContent: "flex-start",
@@ -60,7 +60,7 @@ function CategoryItem(props: CategoryItemType) {
               key={t.title + i}
             />
           ))}
-        </div>
+        </div> */}
       </div>
     </Link>
   );

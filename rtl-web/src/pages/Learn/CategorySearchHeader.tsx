@@ -15,6 +15,7 @@ interface Props {
   onChange: (
     event: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
   ) => void;
+  onAutoCompleteChange: (event: any, vals: any) => void;
 }
 
 export default function CheckboxesTags(props: Props) {
@@ -23,6 +24,7 @@ export default function CheckboxesTags(props: Props) {
       multiple
       id="checkboxes-tags-demo"
       options={categoryItems}
+      onChange={props.onAutoCompleteChange}
       disableCloseOnSelect
       getOptionLabel={(option) => option.title}
       renderOption={(option, { selected }) => (
