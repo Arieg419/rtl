@@ -47,9 +47,7 @@ export const getFormattedDate = (date: Date) => {
   return month + "/" + day + "/" + year;
 };
 
-const tagColorPalette = ["#00899F", "#004A85", "#004A85", "#F22086"];
-const getTagBgColor = () =>
-  tagColorPalette[Math.ceil(Math.random() * tagColorPalette.length)];
+// const tagColorPalette = ["#00899F", "#004A85", "#004A85", "#F22086"];
 
 export const categoryItems = [
   getCategory("Hematology", hema),

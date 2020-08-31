@@ -8,7 +8,7 @@ import {
 } from "@material-ui/core/styles";
 import { Link } from "react-router-dom";
 import List from "@material-ui/core/List";
-import Chip from "@material-ui/core/Chip";
+// import Chip from "@material-ui/core/Chip";
 
 import { CategoryItemType } from "./data";
 

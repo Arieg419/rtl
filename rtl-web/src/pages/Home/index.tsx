@@ -53,6 +53,7 @@ export default function () {
             imgUri={getRandomMedia()}
             key={title}
             handout={r.squarespaceHandout}
+            podcastUrl={r.squarespacePodcastUrl}
           />
         );
       })}

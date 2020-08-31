@@ -14,6 +14,7 @@ import ShareIcon from "@material-ui/icons/Share";
 import ExpandMoreIcon from "@material-ui/icons/ExpandMore";
 import styled from "styled-components";
 import Link from "@material-ui/core/Link";
+import { Link as RouterLink } from "react-router-dom";
 import Button from "@material-ui/core/Button";
 
 interface Props {
@@ -22,6 +23,7 @@ interface Props {
   description: string;
   releaseDate: string;
   handout?: string | null | undefined;
+  podcastUrl?: string | null | undefined;
 }
 
 const useStyles = makeStyles((theme: Theme) =>
@@ -66,15 +68,27 @@ export default function EpisodeCard(props: Props) {
     setExpanded(!expanded);
   };
 
-  const getLastItem = (thePath: string) =>
-    thePath.substring(thePath.lastIndexOf("/") + 1);
-
   return (
     <Card className={classes.root}>
       <StyledHeader
         action={
-          <IconButton aria-label="settings">
-            {/* <MoreVertIcon /> */}
+          <IconButton
+            aria-label="share"
+            onClick={() => {
+              if (!navigator.share) {
+                return;
+              }
+              navigator
+                .share({
+                  title: "Run the List",
+                  text: props.title,
+                  url: `https://runthelist.netlify.app/#/episode/${props.title}`,
+                })
+                .then(() => console.log("Successful share"))
+                .catch((error) => console.log("Error sharing", error));
+            }}
+          >
+            <ShareIcon />
           </IconButton>
         }
         title={props.title}
@@ -96,28 +110,14 @@ export default function EpisodeCard(props: Props) {
         </Typography>
       </CardContent>
       <CardActions disableSpacing>
-        {navigator.share ? (
-          <IconButton
-            aria-label="share"
-            onClick={() => {
-              console.log("share btn clicked...");
-              navigator
-                .share({
-                  title: "Run the List",
-                  text: "Bridging the gap between theory and real stuff",
-                  url: "https://https://www.runthelistpodcast.com",
-                })
-                .then(() => console.log("Successful share"))
-                .catch((error) => console.log("Error sharing", error));
-            }}
-          >
-            <ShareIcon />
-          </IconButton>
-        ) : null}
         {props.handout ? (
           <Button
             variant="contained"
-            style={{ backgroundColor: "#1EA1F2", color: "#fff" }}
+            style={{
+              backgroundColor: "#1EA1F2",
+              color: "#fff",
+              marginRight: 10,
+            }}
             href="#contained-buttons"
           >
             <Link
@@ -125,8 +125,27 @@ export default function EpisodeCard(props: Props) {
               target="_blank"
               style={{ textDecoration: "none", color: "#fff" }}
             >
-              <Typography>View Handout</Typography>
+              <Typography>Handout</Typography>
             </Link>
+          </Button>
+        ) : null}
+        {props.podcastUrl ? (
+          <Button
+            variant="contained"
+            style={{
+              backgroundColor: "#E44A6B",
+              color: "#fff",
+              fontSize: 12,
+              marginRight: "10",
+            }}
+            href="#contained-buttons"
+          >
+            <RouterLink
+              to={`/episode/${props.title}`}
+              style={{ textDecoration: "none", color: "#fff" }}
+            >
+              <Typography>Podcast</Typography>
+            </RouterLink>
           </Button>
         ) : null}
         <IconButton

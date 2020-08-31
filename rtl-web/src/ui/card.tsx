@@ -7,6 +7,8 @@ import CardContent from "@material-ui/core/CardContent";
 import CardMedia from "@material-ui/core/CardMedia";
 import Button from "@material-ui/core/Button";
 import Typography from "@material-ui/core/Typography";
+import { Link } from "react-router-dom";
+import logo from "../assets/logo512.png";
 
 const useStyles = makeStyles({
   root: {
@@ -14,6 +16,8 @@ const useStyles = makeStyles({
   },
   media: {
     height: 180,
+    width: "100%",
+    backgroundSize: "contain",
   },
 });
 
@@ -25,7 +29,7 @@ export default function MediaCard() {
       <CardActionArea>
         <CardMedia
           className={classes.media}
-          image="https://images.pexels.com/photos/3957988/pexels-photo-3957988.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
+          image={logo}
           title="Welcome card image"
         />
         <CardContent>
@@ -35,26 +39,45 @@ export default function MediaCard() {
             component="h2"
             style={{ fontFamily: "Roboto" }}
           >
-            ❤️ Podcast summaries ❤️
+            Run the List
           </Typography>
           <Typography variant="body2" color="textSecondary" component="p">
-            Lizards are a widespread group of squamate reptiles, with over 6,000
-            species, ranging across all continents except Antarctica
+            Internal medicine podcast, made for med students and all learners.
           </Typography>
         </CardContent>
       </CardActionArea>
       <CardActions>
         <Button size="small" color="primary">
-          <a
-            href="https://twitter.com/runthelistpod?ref_src=twsrc%5Etfw"
-            data-show-count="false"
-            style={{ textDecoration: "none" }}
-          >
-            Share
-          </a>
+          <Link to="/learn" style={{ textDecoration: "none" }}>
+            Episodes
+          </Link>
         </Button>
+        {/* <Button
+          variant="contained"
+          style={{
+            backgroundColor: "#1EA1F2",
+            color: "#fff",
+            marginRight: 10,
+          }}
+          onClick={() => {
+            //@ts-ignore
+            deferredPrompt.prompt();
+            //@ts-ignore
+            deferredPrompt.userChoice.then((choiceResult) => {
+              if (choiceResult.outcome === "accepted") {
+                console.log("User accepted the install prompt");
+              } else {
+                console.log("User dismissed the install prompt");
+              }
+            });
+          }}
+        >
+          <Typography>Install</Typography>
+        </Button> */}
         <Button size="small" color="primary">
-          Learn More
+          <Link to="/about" style={{ textDecoration: "none" }}>
+            About
+          </Link>
         </Button>
       </CardActions>
     </Card>

@@ -7,6 +7,7 @@ import { loadCSS } from "fg-loadcss";
 import { makeStyles, createStyles, Theme } from "@material-ui/core/styles";
 import Icon from "@material-ui/core/Icon";
 import { Container, Wrapper, Row, Column, Link, Title } from "./styles/footer";
+import { Link as RouterLink } from "react-router-dom";
 
 // @ts-ignore
 export function Footer({ children, ...restProps }) {
@@ -66,8 +67,8 @@ export default function FooterContainer() {
       <Footer.Wrapper>
         <Footer.Row>
           <Footer.Column>
-            <Footer.Title>Who we are</Footer.Title>
-            <Footer.Link href="#">
+            <Footer.Title>Mission</Footer.Title>
+            {/* <Footer.Link href="#">
               <div
                 style={{
                   display: "flex",
@@ -79,35 +80,40 @@ export default function FooterContainer() {
                 <Icon className="fa fa-stethoscope" />
                 <div>About</div>
               </div>
-            </Footer.Link>
-            <Footer.Link href="#">
-              <div
-                style={{
-                  display: "flex",
-                  justifyContent: "flex-start",
-                  alignItems: "center",
-                }}
-                className={classes.root}
-              >
-                <PeopleIcon /> <div style={{ marginLeft: "10px" }}>Team</div>
-              </div>
-            </Footer.Link>
+            </Footer.Link> */}
+            <RouterLink to="/about" style={{ textDecoration: "none" }}>
+              <Footer.Link href="#">
+                <div
+                  style={{
+                    display: "flex",
+                    justifyContent: "flex-start",
+                    alignItems: "center",
+                  }}
+                  className={classes.root}
+                >
+                  <PeopleIcon />{" "}
+                  <div style={{ marginLeft: "10px" }}>About us</div>
+                </div>
+              </Footer.Link>
+            </RouterLink>
           </Footer.Column>
           <Footer.Column>
             <Footer.Title>Learn</Footer.Title>
-            <Footer.Link href="#">
-              <div
-                style={{
-                  display: "flex",
-                  justifyContent: "flex-start",
-                  alignItems: "center",
-                }}
-                className={classes.root}
-              >
-                <BookIcon />
-                <div style={{ marginLeft: "10px" }}>Episodes</div>
-              </div>
-            </Footer.Link>
+            <RouterLink to="/learn" style={{ textDecoration: "none" }}>
+              <Footer.Link href="#">
+                <div
+                  style={{
+                    display: "flex",
+                    justifyContent: "flex-start",
+                    alignItems: "center",
+                  }}
+                  className={classes.root}
+                >
+                  <BookIcon />
+                  <div style={{ marginLeft: "10px" }}>Episodes</div>
+                </div>
+              </Footer.Link>
+            </RouterLink>
           </Footer.Column>
           <Footer.Column>
             <Footer.Title>Contact us</Footer.Title>
@@ -120,7 +126,16 @@ export default function FooterContainer() {
                 }}
                 className={classes.root}
               >
-                <MailIcon /> <div style={{ marginLeft: "10px" }}>Mail</div>
+                <MailIcon />{" "}
+                <div style={{ marginLeft: "10px" }}>
+                  <a
+                    href="mailto:RUNTHELIST@GMAIL.COM"
+                    style={{ textDecoration: "none", color: "#fff" }}
+                  >
+                    {" "}
+                    Mail
+                  </a>
+                </div>
               </div>
             </Footer.Link>
             <Footer.Link href="https://twitter.com/runthelistpod?ref_src=twsrc%5Etfw">

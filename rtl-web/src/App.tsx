@@ -1,7 +1,6 @@
 import React from "react";
 import { AppBar, Toolbar, IconButton, Typography } from "@material-ui/core";
 import { createStyles, makeStyles, Theme } from "@material-ui/core/styles";
-import RunTheListIcon from "@material-ui/icons/FormatListNumberedOutlined";
 import HamburgerIcon from "@material-ui/icons/MenuOutlined";
 import clsx from "clsx";
 import Drawer from "@material-ui/core/Drawer";
@@ -14,21 +13,49 @@ import HomeIcon from "@material-ui/icons/HomeOutlined";
 import LearnIcon from "@material-ui/icons/BookOutlined";
 import TwitterIcon from "@material-ui/icons/Twitter";
 import TeamIcon from "@material-ui/icons/PeopleOutlined";
-import {
-  BrowserRouter as Router,
-  Route,
-  Link,
-  useHistory,
-} from "react-router-dom";
+import { HashRouter as Router, Route, Link } from "react-router-dom";
+import { StaticBanner } from "material-ui-banner";
 
 import Home from "./pages/Home";
 import Twitter from "./pages/Twitter";
 import Learn from "./pages/Learn";
+import About from "./pages/About";
 import Category from "./pages/Category";
 import Handout from "./pages/Handout";
+import Episode from "./pages/Episode";
 import Footer from "./ui/footer";
+import Logo from "./assets/logo512.png";
 
 import "./App.css";
+
+window.addEventListener("beforeinstallprompt", (e) => {
+  e.preventDefault();
+  // @ts-ignore
+  window.deferredPrompt = e;
+  StaticBanner.show({
+    buttonLabel: "Install",
+    buttonProps: {
+      style: {
+        backgroundColor: "#1EA1F2",
+        color: "#FFF",
+      },
+      onClick: () => {
+        //@ts-ignore
+        deferredPrompt.prompt();
+        //@ts-ignore
+        deferredPrompt.userChoice.then((choiceResult) => {
+          if (choiceResult.outcome === "accepted") {
+            console.log("User accepted the install prompt");
+          } else {
+            console.log("User dismissed the install prompt");
+          }
+        });
+      },
+    },
+    icon: <img style={{ height: 32, width: 32 }} src={Logo} />,
+    label: "Add to homescreen ❤️",
+  });
+});
 
 const useStyles = makeStyles((theme: Theme) =>
   createStyles({
@@ -58,7 +85,6 @@ type Anchor = "left";
 
 function TemporaryDrawer(props: { isDrawerOpen: boolean }) {
   const classes = useStyles();
-  const history = useHistory();
   const [state, setState] = React.useState({
     left: false,
   });
@@ -81,7 +107,9 @@ function TemporaryDrawer(props: { isDrawerOpen: boolean }) {
       <div
         className={clsx(classes.list)}
         role="presentation"
-        onClick={toggleDrawer(false)}
+        onClick={() => {
+          toggleDrawer(false);
+        }}
         onKeyDown={toggleDrawer(false)}
       >
         <List>
@@ -125,12 +153,18 @@ function TemporaryDrawer(props: { isDrawerOpen: boolean }) {
         <Divider />
         <List>
           {["About"].map((text, index) => (
-            <ListItem button key={text}>
-              <ListItemIcon>
-                <TeamIcon />
-              </ListItemIcon>
-              <ListItemText primary={text} />
-            </ListItem>
+            <Link
+              to={`/about`}
+              style={{ textDecoration: "none", color: "#000" }}
+              key={"about"}
+            >
+              <ListItem button key={text}>
+                <ListItemIcon>
+                  <TeamIcon />
+                </ListItemIcon>
+                <ListItemText primary={text} />
+              </ListItem>
+            </Link>
           ))}
         </List>
       </div>
@@ -142,7 +176,7 @@ function TemporaryDrawer(props: { isDrawerOpen: boolean }) {
       <React.Fragment>
         <AppBar
           position="static"
-          style={{ backgroundColor: "#6739F8", fontFamily: "Poppins" }}
+          style={{ backgroundColor: "#1EA1F2", fontFamily: "Poppins" }}
         >
           <Toolbar>
             <IconButton
@@ -159,6 +193,7 @@ function TemporaryDrawer(props: { isDrawerOpen: boolean }) {
             </IconButton>
           </Toolbar>
         </AppBar>
+        <StaticBanner />
         <Drawer anchor={"left"} open={state.left} onClose={toggleDrawer(false)}>
           {list("left")}
         </Drawer>
@@ -168,8 +203,7 @@ function TemporaryDrawer(props: { isDrawerOpen: boolean }) {
 }
 
 function App() {
-  const classes = useStyles();
-  const [drawerOpen, setDrawerOpen] = React.useState(false);
+  const [drawerOpen] = React.useState(false);
 
   return (
     <Router>
@@ -178,8 +212,10 @@ function App() {
         <Route path="/" exact component={Home} />
         <Route path="/twitter" exact component={Twitter} />
         <Route path="/learn" exact component={Learn} />
+        <Route path="/about" exact component={About} />
         <Route path="/category/:cid" exact component={Category} />
         <Route path="/handout/:docpath" exact component={Handout} />
+        <Route path="/episode/:id" exact component={Episode} />
         <Footer />
       </div>
     </Router>

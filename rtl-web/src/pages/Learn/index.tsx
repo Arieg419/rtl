@@ -5,6 +5,7 @@ import CategoryList from "./CategoryList";
 import { categoryItems, CategoryItemType } from "./data";
 
 export default function () {
+  window.scrollTo(0, 0);
   const [data, setData] = useState(categoryItems);
 
   const searchCategory = (

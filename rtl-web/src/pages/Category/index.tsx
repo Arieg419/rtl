@@ -31,7 +31,8 @@ function getRandomImage() {
 
 export default function () {
   const classes = useStyles();
-  const path = window.location.pathname.split("/")[2];
+  const locationAsList = window.location.href.split("/");
+  const path = locationAsList[locationAsList.length - 1];
   const fixedPath = path === "Hematology" ? "hematologyoncology" : path;
   const es = data.filter((e) => {
     const category =
@@ -66,6 +67,7 @@ export default function () {
             releaseDate={r.applePodcastDate}
             imgUri={getRandomImage()}
             handout={r.squarespaceHandout}
+            podcastUrl={r.squarespacePodcastUrl}
             key={i}
           />
         ))}

@@ -43,8 +43,12 @@ const useStyles = makeStyles((theme: Theme) =>
     },
   })
 );
-
-export default function MediaControlCard() {
+interface Props {
+  title: string;
+  episodeLength: string;
+  releaseDate: string;
+}
+export default function MediaControlCard(props: Props) {
   const classes = useStyles();
   const theme = useTheme();
 
@@ -53,10 +57,10 @@ export default function MediaControlCard() {
       <div className={classes.details}>
         <CardContent className={classes.content}>
           <Typography component="h5" variant="h5">
-            Nephrology Common Cases
+            {props.title}
           </Typography>
           <Typography variant="subtitle1" color="textSecondary">
-            Dr. Emily Gutowski
+            {props.episodeLength}
           </Typography>
         </CardContent>
         <div className={classes.controls}>
