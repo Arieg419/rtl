@@ -1,5 +1,6 @@
 import React from "react";
 import TwitterIcon from "@material-ui/icons/Twitter";
+import WebIcon from "@material-ui/icons/WebRounded";
 import MailIcon from "@material-ui/icons/Mail";
 import PeopleIcon from "@material-ui/icons/PeopleRounded";
 import BookIcon from "@material-ui/icons/LibraryBooksRounded";
@@ -153,6 +154,22 @@ export default function FooterContainer() {
                 </div>
               </Footer.Link>
             </RouterLink>
+            <Footer.Link
+              target="_blank"
+              href="https://runthelistpodcast.com"
+              style={{ marginTop: 20 }}
+            >
+              <div
+                style={{
+                  display: "flex",
+                  justifyContent: "flex-start",
+                  alignItems: "center",
+                }}
+                className={classes.root}
+              >
+                <WebIcon /> <div style={{ marginLeft: "10px" }}>Website</div>
+              </div>
+            </Footer.Link>
           </Footer.Column>
         </Footer.Row>
       </Footer.Wrapper>

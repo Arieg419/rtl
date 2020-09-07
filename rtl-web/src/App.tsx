@@ -196,7 +196,7 @@ function TemporaryDrawer(props: { isDrawerOpen: boolean }) {
       <React.Fragment>
         <AppBar
           position="static"
-          style={{ backgroundColor: "#1EA1F2", fontFamily: "Poppins" }}
+          style={{ backgroundColor: "#1a243d", fontFamily: "Poppins" }}
         >
           <Toolbar>
             <IconButton
