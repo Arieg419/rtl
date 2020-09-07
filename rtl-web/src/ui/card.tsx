@@ -33,14 +33,6 @@ export default function MediaCard() {
           title="Welcome card image"
         />
         <CardContent>
-          <Typography
-            gutterBottom
-            variant="h5"
-            component="h2"
-            style={{ fontFamily: "Roboto" }}
-          >
-            Run the List
-          </Typography>
           <Typography variant="body2" color="textSecondary" component="p">
             Internal medicine podcast, made for med students and all learners.
           </Typography>
