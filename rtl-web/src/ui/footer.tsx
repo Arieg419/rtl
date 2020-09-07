@@ -138,19 +138,21 @@ export default function FooterContainer() {
                 </div>
               </div>
             </Footer.Link>
-            <Footer.Link href="https://twitter.com/runthelistpod?ref_src=twsrc%5Etfw">
-              <div
-                style={{
-                  display: "flex",
-                  justifyContent: "flex-start",
-                  alignItems: "center",
-                }}
-                className={classes.root}
-              >
-                <TwitterIcon />{" "}
-                <div style={{ marginLeft: "10px" }}>Twitter</div>
-              </div>
-            </Footer.Link>
+            <RouterLink to="/twitter" style={{ textDecoration: "none" }}>
+              <Footer.Link href="#">
+                <div
+                  style={{
+                    display: "flex",
+                    justifyContent: "flex-start",
+                    alignItems: "center",
+                  }}
+                  className={classes.root}
+                >
+                  <TwitterIcon />{" "}
+                  <div style={{ marginLeft: "10px" }}>Twitter</div>
+                </div>
+              </Footer.Link>
+            </RouterLink>
           </Footer.Column>
         </Footer.Row>
       </Footer.Wrapper>

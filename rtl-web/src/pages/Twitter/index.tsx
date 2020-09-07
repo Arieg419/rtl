@@ -11,6 +11,7 @@ const useStyles = makeStyles((theme: Theme) =>
   })
 );
 export default function () {
+  window.scrollTo(0, 0);
   useEffect(() => {
     const anchor = document.createElement("a");
     anchor.setAttribute("class", "twitter-timeline");
