@@ -13,6 +13,7 @@ import HomeIcon from "@material-ui/icons/HomeOutlined";
 import LearnIcon from "@material-ui/icons/BookOutlined";
 import TwitterIcon from "@material-ui/icons/Twitter";
 import TeamIcon from "@material-ui/icons/PeopleOutlined";
+import ShareIcon from "@material-ui/icons/ShareOutlined";
 import { HashRouter as Router, Route, Link } from "react-router-dom";
 import { StaticBanner } from "material-ui-banner";
 
@@ -151,20 +152,40 @@ function TemporaryDrawer(props: { isDrawerOpen: boolean }) {
         </List>
         <Divider />
         <List>
-          {["About"].map((text, index) => (
-            <Link
-              to={`/about`}
-              style={{ textDecoration: "none", color: "#000" }}
-              key={"about"}
-            >
-              <ListItem button key={text}>
-                <ListItemIcon>
-                  <TeamIcon />
-                </ListItemIcon>
-                <ListItemText primary={text} />
-              </ListItem>
-            </Link>
-          ))}
+          <Link
+            to={`/about`}
+            style={{ textDecoration: "none", color: "#000" }}
+            key={"about"}
+          >
+            <ListItem button key={"About"}>
+              <ListItemIcon>
+                <TeamIcon />
+              </ListItemIcon>
+              <ListItemText primary={"About"} />
+            </ListItem>
+          </Link>
+          <ListItem
+            button
+            key={"Share"}
+            onClick={() => {
+              if (!navigator.share) {
+                return;
+              }
+              navigator
+                .share({
+                  title: "Run the List",
+                  text: "Check out the run the list mobile app",
+                  url: `https://runthelist.netlify.app/#`,
+                })
+                .then(() => console.log("Successful share"))
+                .catch((error) => console.log("Error sharing", error));
+            }}
+          >
+            <ListItemIcon>
+              <ShareIcon />
+            </ListItemIcon>
+            <ListItemText primary={"Share"} />
+          </ListItem>
         </List>
       </div>
     );
