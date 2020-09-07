@@ -52,6 +52,7 @@ const useStyles = makeStyles((theme: Theme) =>
     },
     header: {
       fontFamily: "Poppins",
+      paddingBottom: 0,
     },
   })
 );
@@ -95,12 +96,12 @@ export default function EpisodeCard(props: Props) {
         subheader={props.releaseDate}
         className={classes.header}
       />
-      <CardMedia
+      {/* <CardMedia
         className={classes.media}
         image={props.imgUri}
         title={props.title}
-      />
-      <CardContent>
+      /> */}
+      <CardContent style={{ paddingTop: 10 }}>
         <Typography variant="body2" color="textSecondary" component="p">
           {!expanded
             ? props.description.length > 200
