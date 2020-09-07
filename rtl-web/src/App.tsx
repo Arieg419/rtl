@@ -108,10 +108,8 @@ function TemporaryDrawer(props: { isDrawerOpen: boolean }) {
       <div
         className={clsx(classes.list)}
         role="presentation"
-        onClick={() => {
-          toggleDrawer(false);
-        }}
-        onKeyDown={toggleDrawer(false)}
+        onClick={() => {}}
+        onKeyDown={() => {}}
       >
         <List>
           <Link
@@ -195,7 +193,14 @@ function TemporaryDrawer(props: { isDrawerOpen: boolean }) {
           </Toolbar>
         </AppBar>
         <StaticBanner />
-        <Drawer anchor={"left"} open={state.left} onClose={toggleDrawer(false)}>
+        <Drawer
+          anchor={"left"}
+          open={state.left}
+          onClose={toggleDrawer(false)}
+          onClick={() => {
+            setState({ left: false });
+          }}
+        >
           {list("left")}
         </Drawer>
       </React.Fragment>
